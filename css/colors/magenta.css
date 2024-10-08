@@ -70,8 +70,8 @@ background:url(../../images/colors/magenta/header.jpg) no-repeat center center;
 /* MAIN NAV LINKS */
 /*===============================================*/	
 .main-nav ul li{
-background: rgb(2,149,154);
-background: linear-gradient(90deg, rgba(2,149,154,1) 0%, rgba(61,167,115,1) 50%, rgba(117,185,78,1) 100%);
+background: rgb(204,50,151);
+background: linear-gradient(90deg, rgba(204,50,151,1) 50%, rgba(0,170,229,1) 100%);
 border-bottom:1px #692c46 solid;
 }
 .main-nav ul li a{
@@ -87,29 +87,29 @@ background: #000000;
 background-color:#263239;
 }
 .toolbar:before {
-  background: rgb(2,149,154);
-background: linear-gradient(90deg, rgba(2,149,154,1) 0%, rgba(61,167,115,1) 50%, rgba(117,185,78,1) 100%);
+ background: rgb(204,50,151);
+background: linear-gradient(90deg, rgba(204,50,151,1) 50%, rgba(0,170,229,1) 100%);
 }
 .navbar,
 .toolbar,
 .subnavbar {
-  background: rgb(2,149,154);
-background: linear-gradient(90deg, rgba(2,149,154,1) 0%, rgba(61,167,115,1) 50%, rgba(117,185,78,1) 100%);
+ background: rgb(204,50,151);
+background: linear-gradient(90deg, rgba(204,50,151,1) 50%, rgba(0,170,229,1) 100%);
 }
 /*===============================================*/
 /* LEFT AND RIGHT SLIDE PANEL */
 /*===============================================*/	
 .panel {
-  background: rgb(2,149,154);
-background: linear-gradient(90deg, rgba(2,149,154,1) 0%, rgba(61,167,115,1) 50%, rgba(117,185,78,1) 100%);
+ background: rgb(204,50,151);
+background: linear-gradient(90deg, rgba(204,50,151,1) 50%, rgba(0,170,229,1) 100%);
 }
 .user-nav ul li, ul.popular_posts li{
 border-bottom:1px #9b4d5b solid;
 }
 /* MENU OPENER ICON */
 ul.toolbar_icons li.menuicon{
-  background: rgb(2,149,154);
-background: linear-gradient(90deg, rgba(2,149,154,1) 0%, rgba(61,167,115,1) 50%, rgba(117,185,78,1) 100%);
+  background: rgb(204,50,151);
+background: linear-gradient(90deg, rgba(204,50,151,1) 50%, rgba(0,170,229,1) 100%);
 }
 
 /* PANEL CLOSE BUTTON */
