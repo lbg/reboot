@@ -9,112 +9,112 @@ Template:	Mobix - Mobile Web APP Template
 /* MAIN COLOR */
 /*===============================================*/	
 a, blockquote span {
-color: green;
-}
-a.button_full, a.button_small, .call_button a{
-background-color:#019A00; 
-}
-.button {
-border: 1px solid #019A00;
-color: #019A00;
-}
-.button.active {
-background: #019A00;
-}
-#pages_maincontent h3{
-color:#019A00;
-}
-.photo-categories a.active{
-background-color:#019A00;
-}
-.post_date{
-color:#019A00;
-}
-.list-block .swipeout-actions-left a,
-.list-block .swipeout-actions-right a {
-background: #019A00;
-}
-.contactform input.form_submit, .loginform input.form_submit, .commentform input.form_submit{ 
-background-color:#019A00;
-}
-ul.responsive_table li:first-child{
-background-color:#019A00;
-color:#FFFFFF;
-}
-li.table_row{
-background-color:#e6e6e6;
-}
-.blog_nav a{
-background-color:#019A00;
-}
-
-/*===============================================*/
-/* HOME BG AND PAGES HEADER BG */
-/*===============================================*/	
-.homepage{
-background: url("../../images/colors/magenta/bg.jpg") no-repeat center center;
-background-attachment:fixed;
--webkit-background-size: 100%; 
--moz-background-size: 100%;
--o-background-size: 100%;
-background-size: 100%;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover; 
-background-size: cover;
-}
-.navbarpages{
-background:url(../../images/colors/magenta/header.jpg) no-repeat center center;
-}
-/*===============================================*/
-/* MAIN NAV LINKS */
-/*===============================================*/	
-.main-nav ul li{
-background: rgb(204,50,151);
-background: linear-gradient(90deg, rgba(204,50,151,1) 50%, rgba(0,170,229,1) 100%);
-border-bottom:1px #692c46 solid;
-}
-.main-nav ul li a{
-color:#FFFFFF;
-}
-/*===============================================*/
-/* POPUPS AND TOOLBAR */
-/*===============================================*/	
-.popup, .page_content_menu{
-background: #000000;
-}
-.popup-login, .popup-signup, .popup-forgot{
-background-color:#263239;
-}
-.toolbar:before {
- background: rgb(204,50,151);
-background: linear-gradient(90deg, rgba(204,50,151,1) 50%, rgba(0,170,229,1) 100%);
-}
-.navbar,
-.toolbar,
-.subnavbar {
- background: rgb(204,50,151);
-background: linear-gradient(90deg, rgba(204,50,151,1) 50%, rgba(0,170,229,1) 100%);
-}
-/*===============================================*/
-/* LEFT AND RIGHT SLIDE PANEL */
-/*===============================================*/	
-.panel {
- background: rgb(204,50,151);
-background: linear-gradient(90deg, rgba(204,50,151,1) 50%, rgba(0,170,229,1) 100%);
-}
-.user-nav ul li, ul.popular_posts li{
-border-bottom:1px #9b4d5b solid;
-}
-/* MENU OPENER ICON */
-ul.toolbar_icons li.menuicon{
+  color: green;
+  }
+  a.button_full, a.button_small, .call_button a{
+  background-color:#38a8e0; 
+  }
+  .button {
+  border: 1px solid #38a8e0;
+  color: #b16fb2;
+  }
+  .button.active {
+  background: #b16fb2;
+  }
+  #pages_maincontent h3{
+  color:#38a8e0;
+  }
+  .photo-categories a.active{
+  background-color:#38a8e0;
+  }
+  .post_date{
+  color:#019A00;
+  }
+  .list-block .swipeout-actions-left a,
+  .list-block .swipeout-actions-right a {
+  background: #b16fb2;
+  }
+  .contactform input.form_submit, .loginform input.form_submit, .commentform input.form_submit{ 
+  background-color:#019A00;
+  }
+  ul.responsive_table li:first-child{
+  background-color:#38a8e0;
+  color:#FFFFFF;
+  }
+  li.table_row{
+  background-color:#e6e6e6;
+  }
+  .blog_nav a{
+  background-color:#38a8e0;
+  }
+  
+  /*===============================================*/
+  /* HOME BG AND PAGES HEADER BG */
+  /*===============================================*/	
+  .homepage{
+  background: url("../../images/colors/magenta/bg.jpg") no-repeat center center;
+  background-attachment:fixed;
+  -webkit-background-size: 100%; 
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+  background-size: cover;
+  }
+  .navbarpages{
+  background:url(../../images/colors/magenta/header.jpg) no-repeat center center;
+  }
+  /*===============================================*/
+  /* MAIN NAV LINKS */
+  /*===============================================*/	
+  .main-nav ul li{
   background: rgb(204,50,151);
-background: linear-gradient(90deg, rgba(204,50,151,1) 50%, rgba(0,170,229,1) 100%);
-}
-
-/* PANEL CLOSE BUTTON */
-.close_popup_button a{
- background: rgb(2,149,154);
-background: linear-gradient(90deg, rgba(2,149,154,1) 0%, rgba(61,167,115,1) 50%, rgba(117,185,78,1) 100%);
-box-shadow: 10px;
-}
+  background: linear-gradient(90deg, rgba(204,50,151,1) 50%, rgba(0,170,229,1) 100%);
+  border-bottom:1px #692c46 solid;
+  }
+  .main-nav ul li a{
+  color:#FFFFFF;
+  }
+  /*===============================================*/
+  /* POPUPS AND TOOLBAR */
+  /*===============================================*/	
+  .popup, .page_content_menu{
+  background: #000000;
+  }
+  .popup-login, .popup-signup, .popup-forgot{
+  background-color:#263239;
+  }
+  .toolbar:before {
+   background: rgb(204,50,151);
+  background: linear-gradient(90deg, rgba(204,50,151,1) 50%, rgba(0,170,229,1) 100%);
+  }
+  .navbar,
+  .toolbar,
+  .subnavbar {
+    background: rgb(204,50,151);
+  background: linear-gradient(90deg, rgba(204,50,151,1) 50%, rgba(0,170,229,1) 100%);
+  }
+  /*===============================================*/
+  /* LEFT AND RIGHT SLIDE PANEL */
+  /*===============================================*/	
+  .panel {
+   background: rgb(204,50,151);
+  background: linear-gradient(90deg, rgba(204,50,151,1) 50%, rgba(0,170,229,1) 100%);
+  }
+  .user-nav ul li, ul.popular_posts li{
+  border-bottom:1px #9b4d5b solid;
+  }
+  /* MENU OPENER ICON */
+  ul.toolbar_icons li.menuicon{
+    background: rgb(204,50,151);
+  background: linear-gradient(90deg, rgba(204,50,151,1) 50%, rgba(0,170,229,1) 100%);
+  }
+  
+  /* PANEL CLOSE BUTTON */
+  .close_popup_button a{
+   background: rgb(2,149,154);
+  background: linear-gradient(90deg, rgba(2,149,154,1) 0%, rgba(61,167,115,1) 50%, rgba(117,185,78,1) 100%);
+  box-shadow: 10px;
+  }
