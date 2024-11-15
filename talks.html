@@ -1,3 +1,4 @@
+<script> const collapsibles = document.querySelectorAll('.collapsible'); collapsibles.forEach(collapsible => { collapsible.addEventListener('click', function() { this.classList.toggle('active'); const content = this.nextElementSibling; if (content.style.display === "block") { content.style.display = "none"; } else { content.style.display = "block"; } }); }); </script>
 <style>
 table {
     width: 100%;
@@ -8,7 +9,14 @@ th, td {
     padding: 8px;
 }
 .collapsible {
-    cursor: pointer;
+width:100%;
+display:inline-block;
+color:#FFFFFF; 
+padding:10px 0;
+margin:0 0 20px 0;
+font-size:18px;
+text-align:center;
+-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
 }
 .content {
     display: none;
@@ -23,7 +31,7 @@ th, td {
 </div>
 <div id="pages_maincontent">
   <h2 class="page_title">Explore our Talk Schedule</h2>
-  <p>As part of today’s schedule, we have a range of informative and inspiring tech talks lined up for you to enjoy. </p>
+  <p>As part of today’s schedule, we have a range of informative and inspiring tech talks lined up for you to enjoy.</p>
     <br/>
     <div class="buttons-row"> <a href="#tab4" class="tab-link active button">Talk Room 1</a> <a href="#tab5" class="tab-link button">Talk Room 2</a><a href="#tab6" class="tab-link button"> Talk Room 3</a> </div>
     <div class="tabs-animated-wrap">
@@ -52,7 +60,6 @@ th, td {
               </div>
             </div>
           </li>
-          <!-- Add more rows with descriptions as needed -->
           <li class="table_row">
             <div class="table_section_small">10:45-12:50</div>
             <div class="table_section">
@@ -145,7 +152,7 @@ th, td {
             </div>
         </ul>
       </div>
-    </div>
+    </div></div>
   <div class="tabs-animated-wrap">
     <div class="tabs">
       <div id="tab5" class="tab">
@@ -329,11 +336,10 @@ th, td {
             <button class="collapsible">More..</button>
             <div class="content">
               <p>Mainframe (zSeries) is a key strategic platform within LBG.  But many people still believe it is old with ‘green screen’ being the interface.  This talk shows that this isn't the case and will demonstrate how modern mainframe development typically uses tools such as VS Code (as used by a large percentage of developers worldwide).  We'll show how easy it is to expose REST APIs and to work with mainframe objects in conjunction with ZOWE (the open source "Open Mainframe" project).
-
               </p>
             </div>
             </div></li>
-               <li class="table_row" style="background: radial-gradient(circle at 100% 10%, #ffdf42, #ffcb2a, #ffb60e, #ffa000, #ff8900, #ff6f00, #ff5000, #ff2212); color: white">
+               <li class="table_row" style="background:#eb5c22; color: white">
           <div class="table_section_small">
           Lunch </li>
         <li class="table_row">
@@ -383,4 +389,3 @@ th, td {
     </div>
     </div>
     
-<script> const collapsibles = document.querySelectorAll('.collapsible'); collapsibles.forEach(collapsible => { collapsible.addEventListener('click', function() { this.classList.toggle('active'); const content = this.nextElementSibling; if (content.style.display === "block") { content.style.display = "none"; } else { content.style.display = "block"; } }); }); </script>
