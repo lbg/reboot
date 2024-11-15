@@ -15,14 +15,14 @@ a.button_full, a.button_small, .call_button a{
 background-color:#eb6020; 
 }
 .button {
-border: 1px solid #eb6020;
+border: 1px solid #000000;
 color: #eb6020;
 }
 .button.active {
-background: #019A00;
+background: #fe4e00;
 }
 #pages_maincontent h3{
-color:#019A00;
+color:#fe4e00;
 }
 .photo-categories a.active{
 background-color:#eb6020;
@@ -32,7 +32,7 @@ color:#eb6020;
 }
 .list-block .swipeout-actions-left a,
 .list-block .swipeout-actions-right a {
-background: #019A00;
+background: #fe4e00;
 }
 .contactform input.form_submit, .loginform input.form_submit, .commentform input.form_submit{ 
 background-color:#eb6020;
