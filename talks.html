@@ -1,39 +1,15 @@
-<script> const collapsibles = document.querySelectorAll('.collapsible'); collapsibles.forEach(collapsible => { collapsible.addEventListener('click', function() { this.classList.toggle('active'); const content = this.nextElementSibling; if (content.style.display === "block") { content.style.display = "none"; } else { content.style.display = "block"; } }); }); </script>
-<style>
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-}
-.collapsible {
-width:100%;
-display:inline-block;
-color:#FFFFFF; 
-padding:10px 0;
-margin:0 0 20px 0;
-font-size:18px;
-text-align:center;
--webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
-}
-.content {
-    display: none;
-    overflow: hidden;
-</style>
 <div class="pages">
 <div data-page="projects" class="page no-toolbar no-navbar">
 <div class="page-content">
 <div class="navbarpages">
   <div class="nav_left_logo"><a href="index.html"><img src="images/logo.png" alt="" title="" /></a></div>
-  <div class="nav_right_button"><a href="menu.html"><img src="images/icons/white/menu.png" alt="" title="" /></a></div>
+  <div class="nav_right_button"><a href="menu.html"><img src="images/icons/white/menu.png" alt="Menu" title="Menu" /></a></div>
 </div>
 <div id="pages_maincontent">
   <h2 class="page_title">Explore our Talk Schedule</h2>
   <p>As part of today’s schedule, we have a range of informative and inspiring tech talks lined up for you to enjoy.</p>
     <br/>
-    <div class="buttons-row"> <a href="#tab4" class="tab-link active button">Talk Room 1</a> <a href="#tab5" class="tab-link button">Talk Room 2</a><a href="#tab6" class="tab-link button"> Talk Room 3</a> </div>
+    <div class="buttons-row"> <a href="#tab4" class="tab-link active button">Talk Room 1</a> <a href="#tab5" class="tab-link button">Talk Room 2</a><a href="#tab6" class="tab-link button">Talk Room 3</a> </div>
     <div class="tabs-animated-wrap">
       <div class="tabs">
         <div id="tab4" class="tab active">
@@ -385,6 +361,8 @@ text-align:center;
             </div>
           </div>
       </ul>    
+    </div>
+    </div>
     </div>
     </div>
     
