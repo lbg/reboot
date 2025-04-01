@@ -2,25 +2,25 @@
     {
         "id": 1,
         "thumb": "1.jpg",
-        "subTitle": "January 20, 2024",
-        "title1": "World Digital",
-        "title2": "Conference 2023",
-        "list1": "5000 Seats",
-        "list2": "12 SPEAKERS",
-        "list3": "Paulo, California",
-        "btnLink": "buy-ticket",
-        "btnText": "Book Now"
+        "subTitle": "April 24, 2025",
+        "title1": "Welcome to",
+        "title2": "Reboot London 2025",
+        "list1": "18 Talks",
+        "list2": "6 Workshops",
+        "list3": "1 Hackathon"
+
+        
     },
+
     {
         "id": 2,
         "thumb": "2.jpg",
-        "subTitle": "January 22, 2024",
-        "title1": "World Digital",
-        "title2": "Conference 2023",
-        "list1": "4000 Seats",
-        "list2": "10 SPEAKERS",
-        "list3": "Paulo, California",
-        "btnLink": "buy-ticket",
-        "btnText": "Book Now"
+        "subTitle": "April 24, 2025",
+        "title1": "Wecome to",
+        "title2": "Reboot London 2025",
+        "list1": "18 Talks",
+        "list2": "6 Workshops",
+        "list3": "1 Hackathon"
+
     }
 ]

@@ -5,7 +5,7 @@ import SinglePriceV1 from './SinglePriceV1';
 const PriceV1 = () => {
     return (
         <>
-            <section className="pricing-section">
+            {/* <section className="pricing-section">
                 <div className="anim-icons">
                     <span className="icon icon-circle-green"></span>
                     <span className="icon icon-circle-blue"></span>
@@ -26,7 +26,7 @@ const PriceV1 = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </>
     );
 };

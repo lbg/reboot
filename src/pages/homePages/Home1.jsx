@@ -22,7 +22,7 @@ const Home1 = () => {
                 <HeaderV1 whiteLogo={true} parentMenu='home' />
                 <BannerV1 />
                 <ComingSoonV1 />
-                <AboutV1 />
+                <AboutV1/>
                 <FeatureV1 />
                 <SpeakerV1 />
                 <FactV1 />

@@ -11,7 +11,7 @@ const Faq = () => {
             <div className="page-wrapper">
                 <span className="header-span"></span>
                 <HeaderV1 headerStyle="header-style-two" parentMenu='about' />
-                <BreadCrumb title="faq's" breadCrumb="faq" />
+                <BreadCrumb title="Good to know" breadCrumb="faq" />
                 <FaqV1 />
                 <FaqForm />
                 <FooterV1 />

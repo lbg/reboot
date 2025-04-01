@@ -25,16 +25,19 @@ const EventDetailsContent = () => {
                             <li><span className="icon fa fa-map-marker-alt"></span>Bennelong Point, Sydney NSW 2000, Australia</li>
                         </ul>
                         <h2>{ScheduleV1Data[parentId - 1].tabData[childId - 1].title}</h2>
-                        <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd idunt labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.duis aute irure dolor in repre hen derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur cepteur sint occaecat cupidatat eaque ipsa quae illo proident sunt in culpa qui officia deserunt mollit anim id est laborum perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore laudant rem aperiam eaque ipsa quae ab illo inventore veritatis quasi architecto.</p>
-                        <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd idunt labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur cepteur sint occaecat cupidatat.</p>
+                        <p>At the heart of Reboot is our Hackathon, where 204 people will compete to design a solution to one of two challenges.​
+
+Competing teams will work together as a team of up to six, and use the latest technology to provide a solution to one of our hack challenges. ​
+
+Teams will be shortlisted and assessed on several criteria, including how well they have addressed the challenges and their use of technology.​</p>
                         <div className="row two-column">
                             <div className="column col-lg-6 col-md-12">
                                 <figure className="image"><img src="/images/resource/post-img.jpg" alt="image" /></figure>
                             </div>
                             <div className="column col-lg-6 col-md-12">
-                                <h4>Evolution of user Interface</h4>
+                                <h4>Challenge One</h4>
                                 <ul className="list-style-two">
-                                    <li>Multiple Announcements during the event.</li>
+                                    <li>Challenge information.</li>
                                     <li>Logo & company details on the WordCamp Kolkata.</li>
                                     <li>Dedicated blog post thanking each of our Gold.</li>
                                     <li>Acknowledgment and thanks in opening and closing.</li>

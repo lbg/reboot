@@ -21,9 +21,9 @@ const BannerV3 = () => {
                         <div className="time-counter">
                             <TimeV1 expiryTimestamp={time} />
                         </div>
-                    </div>
-                    <div className="btn-box">
-                        <Link to="/buy-ticket#" className="theme-btn btn-style-one"><span className="btn-title">Get Tickets</span></Link>
+                    {/* </div>
+                    {/* <div className="btn-box">
+                        <Link to="/buy-ticket#" className="theme-btn btn-style-one"><span className="btn-title">Get Tickets</span></Link> */}
                     </div>
                 </div>
             </section>

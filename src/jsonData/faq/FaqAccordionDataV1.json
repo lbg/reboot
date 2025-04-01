@@ -6,10 +6,10 @@
         "dataTarget": "collapseOne",
         "ariaExpanded": "false",
         "ariaControls": "collapseOne",
-        "title": "What is Choosing?",
+        "title": "Catering Information",
         "collapseClass": "",
         "ariaLabelled": "faqOne",
-        "text": "Lorem ipsum dolor amet consectur adipicing elit eiusmod tempor incididunt ut labore dolore magna aliqua.enim minim veniam quis nostrud exercitation ullamco laboris."
+        "text": "☕ Refreshments, Tea & Coffee will be available on arrival and throughout the day. 🥪 Lunch will be available between 12:30 - 13:30. You will also have an opportunity to network. We will cater for those with specific food allergies and/or requirements.​🍕 Refreshments will be available after the event. "
     },
     {
         "id": 2,
@@ -18,10 +18,10 @@
         "dataTarget": "collapseTwo",
         "ariaExpanded": "true",
         "ariaControls": "collapseTwo",
-        "title": "Can we change the design?",
+        "title": "Reboot London 2025 Inclusive Briefing Pack ",
         "collapseClass": "show",
         "ariaLabelled": "faqTwo",
-        "text": "Lorem ipsum dolor amet consectur adipicing elit eiusmod tempor incididunt ut labore dolore magna aliqua.enim minim veniam quis nostrud exercitation ullamco laboris."
+        "text": "We have prepared a Reboot London Inclusive Briefing Pack which describes what you will experience at the event and includes accessibility information. A copy is stored on the Reboot London event SharePoint site and some printed copies are available at reception."
     },
     {
         "id": 3,
@@ -30,9 +30,21 @@
         "dataTarget": "collapseThree",
         "ariaExpanded": "false",
         "ariaControls": "collapseThree",
-        "title": "How is the privacy issues?",
+        "title": "Wi-Fi",
         "collapseClass": "",
         "ariaLabelled": "faqThree",
-        "text": "Lorem ipsum dolor amet consectur adipicing elit eiusmod tempor incididunt ut labore dolore magna aliqua.enim minim veniam quis nostrud exercitation ullamco laboris."
+        "text": "        To connect to Wi-Fi use-  Network: CONVENE​ Password: stayconnected​  Please avoid connecting unnecessary devices to avoid any impact to the Hackathon.​"
+    },
+    {
+        "id": 4,
+        "accordionParent": "faqAccordion",
+        "accordionId": "faqThree",
+        "dataTarget": "collapseThree",
+        "ariaExpanded": "false",
+        "ariaControls": "collapseThree",
+        "title": "Schedule of the day",
+        "collapseClass": "",
+        "ariaLabelled": "faqThree",
+        "text": "🕕 08:00: Doors Open to Hackers (& Hacker Teams Can Begin)​ 🕕 08:30: General Registration Opens​ 🕕 09:00: Intro and information for hackers 🕕 09:30: Welcome Speeches & Announcements ​🕕 10:00: Tech Talks & Workshops Begin and The Hack Continues ​🕕 12:30: Lunch​🕕 13:30: The Programme Continues ​🕕 16:20: Hack Pitches Start – Pizza Party 🍕​🕕 17:40: Hackathon Winners Announced & Celebratory Refreshments​🕕 18:30: Event Closes​"
     }
 ]

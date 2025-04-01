@@ -8,7 +8,7 @@ const VideoV1 = () => {
 
     return (
         <>
-            <section className="video-section" style={{ backgroundImage: "url(images/background/1.jpg)" }}>
+            {/* <section className="video-section" style={{ backgroundImage: "url(images/background/1.jpg)" }}>
                 <div className="auto-container">
                     <div className="content-box">
                         <div className="text">WE’RE A LEADING INDUSTRY COMPANY</div>
@@ -20,7 +20,7 @@ const VideoV1 = () => {
                         </Link>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </>
     );
 };

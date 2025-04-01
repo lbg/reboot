@@ -5,7 +5,7 @@ import WhyChooseV1Data from '../../jsonData/whyChoose/WhyChooseV1Data.json'
 const WhyChooseV1 = () => {
     return (
         <>
-            <section className="why-choose-us">
+            {/* <section className="why-choose-us">
                 <div className="auto-container">
                     <div className="row">
                         <div className="content-column col-lg-6 col-md-12 col-sm-12 order-lg-2  ">
@@ -32,7 +32,7 @@ const WhyChooseV1 = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </>
     );
 };

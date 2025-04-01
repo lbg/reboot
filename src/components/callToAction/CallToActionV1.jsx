@@ -4,7 +4,7 @@ import { HashLink as Link } from 'react-router-hash-link'
 const CallToActionV1 = () => {
     return (
         <>
-            <section className="call-to-action" style={{ backgroundImage: "url(../images/background/11.jpg)" }} >
+            {/* <section className="call-to-action" style={{ backgroundImage: "url(../images/background/11.jpg)" }} >
                 <div className="auto-container">
                     <div className="content-box">
                         <div className="text">WE ARE A LEADING MEETUP COMPANY</div>
@@ -15,7 +15,7 @@ const CallToActionV1 = () => {
                         </div>
                     </div>
                 </div>
-            </section >
+            </section > */}
         </>
     );
 };

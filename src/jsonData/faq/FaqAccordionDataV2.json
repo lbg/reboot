@@ -6,10 +6,10 @@
         "dataTarget": "collapseFour",
         "ariaExpanded": "true",
         "ariaControls": "collapseFour",
-        "title": "What is Cancelation Period?",
+        "title": "Quiet Space",
         "collapseClass": "show",
         "ariaLabelled": "faqFour",
-        "text": "Lorem ipsum dolor amet consectur adipicing elit eiusmod tempor incididunt ut labore dolore magna aliqua.enim minim veniam quis nostrud exercitation ullamco laboris."
+        "text": "Today at Reboot we have a designated Quiet Space in The Green Room. Please check out the site map for directions. Please avoid any calls/conversations in this room. ​"
     },
     {
         "id": 2,
@@ -18,10 +18,10 @@
         "dataTarget": "collapseFive",
         "ariaExpanded": "true",
         "ariaControls": "collapseFive",
-        "title": "What is Cohousing?",
+        "title": "Need some help or have a question?",
         "collapseClass": "",
         "ariaLabelled": "faqFive",
-        "text": "Lorem ipsum dolor amet consectur adipicing elit eiusmod tempor incididunt ut labore dolore magna aliqua.enim minim veniam quis nostrud exercitation ullamco laboris."
+        "text": "Around the venue, you will find colleagues wearing black ‘Reboot Crew’ t-shirts with a green coloured ‘R’ Logo on the front, who are here to support all attendees. If you need help with anything, please do not hesitate to speak to one of the crew."
     },
     {
         "id": 3,
@@ -30,9 +30,9 @@
         "dataTarget": "collapseSix",
         "ariaExpanded": "false",
         "ariaControls": "collapseSix",
-        "title": "How is the privacy issues?",
+        "title": "We are filming and taking photographs at Reboot today",
         "collapseClass": "",
         "ariaLabelled": "faqSix",
-        "text": "Lorem ipsum dolor amet consectur adipicing elit eiusmod tempor incididunt ut labore dolore magna aliqua.enim minim veniam quis nostrud exercitation ullamco laboris."
+        "text": "Attendees should be aware that they may appear in background footage and images taken throughout the day as we have a film crew and photographers capturing the event. These images may be used for social media posts/external promotional material. If you do not wish to be photographed or filmed, please speak to reception who will provide you with a golden Reboot Lanyard, so our photographers and filming crew will make sure you are not recorded. "
     }
 ]

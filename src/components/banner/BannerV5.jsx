@@ -26,11 +26,11 @@ const BannerV5 = () => {
                 <div className="auto-container">
                     <div className="content-box">
                         <span className="title">1st to 10 March 2019, Gold-Land Hotel, Canada</span>
-                        <h2>World Digital <br />Conference 2023</h2>
+                        <h2>Reboot London Hackathon <br />Conference 2023</h2>
                         <div className="time-counter">
                             <TimeV1 expiryTimestamp={time} />
                         </div>
-                        <div className="btn-box"><Link to="/buy-ticket#" className="theme-btn btn-style-two"><span className="btn-title">Booking Now</span></Link></div>
+                        {/* <div className="btn-box"><Link to="/buy-ticket#" className="theme-btn btn-style-two"><span className="btn-title">Booking Now</span></Link></div> */}
                     </div>
                 </div>
                 <div className="icons parallax-scene-1" ref={sceneRef}>

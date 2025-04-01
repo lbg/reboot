@@ -2,32 +2,32 @@
     {
         "id": 1,
         "icon": "icon_headphones",
-        "end": 190,
-        "info": "Participants",
+        "end": 204,
+        "info": "Hackers",
         "animation": "fadeInUp",
         "delay": ""
     },
     {
         "id": 2,
         "icon": "icon_ribbon_alt",
-        "end": 62,
-        "info": "Awards Win",
+        "end": 1000,
+        "info": "Attendees",
         "animation": "fadeInUp",
         "delay": 400
     },
     {
         "id": 3,
         "icon": "icon_like",
-        "end": 54,
-        "info": "Certified Teachers",
+        "end": 18,
+        "info": "Talks",
         "animation": "fadeInUp",
         "delay": 800
     },
     {
         "id": 4,
         "icon": "icon_book_alt",
-        "end": "190",
-        "info": "Courses",
+        "end": 8,
+        "info": "Workshops",
         "animation": "fadeInUp",
         "delay": 1200
     }

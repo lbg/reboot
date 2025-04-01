@@ -5,7 +5,7 @@ import SingleSpeakerV1 from './SingleSpeakerV1';
 const SpeakerV1 = () => {
     return (
         <>
-            <section className="speakers-section" style={{ backgroundImage: "url(images/background/6.jpg)" }}>
+            {/* <section className="speakers-section" style={{ backgroundImage: "url(images/background/6.jpg)" }}>
                 <div className="auto-container">
                     <div className="sec-title light text-center">
                         <span className="title">Speakers</span>
@@ -19,7 +19,7 @@ const SpeakerV1 = () => {
                         )}
                     </div>
                 </div>
-            </section>
+            </section> */}
         </>
     );
 };

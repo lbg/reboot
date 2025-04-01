@@ -1,18 +1,44 @@
 [
     {
         "id": 1,
-        "listData": "Multiple Announcements during the event."
+        "listData": "08:00: Doors Open to Hackers (& Hacker Teams Can Begin)"
     },
     {
         "id": 2,
-        "listData": "Logo & company details on the WordCamp."
+        "listData": "08:30: General Registration Opens"
     },
     {
         "id": 3,
-        "listData": "Dedicated blog post thanking each Gold."
+        "listData": "09:00: Intro and information for hackers"
     },
     {
         "id": 4,
-        "listData": "Acknowledgment and opening and closing."
+        "listData": "09:30: Welcome Speeches & Announcements"
+    },
+    {
+        "id": 5,
+        "listData": "10:00: Tech Talks & Workshops Begin and The Hack Continues"
+    },
+
+    {
+        "id": 6,
+        "listData": "12:30: Lunch"
+    },
+
+    {
+        "id": 7,
+        "listData": "13:30: The Programme Continues"
+    },
+    {
+        "id": 8,
+        "listData": "16:20: Hack Pitches Start – Pizza Party"
+    },
+    {
+        "id": 9,
+        "listData": "17:40: Hackathon Winners Announced & Celebratory Refreshments"
+    },
+    {
+        "id": 10,
+        "listData": "18:30: Event Closes"
     }
 ]

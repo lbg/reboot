@@ -24,27 +24,26 @@ import { useEffect, useState } from 'react';
 function App() {
 
   //  Preloader 
-  const [isLoading, setIsLoading] = useState(true)
+  // const [isLoading, setIsLoading] = useState(true)
 
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false)
-    }, 1200)
-  }, [])
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setIsLoading(false)
+  //   }, 1200)
+  // }, [])
 
   return (
     <>
-      {isLoading ? <Preloader /> :
+      {/* {isLoading ? <Preloader /> : */}
         <div className='app-wrapper'>
           <Helmet>
-            <title>Eventrox - Digital Events React Template</title>
-            <link rel="shortcut icon" href="../images/favicon.ico"></link>
+            <title>Reboot London Online Brochure</title>
+            <link rel="shortcut icon" href="../images/Reboot.png"></link>
           </Helmet>
           <Routers />
           <ToastContainer />
           <ScrollUpBtn />
         </div>
-      }
     </>
   )
 }

@@ -57,7 +57,7 @@ const ColorsPalate = () => {
 
     return (
         <>
-            <div className={`color-palate ${openColorPlate ? "" : "visible-palate"}`}>
+            {/* <div className={`color-palate ${openColorPlate ? "" : "visible-palate"}`}>
                 <div className="color-trigger" onClick={openColorPlate}>
                     <i className="fa fa-cog"></i>
                 </div>
@@ -70,7 +70,7 @@ const ColorsPalate = () => {
                     <span>You will find much more options for colors and styling in admin panel. This color picker is used only for demonstation purposes.</span>
                 </div>
                 <Link to="/contact#" className="purchase-btn">Purchase now</Link>
-            </div>
+            </div> */}
         </>
     );
 };

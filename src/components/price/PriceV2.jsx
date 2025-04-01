@@ -6,7 +6,7 @@ import ReactWOW from 'react-wow';
 const PriceV2 = ({ pricingClass }) => {
     return (
         <>
-            <section className={`pricing-section-two ${pricingClass}`}>
+            {/* <section className={`pricing-section-two ${pricingClass}`}>
                 <div className="anim-icons">
                     <ReactWOW animation='zoomIn'>
                         <span className="icon icon-line-1"></span>
@@ -33,7 +33,7 @@ const PriceV2 = ({ pricingClass }) => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </>
     );
 };

@@ -30,7 +30,7 @@ const BuyTicketContent = () => {
                                 <h3>Benefits of Day Pass package</h3>
                                 <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd idunt labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.</p>
                                 <ul className="list-style-one">
-                                    <li>Multiple Announcements during the event.</li>
+                                    <li>08:00: Doors Open to Hackers & Hacker Teams Can Begin</li>
                                     <li>Logo & company details on the WordCamp.</li>
                                     <li>Dedicated blog post thanking each Gold.</li>
                                     <li>Acknowledgment and opening and closing.</li>
