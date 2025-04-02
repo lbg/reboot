@@ -93,7 +93,7 @@ const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, pa
                                     div>
                                 </>
                                 : <>
-                                <div className="logo"><Link to="/#"><img src="/images/Reboot.png" 
+                                <div className="logo"><Link to="/#"><img src="/images/Reboot Badge.png" 
                                     alt="image" height="50" width="50" /></Link></div>
                                 </>}
                         </div>
@@ -120,7 +120,7 @@ const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, pa
                         <div className="menu-backdrop" ></div>
                         <div className="close-btn"><span className="icon flaticon-cancel-1"></span></div>
                         <nav className="menu-box">
-                            <div className="nav-logo"><Link to="/#"><img src="/images/logo-2.png" alt="image" /></Link></div>
+                            <div className="nav-logo"><Link to="/#"><img src="/images/Reboot Badge.png" alt="image" /></Link></div>
                             <MainMenu toggleMultiMenu={toggleMultiMenu} toggleMenu={toggleMenu} parentMenu={parentMenu} />
                         </nav>
                         <div className="close-btn" onClick={handleCloseMenu} ><span className="icon flaticon-cancel-music"></span></div>
