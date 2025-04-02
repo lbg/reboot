@@ -87,7 +87,7 @@ const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, pa
                         <div className="logo-box">
                             {whiteLogo ?
                                 <>
-                                    <div className="logo"><Link to="/#"><img src="/images/Reboot.png" 
+                                    <div className="logo"><Link to="/#"><img src="/images/Reboot Badge.png" 
                                     alt="image" height="250" width="250" /></Link></
                                     
                                     div>
