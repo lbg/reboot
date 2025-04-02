@@ -93,7 +93,8 @@ const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, pa
                                     div>
                                 </>
                                 : <>
-                                    <div className="logo"><Link to="/#"><img src="/images/favicon.png" alt="image" /></Link></div>
+                                <div className="logo"><Link to="/#"><img src="/images/Reboot.png" 
+                                    alt="image" height="50" width="50" /></Link></div>
                                 </>}
                         </div>
                         <div className="nav-outer clearfix">

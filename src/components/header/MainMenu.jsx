@@ -6,7 +6,7 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
         <>
             <ul className="navigation clearfix">
                 <li className={`dropdown ${parentMenu === 'home' ? 'current' : ''} `}>
-                    <Link to={void (0)} onClick={toggleMenu}>Home</Link>
+                    <Link to={'/'} onClick={toggleMenu}>Home</Link>
                     {/* <ul className='sub-menu'> */}
                         {/* { <li><Link to="/#">Home Classic</Link></li>} */}
                         {/* <li><Link to="/home-2#">Home Conference</Link></li> */}
