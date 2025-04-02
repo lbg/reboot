@@ -11,7 +11,7 @@ const Schedule = () => {
             <div className="page-wrapper">
                 <span className="header-span"></span>
                 <HeaderV1 headerStyle="header-style-two" parentMenu='home'/>
-                <BreadCrumb title="Schedule" breadCrumb="schedule" />
+                <BreadCrumb title="Schedule" breadCrumb="Schedule" />
                 <ScheduleV1 />
                 <FooterV1 />
             </div>

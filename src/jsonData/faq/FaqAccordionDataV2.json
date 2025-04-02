@@ -2,37 +2,37 @@
     {
         "id": 1,
         "accordionParent": "faqAccordion2",
-        "accordionId": "faqFour",
-        "dataTarget": "collapseFour",
-        "ariaExpanded": "true",
-        "ariaControls": "collapseFour",
-        "title": "Quiet Space",
-        "collapseClass": "show",
-        "ariaLabelled": "faqFour",
-        "text": "Today at Reboot we have a designated Quiet Space in The Green Room. Please check out the site map for directions. Please avoid any calls/conversations in this room. ​"
-    },
-    {
-        "id": 2,
-        "accordionParent": "faqAccordion2",
         "accordionId": "faqFive",
         "dataTarget": "collapseFive",
         "ariaExpanded": "true",
         "ariaControls": "collapseFive",
+        "title": "Quiet Space",
+        "collapseClass": "show",
+        "ariaLabelled": "faqFive",
+        "text": "Today at Reboot we have a designated Quiet Space in The Green Room.\nPlease check out the site map for directions.\nPlease avoid any calls/conversations in this room."
+    },
+    {
+        "id": 2,
+        "accordionParent": "faqAccordion2",
+        "accordionId": "faqSix",
+        "dataTarget": "collapseSix",
+        "ariaExpanded": "true",
+        "ariaControls": "collapseSix",
         "title": "Need some help or have a question?",
         "collapseClass": "",
-        "ariaLabelled": "faqFive",
-        "text": "Around the venue, you will find colleagues wearing black ‘Reboot Crew’ t-shirts with a green coloured ‘R’ Logo on the front, who are here to support all attendees. If you need help with anything, please do not hesitate to speak to one of the crew."
+        "ariaLabelled": "faqSix",
+        "text": "Around the venue, you will find colleagues wearing black ‘Reboot Crew’ t-shirts with a green coloured ‘R’ Logo on the front, who are here to support all attendees.\nIf you need help with anything, please do not hesitate to speak to one of the crew."
     },
     {
         "id": 3,
         "accordionParent": "faqAccordion2",
-        "accordionId": "faqSix",
-        "dataTarget": "collapseSix",
+        "accordionId": "faqSeven",
+        "dataTarget": "collapseSeven",
         "ariaExpanded": "false",
-        "ariaControls": "collapseSix",
+        "ariaControls": "collapseSeven",
         "title": "We are filming and taking photographs at Reboot today",
         "collapseClass": "",
-        "ariaLabelled": "faqSix",
-        "text": "Attendees should be aware that they may appear in background footage and images taken throughout the day as we have a film crew and photographers capturing the event. These images may be used for social media posts/external promotional material. If you do not wish to be photographed or filmed, please speak to reception who will provide you with a golden Reboot Lanyard, so our photographers and filming crew will make sure you are not recorded. "
+        "ariaLabelled": "faqSeven",
+        "text": "Attendees should be aware that they may appear in background footage and images taken throughout the day as we have a film crew and photographers capturing the event.\nThese images may be used for social media posts/external promotional material.\nIf you do not wish to be photographed or filmed, please speak to reception who will provide you with a golden Reboot Lanyard, so our photographers and filming crew will make sure you are not recorded."
     }
 ]

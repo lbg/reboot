@@ -50,7 +50,7 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
                     <Link to={void (0)} onClick={toggleMenu}>Good to Know</Link>
                     <ul className='sub-menu'>
                         <li><Link to="/schedule#">Schedule</Link></li>
-                        <li><Link to="/event-detail/1/1#">Event Detail</Link></li>
+                        <li><Link to="/event-detail/1/1#">Event Details</Link></li>
                         <li><Link to="/faqs#" >FAQs</Link></li>
                         {/* <li><Link to="/buy-ticket#">Buy Ticket</Link></li> */}
                     </ul>
