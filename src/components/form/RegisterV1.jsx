@@ -7,7 +7,7 @@ const RegisterV1 = () => {
             <section className="register-section">
                 <div className="auto-container">
                     <div className="anim-icons full-width">
-                        <span className="icon icon-circle-3 wow zoomIn"></span>
+                        {/* <span className="icon icon-circle-3 wow zoomIn"></span> */}
                     </div>
                     <div className="outer-box">
                         <div className="row no-gutters">

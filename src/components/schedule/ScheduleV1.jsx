@@ -10,12 +10,12 @@ const ScheduleV1 = () => {
         <>
             <section className="schedule-section">
                 <div className="anim-icons">
-                    <ReactWOW animation='zoomIn'>
+                    {/* <ReactWOW animation='zoomIn'>
                         <span className="icon icon-circle-4"></span>
                     </ReactWOW>
                     <ReactWOW animation='zoomIn'>
                         <span className="icon icon-circle-3"></span>
-                    </ReactWOW>
+                    </ReactWOW> */}
                 </div>
                 <div className="auto-container">
                     <div className="sec-title text-center">

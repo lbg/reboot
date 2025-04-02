@@ -8,13 +8,13 @@ const AboutV1 = () => {
         <>
             <section className="about-section">
                 <div className="anim-icons full-width">
-                    <span className="icon icon-circle-blue"></span>
+                    {/* <span className="icon icon-circle-blue"></span>
                     <ReactWOW animation='fadeInLeft'>
                         <span className="icon icon-dots"></span>
                     </ReactWOW>
                     <ReactWOW animation='zoomIn'>
                         <span className="icon icon-circle-1"></span>
-                    </ReactWOW>
+                    </ReactWOW> */}
                 </div>
                 <div className="auto-container">
                     <div className="row">

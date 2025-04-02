@@ -1694,7 +1694,7 @@ img {
 	line-height: 24px;
 	padding: 10px 20px;
 	font-size: 16px;
-	color: #404040;
+	color: #36454F;
 	font-weight: 600;
 	text-transform: capitalize;
 }
@@ -1713,7 +1713,7 @@ img {
 	text-align: center;
 	font-size: 16px;
 	line-height: 44px;
-	color: #404040;
+	color:#36454F;
 	cursor: pointer;
 	z-index: -1;
 }
@@ -5681,7 +5681,7 @@ img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	background-image: url(../images/icons/pattern-1.jpg);
+	/* background-image: url(../images/icons/pattern-1.jpg); */
 	content: "";
 	opacity: .10;
 }

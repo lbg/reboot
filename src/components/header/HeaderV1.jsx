@@ -88,7 +88,7 @@ const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, pa
                             {whiteLogo ?
                                 <>
                                     <div className="logo"><Link to="/#"><img src="/images/Reboot Badge.png" 
-                                    alt="image" height="250" width="250" /></Link></
+                                    alt="image" height="100" width="100" /></Link></
                                     
                                     div>
                                 </>
