@@ -10,7 +10,6 @@ const ErrorPage = () => {
             <div className="page-wrapper">
                 <span className="header-span"></span>
                 <HeaderV1 headerStyle="header-style-two" parentMenu='blog' />
-                <BreadCrumb />
                 <ErrorPageContent />
                 <FooterV1 />
             </div>

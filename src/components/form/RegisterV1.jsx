@@ -15,8 +15,8 @@ const RegisterV1 = () => {
                                 <div className="inner">
                                     <div className="sec-title light">
                                         <div className="icon-box"><span className="icon flaticon-rocket-ship"></span></div>
-                                        <h2>We want to hear your thoughts </h2>
-                                        <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt labore et dolore magna.</div>
+                                        <h2>Feedback ?</h2>
+                                        <div className="text">Please use this form to provide feedback on the event!</div>
                                     </div>
                                 </div>
                             </div>

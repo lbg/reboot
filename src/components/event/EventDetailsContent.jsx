@@ -3,28 +3,29 @@ import { useParams } from 'react-router-dom';
 import ScheduleV1Data from '../../jsonData/schedule/ScheduleV1Data.json'
 
 const EventDetailsContent = () => {
-    const { parentId, childId } = useParams();
+    // const { parentId, childId } = useParams();
 
     return (
         <>
             <section className="event-detail">
                 <div className="auto-container">
-                    <div className="image-box">
+                    {/* <div className="image-box">
                         <figure className="image wow fadeIn"><img src={`/images/resource/${ScheduleV1Data[parentId - 1].tabData[childId - 1].eventThumb}`} alt="" /></figure>
-                    </div>
+                    </div> */}
                     <div className="content-box">
-                        <div className="speaker-info">
+                        {/* <div className="speaker-info">
                             <figure className="thumb">
                                 <img src={`/images/resource/${ScheduleV1Data[parentId - 1].tabData[childId - 1].speakerThumb}`} alt="image" />
                             </figure>
                             <h5 className="name">{ScheduleV1Data[parentId - 1].tabData[childId - 1].name}</h5>
                             <span className="designation">{ScheduleV1Data[parentId - 1].tabData[childId - 1].designation}</span>
-                        </div>
-                        <ul className="upper-info">
+                        </div> */}
+                        {/* <ul className="upper-info">
                             <li><span className="icon far fa-clock"></span>{ScheduleV1Data[parentId - 1].tabData[childId - 1].sessionStart} - {ScheduleV1Data[parentId - 1].tabData[childId - 1].sessionEnd}</li>
                             <li><span className="icon fa fa-map-marker-alt"></span>Bennelong Point, Sydney NSW 2000, Australia</li>
                         </ul>
-                        <h2>{ScheduleV1Data[parentId - 1].tabData[childId - 1].title}</h2>
+                        <h2>{ScheduleV1Data[parentId - 1].tabData[childId - 1].title}</h2> */}
+                        <h2>Reboot London 2025</h2>
                         <p>At the heart of Reboot is our Hackathon, where 204 people will compete to design a solution to one of two challenges.​
 
 Competing teams will work together as a team of up to six, and use the latest technology to provide a solution to one of our hack challenges. ​

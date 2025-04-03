@@ -30,7 +30,9 @@ const Home1 = () => {
                 <VideoV1 />
                 <WhyChooseV1 />
                 <ClientV1 />
-                <RegisterV1 />
+                {/*
+                Comment this out to have a feedback form on homepage
+                 <RegisterV1 /> */}
                 <BlogV1 hasShape={true} />
                 <FooterV1 />
             </div>

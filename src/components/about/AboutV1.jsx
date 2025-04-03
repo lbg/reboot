@@ -18,7 +18,6 @@ const AboutV1 = () => {
                 </div>
                 <div className="auto-container">
                     <div className="row">
-                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
                             <div className="inner-column">
                                 <div className="sec-title">
                                     {/* <span className="title">ABOUT EVENT</span> */}
@@ -45,14 +44,14 @@ const AboutV1 = () => {
                                 </ul>
                                 {/* <div className="btn-box"><Link to="/contact#" className="theme-btn btn-style-three"><span className="btn-title">Register Now</span></Link></div> */}
                             </div>
-                        </div>
-                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                       
+                        {/* <div className="image-column col-lg-6 col-md-12 col-sm-12">
                             <div className="image-box">
-                                <ReactWOW animation='fadeIn'>
+                                <ReactWOW >
                                     <figure className="image"><img src="../images/resource/about-img-1.jpg" alt="image" /></figure>
                                 </ReactWOW>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

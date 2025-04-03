@@ -42,15 +42,11 @@ const ScheduleV1 = () => {
                                                             <div className="inner">
                                                                 <div className="date">{block.sessionStart} <br /> {block.sessionEnd}</div>
                                                                 <div className="speaker-info">
-                                                                    <figure className="thumb"><img src={`../images/resource/${block.speakerThumb}`} alt="image" /></figure>
-                                                                    <h5 className="name">{block.name}</h5>
+                                                                     <h5 className="name">{block.name}</h5>
                                                                     <span className="designation">{block.designation}</span>
                                                                 </div>
-                                                                <h4><Link to={`/event-detail/${schedule.id}/${block.id}#`}>{block.title}</Link></h4>
+                                                                <h4>{block.title}</h4>
                                                                 <div className="text">{block.text}</div>
-                                                                <div className="btn-box">
-                                                                    <Link to={`/event-detail/${schedule.id}/${block.id}#`} className="theme-btn">{block.btnText}</Link>
-                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>

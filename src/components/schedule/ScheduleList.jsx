@@ -7,7 +7,6 @@ const ScheduleList = ({ list }) => {
         <>
             <li className={`tab-btn ${listClass}`} data-bs-toggle="tab" role="tab" data-bs-target={dataTarget}>
                 <span className="day">{day}</span>
-                <span className="date">{date}</span>
                 <span className="month">{month}</span> {year}
             </li>
         </>

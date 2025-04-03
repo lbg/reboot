@@ -31,7 +31,7 @@ const Routers = () => {
                 <Route path='/speakers' element={<Speakers />}></Route>
                 <Route path='/speakers-detail/:id' element={<SpeakersDetail />}></Route>
                 <Route path='/schedule' element={<Schedule />}></Route>
-                <Route path='/event-detail/:parentId/:childId' element={<EventDetails />}></Route>
+                <Route path='/event-detail' element={<EventDetails />}></Route>
                 <Route path='/buy-ticket' element={<BuyTicket />}></Route>
                 <Route path='/blog-sidebar' element={<BlogSidebar />}></Route>
                 <Route path='/blog-grid' element={<BlogGrid />}></Route>
