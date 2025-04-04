@@ -6,6 +6,7 @@ const RegisterForm = () => {
         event.preventDefault()
         const message = event.target.message.value
         event.target.reset()
+        //TODO - update this to the email you want feedback to 
         window.location.href = `mailto:feedback@email.com?body=${encodeURIComponent(message)}`
     }
 

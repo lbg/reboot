@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom';
 import ScheduleV1Data from '../../jsonData/schedule/ScheduleV1Data.json'
 
 const EventDetailsContent = () => {
+    // commenting out as this page appears to being used as an overall event info page rather than a single talk page 
+    // can uncomment to make it use url params for each event
     // const { parentId, childId } = useParams();
 
     return (
