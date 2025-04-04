@@ -17,6 +17,8 @@ import BlogSingle from './pages/innerPages/BlogSingle';
 import Login from './pages/innerPages/Login';
 import Contact from './pages/innerPages/Contact';
 import ErrorPage from './pages/innerPages/ErrorPage';
+import CodeOfConduct from './components/event/CodeOfConduct';
+import CodeOfConductPage from './pages/innerPages/CodeOfConduct';
 
 const Routers = () => {
     return (
@@ -24,20 +26,10 @@ const Routers = () => {
             <Routes>
                 <Route path='/' element={<Home1 />}></Route>
                 <Route path='/about-us' element={<AboutUs />}></Route>
-                <Route path='/pricing' element={<Pricing />}></Route>
-                <Route path='/faqs' element={<Faq />}></Route>
-                <Route path='/gallery' element={<Gallery />}></Route>
-                <Route path='/coming-soon' element={<ComingSoon />}></Route>
-                <Route path='/speakers' element={<Speakers />}></Route>
-                <Route path='/speakers-detail/:id' element={<SpeakersDetail />}></Route>
+                <Route path='/good-to-know' element={<Faq />}></Route>
                 <Route path='/schedule' element={<Schedule />}></Route>
-                <Route path='/event-detail' element={<EventDetails />}></Route>
-                <Route path='/buy-ticket' element={<BuyTicket />}></Route>
-                <Route path='/blog-sidebar' element={<BlogSidebar />}></Route>
-                <Route path='/blog-grid' element={<BlogGrid />}></Route>
-                <Route path='/blog-single/:id' element={<BlogSingle />}></Route>
-                <Route path='/login' element={<Login />}></Route>
-                <Route path='/contact' element={<Contact />}></Route>
+                <Route path='/hackathon-details' element={<EventDetails />}></Route>
+                <Route path='/code-of-conduct' element={<CodeOfConductPage/>}></Route>
                 <Route path='*' element={<ErrorPage />}></Route>
             </Routes>
         </>

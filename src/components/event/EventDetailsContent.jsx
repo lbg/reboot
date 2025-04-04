@@ -34,22 +34,26 @@ Competing teams will work together as a team of up to six, and use the latest te
 
 Teams will be shortlisted and assessed on several criteria, including how well they have addressed the challenges and their use of technology.​</p>
                         <div className="row two-column">
-                            <div className="column col-lg-6 col-md-12">
-                                <figure className="image"><img src="/images/resource/post-img.jpg" alt="image" /></figure>
-                            </div>
-                            <div className="column col-lg-6 col-md-12">
+                        <div className="column col-lg-6 col-md-12">
                                 <h4>Challenge One</h4>
                                 <ul className="list-style-two">
-                                    <li>Challenge information.</li>
-                                    <li>Logo & company details on the WordCamp Kolkata.</li>
-                                    <li>Dedicated blog post thanking each of our Gold.</li>
-                                    <li>Acknowledgment and thanks in opening and closing.</li>
+                                    <li><b>Challenge information:</b></li>
+                                    <li>To be added closer to event!</li>
+                                    <li><b>Sponsor</b></li>
+                                    <li>Nicky Elford, P&P​</li>
+                                </ul>
+                            </div>
+                            <div className="column col-lg-6 col-md-12">
+                                <h4>Challenge Two</h4>
+                                <ul className="list-style-two">
+                                    <li><b>Challenge information:</b></li>
+                                    <li>To be added closer to event!</li>
+                                    <li><b>Sponsor</b></li>
+                                    <li>Rose St Louis, IP&I Protection Platform BPL, and Bea Schofield CTO Innovation.​</li>
                                 </ul>
                             </div>
                         </div>
-                        <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd idunt labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.duis aute irure dolor in repre hen derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur cepteur sint occaecat cupidatat eaque ipsa quae illo proident sunt in culpa qui officia deserunt mollit anim id est laborum perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore laudant rem aperiam eaque ipsa quae ab illo inventore veritatis quasi architecto.</p>
-                        <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd idunt labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur cepteur sint occaecat cupidatat.</p>
-                    </div>
+                     </div>
                 </div>
             </section>
         </>

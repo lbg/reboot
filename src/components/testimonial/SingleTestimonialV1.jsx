@@ -9,11 +9,11 @@ const SingleTestimonialV1 = ({ testimonial }) => {
             <div className="testimonial-block">
                 <div className="inner">
                     <span className={icon}></span>
-                    <div className="text">{text}</div>
-                    <div className="name">{name}</div>
-                    <div className="rating">
+                    <div className="text" style={{paddingBottom: '0px'}}><p><i>{text}</i></p></div>
+                    {/* <div className="name">{name}</div> */}
+                    {/* <div className="rating">
                         <RatingsFive />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>

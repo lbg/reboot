@@ -18,10 +18,6 @@ const ScheduleV1 = () => {
                     </ReactWOW> */}
                 </div>
                 <div className="auto-container">
-                    <div className="sec-title text-center">
-                        <span className="title">About Conference</span>
-                        <h2>Schedule Plan</h2>
-                    </div>
                     <div className="schedule-tabs tabs-box ">
                         <div className="btns-box">
                             <ul className="tab-buttons clearfix nav nav-tabs">
