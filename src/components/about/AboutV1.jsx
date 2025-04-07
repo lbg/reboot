@@ -43,10 +43,6 @@ const AboutV1 = () => {
                                     )}
                                 </ul>
         
-
-
-
-
                                 {/* <div className="btn-box"><Link to="/contact#" className="theme-btn btn-style-three"><span className="btn-title">Register Now</span></Link></div> */}
                             </div>
                        

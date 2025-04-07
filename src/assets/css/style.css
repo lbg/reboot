@@ -2614,8 +2614,6 @@ img {
 .about-section .image-column .image-box img {
 	position: relative;
 	z-index: 1;
-	/* border-radius: 50%;
-	border: 15px solid #ffffff; */
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.10);
 }
 
@@ -4579,8 +4577,6 @@ img {
 	border-radius: 20px;
 }
 
-
-
 .schedule-block .inner:before {
 	position: absolute;
 	top: 0;
@@ -5692,7 +5688,6 @@ img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	/* background-image: url(../images/icons/pattern-1.jpg); */
 	content: "";
 	opacity: .10;
 }
