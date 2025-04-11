@@ -4450,7 +4450,7 @@ img {
 	top: 30px;
 	padding: 5px 20px;
 	background-color: #222222;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 20px;
 	font-weight: 600;
 	color: #ffffff;
@@ -4485,61 +4485,88 @@ img {
 	box-shadow: 0 20px 30px rgba(0, 0, 0, .10);
 }
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 1) .day {
+.schedule-tabs .tab-buttons li:nth-child(6n + 1) .day {
 	background-color: #ffc20b;
 }
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 2) .day {
+.schedule-tabs .tab-buttons li:nth-child(6n + 2) .day {
+	background-color: #ffc20b;
+}
+
+.schedule-tabs .tab-buttons li:nth-child(6n + 3) .day {
+	background-color: #ffc20b;
+}
+
+.schedule-tabs .tab-buttons li:nth-child(6n + 4) .day {
 	background-color: #40cbb4;
 }
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 3) .day {
-	background-color: #4c35a9;
+.schedule-tabs .tab-buttons li:nth-child(6n + 5) .day {
+	background-color: #40cbb4;
 }
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 4) .day {
+.schedule-tabs .tab-buttons li:nth-child(6n + 6) .day {
 	background-color: #e6275a;
 }
 
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 1) .month,
-.schedule-tabs .tab-buttons li:nth-child(4n + 1) .date {
+.schedule-tabs .tab-buttons li:nth-child(6n + 1) .month,
+.schedule-tabs .tab-buttons li:nth-child(6n + 1) .date {
 	color: #ffc20b;
 }
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 2) .month,
-.schedule-tabs .tab-buttons li:nth-child(4n + 2) .date {
+.schedule-tabs .tab-buttons li:nth-child(6n + 2) .month,
+.schedule-tabs .tab-buttons li:nth-child(6n + 2) .date {
+	color: #ffc20b;
+}
+
+.schedule-tabs .tab-buttons li:nth-child(6n + 3) .month,
+.schedule-tabs .tab-buttons li:nth-child(6n + 3) .date {
+	color: #ffc20b;
+}
+
+.schedule-tabs .tab-buttons li:nth-child(6n + 4) .month,
+.schedule-tabs .tab-buttons li:nth-child(6n + 4) .date {
 	color: #40cbb4;
 }
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 3) .month,
-.schedule-tabs .tab-buttons li:nth-child(4n + 3) .date {
-	color: #4c35a9;
+.schedule-tabs .tab-buttons li:nth-child(6n + 5) .month,
+.schedule-tabs .tab-buttons li:nth-child(6n + 5) .date {
+	color: #40cbb4;
 }
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 4) .month,
-.schedule-tabs .tab-buttons li:nth-child(4n + 4) .date {
+.schedule-tabs .tab-buttons li:nth-child(6n + 6) .month,
+.schedule-tabs .tab-buttons li:nth-child(6n + 6) .date {
 	color: #e6275a;
 }
 
-
-.schedule-tabs .tab-buttons li:nth-child(4n + 1).active {
-	box-shadow: 0 0px 30px rgba(255, 194, 11, .30);
+.schedule-tabs .tab-buttons li:nth-child(6n + 1).active {
+	box-shadow: 0 0px 30px rgba(64, 203, 180, .30);
 	border: 1px solid #ffc20b;
 }
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 2).active {
+.schedule-tabs .tab-buttons li:nth-child(6n + 2).active {
+	box-shadow: 0 0px 30px rgba(64, 203, 180, .30);
+	border: 1px solid #ffc20b;
+}
+
+.schedule-tabs .tab-buttons li:nth-child(6n + 3).active {
+	box-shadow: 0 0px 30px rgba(64, 203, 180, .30);
+	border: 1px solid #ffc20b;
+}
+
+.schedule-tabs .tab-buttons li:nth-child(6n + 4).active {
 	box-shadow: 0 0px 30px rgba(64, 203, 180, .30);
 	border: 1px solid #40cbb4;
 }
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 3).active {
-	box-shadow: 0 0px 30px rgba(76, 53, 169, .30);
-	border: 1px solid #4c35a9;
+.schedule-tabs .tab-buttons li:nth-child(6n + 5).active {
+	box-shadow: 0 0px 30px rgba(64, 203, 180, .30);
+	border: 1px solid #40cbb4;
 }
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 4).active {
-	box-shadow: 0 0px 30px rgba(230, 39, 90, .30);
+.schedule-tabs .tab-buttons li:nth-child(6n + 6).active {
+	box-shadow: 0 0px 30px rgba(64, 203, 180, .30);
 	border: 1px solid #e6275a;
 }
 

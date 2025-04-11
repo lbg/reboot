@@ -307,5 +307,56 @@
                 "talkLevel": 1
             }
         ]
+    },
+    {
+        "id": 6,
+        "tabClass": "",
+        "tabId": "tab-6",
+        "tabData": [
+            {
+                "id": 1,
+                "blockClass": "even",
+                "sessionStart": "8:45",
+                "sessionEnd": "9:30",
+                "title": "Coding Speed Mentoring",
+                "text": "Featuring mentors skilled in Python, Java, JavaScript, SQL, and more.",
+                "name": "Doddington Forum 1",
+                "designation": "",
+                "talkLevel": 1
+            },
+            {
+                "id": 2,
+                "blockClass": "odd",
+                "sessionStart": "8:45",
+                "sessionEnd": "9:30",
+                "title": "Data Visualisation and Story Telling Speed Mentoring",
+                "text": "Showcasing mentors with expertise in Power BI, Tableau, Data Storytelling, etc.",
+                "name": "Doddington Forum 2",
+                "designation": "",
+                "talkLevel": 1
+            },
+            {
+                "id": 3,
+                "blockClass": "even",
+                "sessionStart": "13:00",
+                "sessionEnd": "13:45",
+                "title": "Coding Speed Mentoring",
+                "text": " Featuring mentors skilled in Python, Java, JavaScript, SQL, and more.",
+                "name": "Doddington Forum 1",
+                "designation": "",
+                "talkLevel": 1
+            },
+            {
+                "id": 4,
+                "blockClass": "odd",
+                "sessionStart": "13:00",
+                "sessionEnd": "13:45",
+                "title": "Data Visualisation and Story Telling Speed Mentoring",
+                "text": "Showcasing mentors with expertise in Power BI, Tableau, Data Storytelling, etc.",
+                "name": "Doddington Forum 2",
+                "designation": "",
+                "talkLevel": 1
+            }
+        ]
     }
 ]

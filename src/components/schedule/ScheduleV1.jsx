@@ -30,6 +30,11 @@ const ScheduleV1 = () => {
                             {ScheduleV1Data.map(schedule => {
                                 return (
                                     <div className={`tab fade ${schedule.tabClass}`} id={schedule.tabId} key={schedule.id}>
+                                        {
+                                        //  Commented out - can add mentoring link if needed 
+                                        //    (schedule.tabId == 'tab-6') &&
+                                        //     <div className="btn-box-two" style={{paddingBottom: '20px', alignSelf: 'center', position: 'relative', left: '40%' }}><Link to="https://lloydsbanking.sharepoint.com/sites/TechnicalMentoringHub?xsdata=MDV8MDJ8fGU4N2Q2ZjY5MDM0OTQ0NDQ4Y2ExMDhkZDc5MDUxMjAwfDNkZWQyOTYwMjE0YTQ2ZmY4Y2Y0NjExZjEyNWUyMzk4fDB8MHw2Mzg3OTk3ODQ4NDAzMDE3Mjl8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMMk5vWVhSekx6RTVPakF5TW1VNFltVm1MV1V4TTJRdE5HTmpZUzFpT0RSaExUWXpZalJtTkRneFltSmlNVjlrWkRBeVlUZzVaaTAyTjJNMkxUUXhOV0V0WWpGbFlpMHpPVGsxWWpVMU9XSmhaVGhBZFc1eExtZGliQzV6Y0dGalpYTXZiV1Z6YzJGblpYTXZNVGMwTkRNNE1UWTRNamt3TlE9PXw1NmFmZmI5NDliYzY0MmNhOGNhMTA4ZGQ3OTA1MTIwMHw3MjBjZTA3MWM0MmY0ODcyODlkMTlhYTJiYjY2YTQ2YQ%3D%3D&sdata=SHFackpZN2pSeFFOck1ySWxyaFBZNGVwTkFka1JiRU83S0MvZnhEWHFVWT0%3D&ovuser=3ded2960-214a-46ff-8cf4-611f125e2398%2CJack.McGrory%40lloydsbanking.com&OR=Teams-HL&CT=1744381898979&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNTAzMTMyMTAxNCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D" className="theme-btn btn-style-three"><span className="btn-title">Sign up to be a Mentor</span></Link></div>
+                                         }
                                         <div className="schedule-timeline">
                                             {schedule.tabData.map(block => {
                                                 return (
@@ -43,6 +48,7 @@ const ScheduleV1 = () => {
                                                                 </div>
                                                                 <h4>{block.title}</h4>
                                                                 <div className="text">{block.text}</div>
+                                                        
                                                             </div>
                                                         </div>
                                                     </div>
