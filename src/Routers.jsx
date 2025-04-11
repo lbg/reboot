@@ -6,6 +6,7 @@ import Faq from './pages/innerPages/Faq';
 import Schedule from './pages/innerPages/Schedule';
 import EventDetails from './pages/innerPages/EventDetails';
 import ErrorPage from './pages/innerPages/ErrorPage';
+import Map from './pages/innerPages/Map'
 import CodeOfConductPage from './pages/innerPages/CodeOfConduct';
 
 const Routers = () => {
@@ -18,6 +19,7 @@ const Routers = () => {
                 <Route path='/schedule' element={<Schedule />}></Route>
                 <Route path='/hackathon-details' element={<EventDetails />}></Route>
                 <Route path='/code-of-conduct' element={<CodeOfConductPage/>}></Route>
+                <Route path='/map' element={<Map/>}></Route>
                 <Route path='*' element={<ErrorPage />}></Route>
             </Routes>
         </>

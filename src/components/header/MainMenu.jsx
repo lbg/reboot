@@ -53,6 +53,7 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
                         <li><Link to="/hackathon-details#">Hackathon Details</Link></li>
                         <li><Link to="/code-of-conduct#">Code of Conduct</Link></li>
                         <li><Link to="/good-to-know#" >Good to Know</Link></li>
+                        <li><Link to="/map#" >Map</Link></li>
                         {/* <li><Link to="/buy-ticket#">Buy Ticket</Link></li> */}
                     </ul>
                     <div className="dropdown-btn"><span className="fa fa-angle-down"></span></div>
