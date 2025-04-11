@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "icon": "icon flaticon-lecture",
+        "icon": "icon flaticon-chat",
         "title": "Reboot Talks",
         "text": "We have an array of engaging and educational tech discussions planned for your enjoyment.",
         "animation": "fadeInUp",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "icon": "icon flaticon-search",
+        "icon": "icon flaticon-classroom",
         "title": "Reboot Works",
         "text": "We will be running workshops throughout the day, providing you with the opportunity to get hands-on with technology.",
         "animation": "fadeInUp",
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "icon": "icon flaticon-diamond-1",
+        "icon": "icon flaticon-heart",
         "title": "Wellbeing Room",
         "text": "For Reboot London, we are reintroducing Wellbeing sessions, which will take place in the boardroom.",
         "animation": "fadeInUp",
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "icon": "icon flaticon-success",
+        "icon": "icon flaticon-group",
         "title": "Speed Mentoring",
         "text": "We've got 3 sessions for colleagues to meet mentors in the following areas - Coding & Data Visualization and Storytelling​",
         "animation": "fadeInUp",
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "icon": "icon flaticon-employee",
+        "icon": "icon flaticon-rocket-ship",
         "title": "Hackathon",
         "text": "204 competitors taking part in our Hackathon, competing for a selection of prizes against two business challenges.",
         "animation": "fadeInUp",

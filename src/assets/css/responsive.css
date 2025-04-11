@@ -58,17 +58,17 @@
 	.main-header,
 	.main-header.fixed-header,
 	.main-header .main-box {
-		background-color: #1e1f36;
+		background-color: #36454F;
 	}
 
 	.main-header .main-box {
 		padding: 10px 0;
-		background-color: #1e1f36;
+		background-color: #36454F;
 	}
 
 	.header-style-two,
 	.header-style-two .main-box {
-		background-color: #ffffff;
+		background-color: #36454F;
 		box-shadow: 0 5px 10px rgba(0, 0, 0, 0.04);
 		padding: 0;
 	}

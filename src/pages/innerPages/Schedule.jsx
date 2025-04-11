@@ -10,10 +10,9 @@ const Schedule = () => {
         <>
             <div className="page-wrapper">
                 <span className="header-span"></span>
-                <HeaderV1 headerStyle="header-style-two" parentMenu='schedule' />
-                <BreadCrumb title="Schedule" breadCrumb="schedule" />
+                <HeaderV1 headerStyle="header-style-two" parentMenu='home'/>
+                <BreadCrumb title="Schedule" breadCrumb="Schedule" />
                 <ScheduleV1 />
-                <SubscribeV2 />
                 <FooterV1 />
             </div>
         </>

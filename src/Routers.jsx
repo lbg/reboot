@@ -2,21 +2,12 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Home1 from './pages/homePages/Home1';
 import AboutUs from './pages/innerPages/AboutUs';
-import Pricing from './pages/innerPages/Pricing';
 import Faq from './pages/innerPages/Faq';
-import Gallery from './pages/innerPages/Gallery';
-import ComingSoon from './pages/innerPages/ComingSoon';
-import Speakers from './pages/innerPages/Speakers';
-import SpeakersDetail from './pages/innerPages/SpeakersDetail';
 import Schedule from './pages/innerPages/Schedule';
 import EventDetails from './pages/innerPages/EventDetails';
-import BuyTicket from './pages/innerPages/BuyTicket';
-import BlogSidebar from './pages/innerPages/BlogSidebar';
-import BlogGrid from './pages/innerPages/BlogGrid';
-import BlogSingle from './pages/innerPages/BlogSingle';
-import Login from './pages/innerPages/Login';
-import Contact from './pages/innerPages/Contact';
 import ErrorPage from './pages/innerPages/ErrorPage';
+import Map from './pages/innerPages/Map'
+import CodeOfConductPage from './pages/innerPages/CodeOfConduct';
 
 const Routers = () => {
     return (
@@ -24,20 +15,11 @@ const Routers = () => {
             <Routes>
                 <Route path='/' element={<Home1 />}></Route>
                 <Route path='/about-us' element={<AboutUs />}></Route>
-                <Route path='/pricing' element={<Pricing />}></Route>
-                <Route path='/faqs' element={<Faq />}></Route>
-                <Route path='/gallery' element={<Gallery />}></Route>
-                <Route path='/coming-soon' element={<ComingSoon />}></Route>
-                <Route path='/speakers' element={<Speakers />}></Route>
-                <Route path='/speakers-detail/:id' element={<SpeakersDetail />}></Route>
+                <Route path='/good-to-know' element={<Faq />}></Route>
                 <Route path='/schedule' element={<Schedule />}></Route>
-                <Route path='/event-detail/:parentId/:childId' element={<EventDetails />}></Route>
-                <Route path='/buy-ticket' element={<BuyTicket />}></Route>
-                <Route path='/blog-sidebar' element={<BlogSidebar />}></Route>
-                <Route path='/blog-grid' element={<BlogGrid />}></Route>
-                <Route path='/blog-single/:id' element={<BlogSingle />}></Route>
-                <Route path='/login' element={<Login />}></Route>
-                <Route path='/contact' element={<Contact />}></Route>
+                <Route path='/hackathon-details' element={<EventDetails />}></Route>
+                <Route path='/code-of-conduct' element={<CodeOfConductPage/>}></Route>
+                <Route path='/map' element={<Map/>}></Route>
                 <Route path='*' element={<ErrorPage />}></Route>
             </Routes>
         </>

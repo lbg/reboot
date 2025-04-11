@@ -8,10 +8,6 @@ const FaqV1 = () => {
         <>
             <section className="faq-section">
                 <div className="auto-container">
-                    <div className="sec-title">
-                        <span className="title">Good to know</span>
-                        <h2>Good to know</h2>
-                    </div>
                     <div className="row clearfix">
                         <div className="content-column col-lg-6 col-md-12 col-sm-12">
                             <div className="inner-column">

@@ -3,36 +3,54 @@
         "id": 1,
         "listClass": "active",
         "dataTarget": "#tab-1",
-        "day": "Day 01",
-        "date": "01",
-        "month": "Jan",
-        "year": 2018
+        "day": "Reboot Talks",
+        "date": "1",
+        "month": "Hardwick",
+        "year": "Hub"
     },
     {
         "id": 2,
         "listClass": "",
         "dataTarget": "#tab-2",
-        "day": "Day 02",
+        "day": "Reboot Talks",
         "date": "02",
-        "month": "Jan",
-        "year": 2022
+        "month": "Grand",
+        "year": "Hall 1"
     },
     {
         "id": 3,
         "listClass": "",
-        "dataTarget": "#tab-3",
-        "day": "Day 03",
+        "dataTarget":"#tab-3" ,
+        "day": "Reboot Talks",
         "date": "03",
-        "month": "Jan",
-        "year": 2023
+        "month": "Board",
+        "year": "room"
     },
     {
         "id": 4,
         "listClass": "",
         "dataTarget": "#tab-4",
-        "day": "Day 04",
+        "day": "Reboot Works",
         "date": "04",
-        "month": "Jan",
-        "year": 2024
+        "month": "Doddington",
+        "year": "Forum 1"
+    },
+    {
+        "id": 5,
+        "listClass": "",
+        "dataTarget": "#tab-5",
+        "day": "Reboot Works",
+        "date": "04",
+        "month": "Doddington",
+        "year": "Forum 2"
+    },
+    {
+        "id": 6,
+        "listClass": "",
+        "dataTarget": "#tab-6",
+        "day": "Speed Mentoring",
+        "date": "04",
+        "month": "Doddington",
+        "year": "Forum 1&2"
     }
 ]

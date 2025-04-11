@@ -16,7 +16,7 @@ const TimeV1 = ({ expiryTimestamp }) => {
                     <span className="count">{minutes <= 9 ? `0${minutes}` : minutes}</span>Minutes
                 </div>
                 <div className="counter-column">
-                    <span className="count">{seconds <= 9 ? `0${seconds}` : seconds}</span>Second
+                    <span className="count">{seconds <= 9 ? `0${seconds}` : seconds}</span>Seconds
                 </div>
             </div>
         </>

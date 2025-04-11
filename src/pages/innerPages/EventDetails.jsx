@@ -9,8 +9,8 @@ const EventDetails = () => {
         <>
             <div className="page-wrapper">
                 <span className="header-span"></span>
-                <HeaderV1 headerStyle="header-style-two" parentMenu='schedule' />
-                <BreadCrumb title="Event Detail" breadCrumb="event-detail" />
+                <HeaderV1 headerStyle="header-style-two" parentMenu='' />
+                <BreadCrumb title="Hackathon Details" breadCrumb="Hackathon Details" />
                 <EventDetailsContent />
                 <FooterV1 />
             </div>

@@ -6,7 +6,7 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
         <>
             <ul className="navigation clearfix">
                 <li className={`dropdown ${parentMenu === 'home' ? 'current' : ''} `}>
-                    <Link to={void (0)} onClick={toggleMenu}>Home</Link>
+                    <Link to={'/'} onClick={toggleMenu}>Home</Link>
                     {/* <ul className='sub-menu'> */}
                         {/* { <li><Link to="/#">Home Classic</Link></li>} */}
                         {/* <li><Link to="/home-2#">Home Conference</Link></li> */}
@@ -47,11 +47,13 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
                     <div className="dropdown-btn"><span className="fa fa-angle-down"></span></div>
                 </li> */}
                 <li className={`dropdown ${parentMenu === 'good to know' ? 'current' : ''}`}>
-                    <Link to={void (0)} onClick={toggleMenu}>Good to Know</Link>
+                    <Link to={void (0)} onClick={toggleMenu}>More Details</Link>
                     <ul className='sub-menu'>
                         <li><Link to="/schedule#">Schedule</Link></li>
-                        <li><Link to="/event-detail/1/1#">Event Detail</Link></li>
-                        <li><Link to="/faqs#" >FAQs</Link></li>
+                        <li><Link to="/hackathon-details#">Hackathon Details</Link></li>
+                        <li><Link to="/code-of-conduct#">Code of Conduct</Link></li>
+                        <li><Link to="/good-to-know#" >Good to Know</Link></li>
+                        <li><Link to="/map#" >Map</Link></li>
                         {/* <li><Link to="/buy-ticket#">Buy Ticket</Link></li> */}
                     </ul>
                     <div className="dropdown-btn"><span className="fa fa-angle-down"></span></div>

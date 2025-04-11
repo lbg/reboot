@@ -8,15 +8,6 @@ const FeatureV1 = () => {
         <>
             <section className="features-section-two">
                 <div className="auto-container">
-                    <div className="anim-icons">
-                        <span className="icon twist-line-1"></span>
-                        <ReactWOW animation='zoomIn' delay='1000'>
-                            <span className="icon twist-line-2"></span>
-                        </ReactWOW>
-                        <ReactWOW animation='zoomIn' delay='1200'>
-                            <span className="icon twist-line-3"></span>
-                        </ReactWOW>
-                    </div>
                     <div className="row">
                         <div className="title-block col-lg-4 col-md-12 col-sm-12 wow fadeInUp">
                             <div className="inner-box">
