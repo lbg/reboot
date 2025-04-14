@@ -31,8 +31,8 @@ const AboutV1 = () => {
                                     The theme for Reboot London 2025 is <b>Modern Tech Skills needed for Now and in the Future at Lloyds. <br/>
                                     So, what are you waiting for?</b> Get ready to immerse yourself in the latest technologies, ignite your creativity, stay curious, learn something new, and most importantly, have some fun. 
                                     <div className="text" style={{paddingBottom:'5px'}}>
-                                    CTO Skills & Community Team <br/>
-                                    #EngineertheFuture
+                                    <b>CTO Skills & Community Team <br/>
+                                    #EngineertheFuture</b>
                                     </div>
                                     </div>
                                 </div>

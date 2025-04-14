@@ -13,7 +13,7 @@ const CodeOfConduct = () => {
       
                         <h2>Code of Conduct</h2>
                         <p>   
-                        At Reboot we aim to provide a friendly and supportive environment for colleagues. Please follow this Code of Conduct to ensure everyone gets the most from the day. If you see or experience inappropriate behaviour, ask respectfully for it to stop. 
+                        You are trusted to conduct yourself appropriately so we can create an environment where everyone feels safe, respected and valued. We have a zero tolerance approach towards any form of harassment. If you see or experience inappropriate behaviour, please report it to one of the Reboot Crew or a Senior Manager.
                         </p> 
                         <div className="row two-column">
                             <div className="column col-lg-6 col-md-12">

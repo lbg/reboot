@@ -16,7 +16,7 @@
         "accordionParent": "faqAccordion",
         "accordionId": "faqTwo",
         "dataTarget": "collapseTwo",
-        "ariaExpanded": "true",
+        "ariaExpanded": "false",
         "ariaControls": "collapseTwo",
         "title": "Reboot London 2025 Inclusive Briefing Pack ",
         "collapseClass": "show",
@@ -45,6 +45,6 @@
         "title": "Schedule of the day",
         "collapseClass": "",
         "ariaLabelled": "faqFour",
-        "text": "🕕 08:00: Doors Open to Hackers (& Hacker Teams Can Begin)\n🕕 08:30: General Registration Opens\n🕕 09:00: Intro and information for hackers\n🕕 09:30: Welcome Speeches & Announcements\n🕕 10:00: Tech Talks & Workshops Begin and The Hack Continues\n🕕 12:30: Lunch\n🕕 13:30: The Programme Continues\n🕕 16:20: Hack Pitches Start – Pizza Party\n🕕 17:40: Hackathon Winners Announced & Celebratory Refreshments\n🕕 18:30: Event Closes"
+        "text": "🕕 08:00: Doors Open to Hackers (& Hacker Teams Can Begin)\n🕕 08:30: General Registration Opens\n🕕 09:00: Intro and information for hackers\n🕕 09:30: Welcome Speeches & Announcements\n🕕 10:00: Tech Talks & Workshops Begin and The Hack Continues\n🕕 12:30: Lunch\n🕕 13:30: The Programme Continues\n🕕 16:20: Hack Pitches Start\n🕕 17:40: Hackathon Winners Announced & Celebratory Refreshments\n🕕 18:30: Event Closes"
     }
 ]
