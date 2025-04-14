@@ -29,16 +29,23 @@ const PriceV1 = () => {
                                 <div>
                                 <div className="btn-box" style={{paddingBottom: '20px', alignSelf: 'center', position: 'relative', left: '42%'}}><Link to="https://forms.office.com/e/pdffrPke8Q " className="theme-btn btn-style-three"><span className="btn-title">Give Feedback</span></Link></div>
                                 </div>
-                                <h2>Using Reboot as a force for good – Supporting Crisis</h2>
-                                <div className="text" style={{ paddingBottom: '10px' }}>
+                             
+    <h2>Using Reboot as a force for good – Supporting Crisis</h2>
+    <div className='column' style={{ display: 'flex', flexDirection: 'column' }}>
     <div className="text" style={{ paddingBottom: '10px' }}>
         Whilst Reboot’s focus is on tech, we know that people are the most important part of any organisation. We also know that it’s important to support the most vulnerable in society, which is where LBG’s partnership with Crisis comes in.​
     </div>
     <div className="text" style={{ paddingBottom: '10px' }}>
         CTO’s very own Antony Francis is taking on this year’s Trek Challenge. He'll be away from 22-29 November, spending 5 days in the Sahara Desert! Here's why it's so important to him.​
     </div>
-
-    <SingleTestimonialV1 testimonial={{icon: "", text : "\"Living in such a large city I see the reality of homelessness all the time, it’s shocking. I believe that we are all just a couple of mistakes away from homelessness and therefore we should all ty and prevent it – nobody should be without a home filled with love.​ I’m hoping to show everyone that we can all make a difference by raising awareness and funds, we can all end homelessness if we work together and push ourselves.\"", name: "Antony Francis" }}/>
+    <div className='row' style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', paddingTop:'20px' }}>
+        <div style={{ flex: '1 1 50%' }}>
+            <SingleTestimonialV1 testimonial={{icon: "/images/AF-Crisis.jpg", text : "\"Living in such a large city I see the reality of homelessness all the time, it’s shocking. I believe that we are all just a couple of mistakes away from homelessness and therefore we should all try and prevent it – nobody should be without a home filled with love.​ I’m hoping to show everyone that we can all make a difference by raising awareness and funds, we can all end homelessness if we work together and push ourselves.\"", name: "Antony Francis" }}/>
+        </div>
+        <div style={{ flex: '1 1 0%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <img src='/images/afCrisis.jpg' alt="testimonial icon" style={{ height: '200px', maxWidth: '100%' }}/>
+        </div>
+    </div>
     <div className="text" style={{ paddingBottom: '10px' }}>
         Please help Anthony to end the crisis of homelessness by donating whatever you can. ​
     </div>

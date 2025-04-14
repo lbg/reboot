@@ -4,18 +4,18 @@ import BreadCrumb from '../../components/breadCrumb/BreadCrumb';
 import FooterV1 from '../../components/footer/FooterV1';
 import PDFView from '../../components/pdf/PDFView';
 
-const Map = () => {
+const Brochure = () => {
     return (
         <>
             <div className="page-wrapper">
                 <span className="header-span"></span>
-                <HeaderV1 headerStyle="header-style-two" parentMenu='map' />
-                <BreadCrumb title="map" breadCrumb="Map" />
-                <PDFView pdfFile='/images/Reboot_LDN_2025_Map.pdf'/>
+                <HeaderV1 headerStyle="header-style-two" parentMenu='Brochure' />
+                <BreadCrumb title="brochure" breadCrumb="Brochure" />
+                <PDFView pdfFile='/images/testMap.pdf'/>
                 <FooterV1 />
             </div>
         </>
     );
 };
 
-export default Map;
+export default Brochure;
