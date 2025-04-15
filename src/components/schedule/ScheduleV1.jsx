@@ -4,6 +4,7 @@ import ScheduleV1Data from '../../jsonData/schedule/ScheduleV1Data.json'
 import ScheduleList from './ScheduleList';
 import ReactWOW from 'react-wow';
 import { HashLink as Link } from 'react-router-hash-link'
+import ReactMarkdown from 'react-markdown'
 
 const ScheduleV1 = () => {
     return (
@@ -18,6 +19,7 @@ const ScheduleV1 = () => {
                     </ReactWOW> */}
                 </div>
                 <div className="auto-container">
+                <div className="text"><h5 style={{paddingBottom:'3rem', textAlign:'center'}}>We are committed to developing a skills-based organisation. Each talk or workshop is designed to focus on a critical skill, which is highlighted in the description in bold.</h5></div>
                     <div className="schedule-tabs tabs-box ">
                         <div className="btns-box">
                             <ul className="tab-buttons clearfix nav nav-tabs">
@@ -47,7 +49,7 @@ const ScheduleV1 = () => {
                                                                     <span className="designation">{block.designation}</span>
                                                                 </div>
                                                                 <h4>{block.title}</h4>
-                                                                <div className="text">{block.text}</div>
+                                                                <div className="text"><ReactMarkdown>{block.text}</ReactMarkdown></div>
                                                         
                                                             </div>
                                                         </div>

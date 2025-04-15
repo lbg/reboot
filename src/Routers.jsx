@@ -8,6 +8,7 @@ import EventDetails from './pages/innerPages/EventDetails';
 import ErrorPage from './pages/innerPages/ErrorPage';
 import Map from './pages/innerPages/Map'
 import CodeOfConductPage from './pages/innerPages/CodeOfConduct';
+import Brochure from './pages/innerPages/Brochure';
 
 const Routers = () => {
     return (
@@ -20,6 +21,7 @@ const Routers = () => {
                 <Route path='/hackathon-details' element={<EventDetails />}></Route>
                 <Route path='/code-of-conduct' element={<CodeOfConductPage/>}></Route>
                 <Route path='/map' element={<Map/>}></Route>
+                <Route path='/brochure' element={<Brochure/>}></Route>
                 <Route path='*' element={<ErrorPage />}></Route>
             </Routes>
         </>
