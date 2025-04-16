@@ -87,13 +87,13 @@ const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, pa
                         <div className="logo-box">
                             {whiteLogo ?
                                 <>
-                                    <div className="logo"><Link to="/#"><img src="/images/Reboot-London-Logo.png" 
+                                    <div className="logo"><Link to="/reboot/"><img src="/images/Reboot-London-Logo.png" 
                                     alt="image" height="100" width="100" /></Link></
                                     
                                     div>
                                 </>
                                 : <>
-                                <div className="logo"><Link to="/#"><img src="/images/Reboot-London-Logo.png" 
+                                <div className="logo"><Link to="/reboot/"><img src="/images/Reboot-London-Logo.png" 
                                     alt="image" height="50" width="50" /></Link></div>
                                 </>}
                         </div>
