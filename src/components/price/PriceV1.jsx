@@ -40,7 +40,7 @@ const PriceV1 = () => {
     </div>
     <div className='row' style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', paddingTop:'20px' }}>
         <div style={{ flex: '1 1 50%' }}>
-            <SingleTestimonialV1 testimonial={{icon: "/images/AF-Crisis.jpg", text : "\"Living in such a large city I see the reality of homelessness all the time, it’s shocking. I believe that we are all just a couple of mistakes away from homelessness and therefore we should all try and prevent it – nobody should be without a home filled with love.​ I’m hoping to show everyone that we can all make a difference by raising awareness and funds, we can all end homelessness if we work together and push ourselves.\"", name: "Antony Francis" }}/>
+            <SingleTestimonialV1 testimonial={{icon: "../images/AF-Crisis.jpg", text : "\"Living in such a large city I see the reality of homelessness all the time, it’s shocking. I believe that we are all just a couple of mistakes away from homelessness and therefore we should all try and prevent it – nobody should be without a home filled with love.​ I’m hoping to show everyone that we can all make a difference by raising awareness and funds, we can all end homelessness if we work together and push ourselves.\"", name: "Antony Francis" }}/>
         </div>
         <div style={{ flex: '1 1 0%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img src='/images/afCrisis.jpg' alt="testimonial icon" style={{ height: '200px', maxWidth: '100%' }}/>

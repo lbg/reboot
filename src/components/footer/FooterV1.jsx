@@ -17,7 +17,7 @@ const FooterV1 = () => {
     //                                 <div className="footer-column col-xl-7 col-lg-6 col-md-6 col-sm-12">
     //                                     <div className="footer-widget about-widget">
     //                                         <div className="logo">
-    //                                             <Link to="/#"><img src="/images/logo.png" alt="image" /></Link>
+    //                                             <Link to="/#"><img src="../images/logo.png" alt="image" /></Link>
     //                                         </div>
     //                                         <div className="text">
     //                                             <p>We have very good strength in innovative technology and tools with over 35 years of experience. We makes long-term investments goal in global companies in different sectors, mainly in Europe, America and other countries.</p>
