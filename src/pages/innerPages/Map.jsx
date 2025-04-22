@@ -11,7 +11,7 @@ const Map = () => {
                 <span className="header-span"></span>
                 <HeaderV1 headerStyle="header-style-two" parentMenu='map' />
                 <BreadCrumb title="map" breadCrumb="Map" />
-                <PDFView pdfFile='../reboot/images_LDN_2025_Map.pdf'/>
+                <PDFView pdfFile='../reboot/images/Reboot_LDN_2025_Map.pdf'/>
                 <FooterV1 />
             </div>
         </>

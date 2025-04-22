@@ -18,7 +18,7 @@
     {
         "id": 3,
         "icon": "icon_chat",
-        "end": 18,
+        "end": 20,
         "info": "Talks",
         "animation": "fadeInUp",
         "delay": 800
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "icon": "icon_tools",
-        "end": 8,
+        "end": 6,
         "info": "Workshops",
         "animation": "fadeInUp",
         "delay": 1200

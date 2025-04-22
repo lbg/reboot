@@ -38,7 +38,7 @@ Teams will be shortlisted and assessed on several criteria, including how well t
                                 <h4>Challenge One</h4>
                                 <ul className="list-style-two">
                                     <li><b>Challenge information:</b></li>
-                                    <li>To be added closer to event!</li>
+                                    <li>Create a solution to help colleagues to become excited customers who want to know and share info about LBG products and services, and can find what suits their needs.</li>
                                     <li><b>Sponsor</b></li>
                                     <li>Nicky Elford, P&P​</li>
                                 </ul>
@@ -47,7 +47,7 @@ Teams will be shortlisted and assessed on several criteria, including how well t
                                 <h4>Challenge Two</h4>
                                 <ul className="list-style-two">
                                     <li><b>Challenge information:</b></li>
-                                    <li>To be added closer to event!</li>
+                                    <li>Create a solution to support young adults on their journey to independence as they experience new challenges and anxieties about their future​.</li>
                                     <li><b>Sponsor</b></li>
                                     <li>Rose St Louis, IP&I Protection Platform BPL, and Bea Schofield CTO Innovation.​</li>
                                 </ul>
