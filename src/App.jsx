@@ -38,7 +38,7 @@ function App() {
         <div className='app-wrapper'>
           <Helmet>
             <title>Reboot London Online Brochure</title>
-            <link rel="shortcut icon" href="../images/Reboot.png"></link>
+            <link rel="shortcut icon" href="../reboot/images.png"></link>
           </Helmet>
           <Routers />
           <ToastContainer />

@@ -11,7 +11,7 @@ const SingleScheduleBlock = ({ block }) => {
                     <div className="inner">
                         <div className="date">{sessionStart} <br /> {sessionEnd}</div>
                         <div className="speaker-info">
-                            <figure className="thumb"><img src={`../images/resource/${speakerThumb}`} alt="image" /></figure>
+                            <figure className="thumb"><img src={`../reboot/images/resource/${speakerThumb}`} alt="image" /></figure>
                             <h5 className="name">{name}</h5>
                             <span className="designation">{designation}</span>
                         </div>

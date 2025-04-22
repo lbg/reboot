@@ -21,9 +21,9 @@ const FooterV2 = ({ hasIcon = false, footerStyle, darkLogo = false }) => {
                 <div className="auto-container">
                     <div className="footer-content">
                         {darkLogo ?
-                            <><div className="footer-logo"><Link to="/#"><img src="../images/logo-2.png" alt="image" /></Link></div></>
+                            <><div className="footer-logo"><Link to="/#"><img src="../reboot/images/logo-2.png" alt="image" /></Link></div></>
                             :
-                            <><div className="footer-logo"><Link to="/#"><img src="../images/logo.png" alt="image" /></Link></div></>
+                            <><div className="footer-logo"><Link to="/#"><img src="../reboot/images/logo.png" alt="image" /></Link></div></>
                         }
                         <ul className="footer-nav">
                             <li><Link to="/#">Home</Link></li>

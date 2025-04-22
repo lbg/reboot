@@ -25,7 +25,7 @@ const BannerV2 = () => {
                         <div
                             data-depth={bannerIcon.dataDepth}
                             className={`parallax-layer ${bannerIcon.iconClass}`}
-                            style={{ backgroundImage: `url(../images/icons/${bannerIcon.icon})` }}
+                            style={{ backgroundImage: `url(../reboot/images/icons/${bannerIcon.icon})` }}
                             key={bannerIcon.id}>
                         </div>
                     )}
@@ -34,7 +34,7 @@ const BannerV2 = () => {
                     <div className="gradient-layer"></div>
                 </div>
                 <div className="images-outer">
-                    <figure className="speaker-img"><img src="../images/main-slider/speaker.png" alt="image" /></figure>
+                    <figure className="speaker-img"><img src="../reboot/images/main-slider/speaker.png" alt="image" /></figure>
                 </div>
                 <div className="anim-icons full-width">
                     <ReactWOW animation='zoomIn'>

@@ -8,7 +8,7 @@ const SingleBlogComment = ({ comment }) => {
         <>
             <div className="comment-box">
                 <div className="comment">
-                    <div className="author-thumb"><img src={`../images/resource/${authorThumb}`} alt="image" /></div>
+                    <div className="author-thumb"><img src={`../reboot/images/resource/${authorThumb}`} alt="image" /></div>
                     <div className="comment-info">
                         <div className="name">{name}</div> -
                         <div className="date">{designation}</div>

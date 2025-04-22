@@ -41,7 +41,7 @@ const AboutV2 = () => {
                         </div>
                         <div className="image-column col-lg-6 col-md-12 col-sm-12">
                             <div className="image-box">
-                                <figure className="image wow fadeIn"><img src="../images/resource/about-img-2.jpg" alt="image" /></figure>
+                                <figure className="image wow fadeIn"><img src="../reboot/images/resource/about-img-2.jpg" alt="image" /></figure>
                             </div>
                         </div>
                     </div>

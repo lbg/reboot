@@ -8,7 +8,7 @@ const SingleBlogGrid = ({ blog }) => {
         <>
             <div className="inner-box">
                 <div className="image-box">
-                    <figure className="image"><Link to={`/blog-single/${id}#`}><img src={`../images/resource/${thumb}`} alt="image" /></Link></figure>
+                    <figure className="image"><Link to={`/blog-single/${id}#`}><img src={`../reboot/images/resource/${thumb}`} alt="image" /></Link></figure>
                 </div>
                 <div className="lower-content">
                     <ul className="post-info">

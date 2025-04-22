@@ -38,7 +38,7 @@ const BannerV5 = () => {
                         <div
                             data-depth={bannerIcon.dataDepth}
                             className={`parallax-layer ${bannerIcon.iconClass}`}
-                            style={{ backgroundImage: `url(../images/icons/${bannerIcon.icon})` }}
+                            style={{ backgroundImage: `url(../reboot/images/icons/${bannerIcon.icon})` }}
                             key={bannerIcon.id}>
                         </div>
                     )}

@@ -11,7 +11,7 @@ const SpeakerInfo = ({ speakerInfo }) => {
                     <div className="row">
                         <div className="image-column col-lg-4 col-md-12 col-sm-12">
                             <div className="image-box">
-                                <figure className="image"><img src={`../images/resource/${thumb}`} alt="image" /></figure>
+                                <figure className="image"><img src={`../reboot/images/resource/${thumb}`} alt="image" /></figure>
                                 <ul className="social-icon-two social-icon-colored text-center">
                                     <SocialShare />
                                 </ul>

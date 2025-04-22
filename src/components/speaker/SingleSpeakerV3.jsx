@@ -9,7 +9,7 @@ const SingleSpeakerV3 = ({ speaker }) => {
         <>
             <div className="inner-box">
                 <div className="image-box">
-                    <figure className="image"><Link to={`/speakers-detail/${id}#`}><img src={`../images/resource/${thumb}`} alt="images" /></Link></figure>
+                    <figure className="image"><Link to={`/speakers-detail/${id}#`}><img src={`../reboot/images/resource/${thumb}`} alt="images" /></Link></figure>
                 </div>
                 <div className="info-box">
                     <h4 className="name"><Link to={`/speakers-detail/${id}#`}>{name}</Link></h4>

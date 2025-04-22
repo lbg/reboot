@@ -11,7 +11,7 @@ const Brochure = () => {
                 <span className="header-span"></span>
                 <HeaderV1 headerStyle="header-style-two" parentMenu='Brochure' />
                 <BreadCrumb title="brochure" breadCrumb="Brochure" />
-                <PDFView pdfFile='../images/testMap.pdf'/>
+                <PDFView pdfFile='../reboot/images/testMap.pdf'/>
                 <FooterV1 />
             </div>
         </>

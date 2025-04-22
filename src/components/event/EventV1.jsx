@@ -11,7 +11,7 @@ const EventV1 = () => {
                             <EventInfo />
                         </div>
                         <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                            <figure className="image"><img src="../images/icons/map-4.png" alt="image" /></figure>
+                            <figure className="image"><img src="../reboot/images/icons/map-4.png" alt="image" /></figure>
                         </div>
                     </div>
                 </div>

@@ -28,7 +28,7 @@ const ComingSoonContent = () => {
                 </div>
                 <div className="auto-container">
                     <div className="content">
-                        <div className="logo"><Link to="/#"><img src="../images/logo-2.png" alt="image" /></Link></div>
+                        <div className="logo"><Link to="/#"><img src="../reboot/images/logo-2.png" alt="image" /></Link></div>
                         <h1>Coming Soon</h1>
                         <div className="text">We are currently working on an awesome new site. Stay tuned for more information.<br /> Subscribe to our newsletter to stay updated on our progress</div>
                         <div className="timer">

@@ -17,9 +17,9 @@ const FluidV1 = () => {
                             <div className="btn-box"><Link to="/buy-ticket#" className="theme-btn btn-style-four"><span className="btn-title">Buy Ticket</span></Link></div>
                         </div>
                     </div>
-                    <div className="image-column" style={{ backgroundImage: "url(../images/resource//image-1.jpg)" }}>
+                    <div className="image-column" style={{ backgroundImage: "url(../reboot/images/resource//image-1.jpg)" }}>
                         <div className="image-box">
-                            <figure className="image"><img src="../images/resource/image-1.jpg" alt="image" /></figure>
+                            <figure className="image"><img src="../reboot/images/resource/image-1.jpg" alt="image" /></figure>
                         </div>
                     </div>
                 </div>

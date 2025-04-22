@@ -31,7 +31,7 @@ const ScheduleV3 = () => {
                                                     <div className="inner">
                                                         <div className="date">{block.sessionStart} - {block.sessionEnd}</div>
                                                         <div className="speaker-info">
-                                                            <figure className="thumb"><img src={`../images/resource/${block.speakerThumb}`} alt="image" /></figure>
+                                                            <figure className="thumb"><img src={`../reboot/images/resource/${block.speakerThumb}`} alt="image" /></figure>
                                                             <h5 className="name">{block.name}</h5>
                                                             <span className="designation">{block.designation}</span>
                                                         </div>

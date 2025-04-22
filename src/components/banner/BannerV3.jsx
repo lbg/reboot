@@ -8,7 +8,7 @@ const BannerV3 = () => {
     return (
         <>
             <section className="banner-meetup">
-                <div className="bg-pattern" style={{ backgroundImage: "url(../images/main-slider/9.jpg)" }}></div>
+                <div className="bg-pattern" style={{ backgroundImage: "url(../reboot/images/main-slider/9.jpg)" }}></div>
                 <div className="layer-outer">
                     <div className="gradient-layer"></div>
                 </div>

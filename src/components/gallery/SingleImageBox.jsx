@@ -8,12 +8,12 @@ const SingleImageBox = ({ gallery }) => {
     return (
         <>
             <div className="image-box">
-                <figure className="image"><img src={`../images/gallery/${thumb}`} alt="image" /></figure>
+                <figure className="image"><img src={`../reboot/images/gallery/${thumb}`} alt="image" /></figure>
                 <div className="overlay-box">
                     <Link className="lightbox-image">
                         <Item
-                            original={`../images/gallery/${thumb}`}
-                            thumbnail={`../images/gallery/${thumb}`}
+                            original={`../reboot/images/gallery/${thumb}`}
+                            thumbnail={`../reboot/images/gallery/${thumb}`}
                             width="370"
                             height="370"
                         >

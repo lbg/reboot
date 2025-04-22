@@ -4,7 +4,7 @@ import BannerV4Data from '../../jsonData/banner/BannerV4Data.json'
 const BannerV4 = () => {
     return (
         <>
-            <section className="banner-section-two" style={{ backgroundImage: "url(../images/background/11.jpg)" }}>
+            <section className="banner-section-two" style={{ backgroundImage: "url(../reboot/images/background/11.jpg)" }}>
                 <div className="auto-container">
                     <div className="outer-container">
                         <div className="content">
