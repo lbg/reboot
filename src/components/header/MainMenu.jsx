@@ -6,7 +6,6 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
         <>
             <ul className="navigation clearfix">
                 <li className={`dropdown ${parentMenu === 'home' ? 'current' : ''} `}>
-                    <Link to={'/reboot/'} onClick={toggleMenu}>Home</Link>
                     {/* <ul className='sub-menu'> */}
                         {/* { <li><Link to="/#">Home Classic</Link></li>} */}
                         {/* <li><Link to="/home-2#">Home Conference</Link></li> */}
@@ -54,7 +53,6 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
                         <li><Link to="/reboot/code-of-conduct#">Code of Conduct</Link></li>
                         <li><Link to="/reboot/good-to-know#" >Good to Know</Link></li>
                         <li><Link to="/reboot/map#" >Map</Link></li>
-                        <li><Link to="/reboot/brochure#" >Brochure</Link></li>
                         {/* <li><Link to="/buy-ticket#">Buy Ticket</Link></li> */}
                     </ul>
                     <div className="dropdown-btn"><span className="fa fa-angle-down"></span></div>

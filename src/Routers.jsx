@@ -21,7 +21,6 @@ const Routers = () => {
                 <Route path='/reboot/hackathon-details' element={<EventDetails />}></Route>
                 <Route path='/reboot/code-of-conduct' element={<CodeOfConductPage/>}></Route>
                 <Route path='/reboot/map' element={<Map/>}></Route>
-                <Route path='/reboot/brochure' element={<Brochure/>}></Route>
                 <Route path='/reboot/*' element={<ErrorPage />}></Route>
             </Routes>
         </>

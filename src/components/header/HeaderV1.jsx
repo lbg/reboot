@@ -120,7 +120,7 @@ const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, pa
                         <div className="menu-backdrop" ></div>
                         <div className="close-btn"><span className="icon flaticon-cancel-1"></span></div>
                         <nav className="menu-box">
-                            <div className="nav-logo"><Link to="/#"><img src="../reboot/images Badge.png" alt="image" /></Link></div>
+                            <div className="nav-logo"><Link to="/reboot/"><img src="../reboot/images/Reboot-London-Logo.png" alt="image" /></Link></div>
                             <MainMenu toggleMultiMenu={toggleMultiMenu} toggleMenu={toggleMenu} parentMenu={parentMenu} />
                         </nav>
                         <div className="close-btn" onClick={handleCloseMenu} ><span className="icon flaticon-cancel-music"></span></div>
