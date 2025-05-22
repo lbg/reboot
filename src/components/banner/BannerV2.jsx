@@ -6,7 +6,7 @@ import Parallax from 'parallax-js';
 import TimeV1 from '../counter/TimeV1';
 
 const BannerV2 = () => {
-    const time = new Date("Nov 07 2025")
+    const time = new Date("Jun 10 2025")
 
     const sceneRef = useRef(null);
 
@@ -46,7 +46,7 @@ const BannerV2 = () => {
                 </div>
                 <div className="auto-container">
                     <div className="content-box">
-                        <span className="title">January 20, 2023</span>
+                        <span className="title">June 10, 2025</span>
                         <h2> Reboot London Hackathon <br />Conference 2023</h2>
                         <div className="time-counter">
                             <TimeV1 expiryTimestamp={time} />

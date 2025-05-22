@@ -2,25 +2,25 @@
     {
         "id": 1,
         "thumb": "1.jpg",
-        "subTitle": "April 24, 2025",
+        "subTitle": "June 10, 2025",
         "title1": "Welcome to",
-        "title2": "Reboot London 2025",
+        "title2": "Reboot Local: Manchester 2025",
         "list1": "20 Talks",
         "list2": "6 Workshops",
-        "list3": "1 Hackathon"
-
+        "list3": "Portland Street, M1 1RG"
+    
         
     },
 
     {
         "id": 2,
         "thumb": "2.jpg",
-        "subTitle": "April 24, 2025",
+        "subTitle": "June 10, 2025",
         "title1": "Wecome to",
-        "title2": "Reboot London 2025",
+        "title2": "Reboot Local: Manchester 2025",
         "list1": "20 Talks",
         "list2": "6 Workshops",
-        "list3": "1 Hackathon"
-
+        "list3": "Portland Street, M1 1RG"
+        
     }
 ]

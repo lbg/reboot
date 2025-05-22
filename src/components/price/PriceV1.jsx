@@ -24,7 +24,7 @@ const PriceV1 = () => {
                                 {/* <span className="title">ABOUT EVENT</span> */}
                                 <h2>We want to hear your thoughts ​</h2>
                                 <div className="text" style={{ paddingBottom: '10px' }}>
-                                Thank you for joining us at Reboot London 2025. We want to hear about your experience of the day. Please take a few minutes to share your honest thoughts with us. 
+                                Thank you for joining us at Reboot Manchester 2025. We want to hear about your experience of the day. Please take a few minutes to share your honest thoughts with us. 
                                 </div>
                                 <div>
                                 <div className="btn-box" style={{paddingBottom: '20px', alignSelf: 'center', position: 'relative', left: '42%'}}><Link to="https://forms.office.com/e/pdffrPke8Q " className="theme-btn btn-style-three"><span className="btn-title">Give Feedback</span></Link></div>

@@ -24,7 +24,7 @@ const Home1 = () => {
                 <ComingSoonV1 />
                 <AboutV1/>
                 <FeatureV1 />
-                <FactV1 />
+                {/*<FactV1 />*/}
                 {/* <ScheduleV1 /> */}
                 <PriceV1 />
                 <VideoV1 />

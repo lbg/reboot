@@ -5,7 +5,8 @@
         "title": "Reboot Talks",
         "text": "We have an array of engaging and educational tech discussions planned for your enjoyment.",
         "animation": "fadeInUp",
-        "delay": 0
+        "delay": 0, 
+        "path": "/reboot/schedule"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "title": "Reboot Works",
         "text": "We will be running workshops throughout the day, providing you with the opportunity to get hands-on with technology.",
         "animation": "fadeInUp",
-        "delay": 0
+        "delay": 0,
+        "path": "/reboot/schedule"
     },
     {
         "id": 3,
@@ -21,22 +23,7 @@
         "title": "Wellbeing Room",
         "text": "For Reboot London, we are reintroducing Wellbeing sessions, which will take place in the boardroom.",
         "animation": "fadeInUp",
-        "delay": 400
-    },
-    {
-        "id": 4,
-        "icon": "icon flaticon-group",
-        "title": "Speed Mentoring",
-        "text": "We've got 6 sessions for colleagues to meet mentors in the following 2 areas - Coding and Data Visualization​",
-        "animation": "fadeInUp",
-        "delay": 800
-    },
-    {
-        "id": 5,
-        "icon": "icon flaticon-rocket-ship",
-        "title": "Hackathon",
-        "text": "204 competitors taking part in our Hackathon, competing for a selection of prizes against two business challenges.",
-        "animation": "fadeInUp",
-        "delay": 1200
+        "delay": 400,
+        "path": "/reboot/schedule"
     }
 ]

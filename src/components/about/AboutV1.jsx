@@ -21,14 +21,14 @@ const AboutV1 = () => {
                             <div className="inner-column">
                                 <div className="sec-title">
                                     {/* <span className="title">ABOUT EVENT</span> */}
-                                    <h2>Welcome to Reboot London 2025</h2>
+                                    <h2>Welcome to Reboot Local: Manchester 2025</h2>
                                     <div className="text" style={{paddingBottom:'10px'}}>Thank you for joining us for Reboot London 2025! The Chief Technology Office is thrilled to have you here and extend a warm welcome to all of you.</div>
                                     <div className="text">Today's event promises to be a key moment in your 2025 learning calendar. Our action-packed ‘Reboot Experience’ schedule includes informative tech talks, panel discussions, hands-on workshops. interact with a variety of our suppliers, partners, and areas of the Group at exhibition stalls around the event - all providing ideas for you to explore and learn. We also have 204 competitors taking part in our Hackathon, competing for a selection of prizes against two business challenges.
                                     </div>
 
-                                    <h2>Reboot London 2025 Theme: </h2>
+                                    <h2>Reboot Local: Manchester 2025 Theme: </h2>
                                     <div className="text" style={{paddingBottom:'10px'}}> 
-                                    The theme for Reboot London 2025 is <b>Modern Tech Skills needed for Now and in the Future at Lloyds. <br/>
+                                    The theme for Reboot Local: Manchester 2025 is <b>Modern Tech Skills needed for Now and in the Future at Lloyds. <br/>
                                     So, what are you waiting for?</b> Get ready to immerse yourself in the latest technologies, ignite your creativity, stay curious, learn something new, and most importantly, have some fun. 
                                     <div className="text" style={{paddingBottom:'5px'}}>
                                     <b>CTO Skills & Community Team <br/>
