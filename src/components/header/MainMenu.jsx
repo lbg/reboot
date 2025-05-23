@@ -27,7 +27,7 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
                     <div className="dropdown-btn"><span className="fa fa-angle-down"></span></div>
                 </li>
                 
-                <li className={`dropdown ${parentMenu === 'home' ? 'current' : ''}`}>
+                <li className={`dropdown open ${parentMenu === 'home' ? 'current' : ''}`}>
                  <Link to={void (0)} onClick={toggleMenu}>More Details</Link>
                         <ul className='sub-menu'>
                         <li><Link to="/reboot/">Home</Link></li>

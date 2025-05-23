@@ -9,7 +9,7 @@
         "title": "Catering Information",
         "collapseClass": "",
         "ariaLabelled": "faqOne",
-        "text": "☕ Refreshments, Tea & Coffee will be available on arrival and throughout the day.\n🥪 Lunch will be available between 12:30 - 13:30.\nYou will also have an opportunity to network.\nWe will cater for those with specific food allergies and/or requirements.\n🍕 Refreshments will be available after the event."
+        "text": "☕ Snacks and refreshments will be provided throughout the day as opposed to a lunch service. Dietary requirements will be accounted for and allergen information will be made available. It is your responsibility to check this with catering staff."
     },
     {
         "id": 2,
@@ -18,10 +18,10 @@
         "dataTarget": "collapseTwo",
         "ariaExpanded": "false",
         "ariaControls": "collapseTwo",
-        "title": "Reboot London 2025 Inclusive Briefing Pack ",
+        "title": "Inclusive Briefing Pack ",
         "collapseClass": "",
         "ariaLabelled": "faqTwo",
-        "text": "We have prepared a Reboot London Inclusive Briefing Pack which describes what you will experience at the event and includes accessibility information.\nA copy is stored on the Reboot London event SharePoint site and some printed copies are available at reception."
+        "text": "We have prepared a Reboot Local Manchester Inclusive Briefing Pack which describes what you will experience at the event and includes accessibility information. A copy is stored on the Reboot Local Manchester event SharePoint site and some printed copies are available if you speak to a member of the Reboot Crew. "
     },
     {
         "id": 3,
@@ -45,6 +45,6 @@
         "title": "Schedule of the day",
         "collapseClass": "",
         "ariaLabelled": "faqFour",
-        "text": "🕕 08:00: Doors Open to Hackers (& Hacker Teams Can Begin)\n🕕 08:30: General Registration Opens\n🕕 09:00: Intro and information for hackers\n🕕 09:30: Welcome Speeches & Announcements\n🕕 10:00: Tech Talks & Workshops Begin and The Hack Continues\n🕕 12:30: Lunch\n🕕 13:30: The Programme Continues\n🕕 16:20: Hack Pitches Start\n🕕 17:40: Hackathon Winners Announced & Celebratory Refreshments\n🕕 18:30: Event Closes"
+        "text": "🕕 09:30: Event & Stalls Open\n🕕 10:00: Tech Talks & Workshops Begin\n🕕 12:30: Lunch Break\n🕕 13:30: The Programme Continues\n🕕 16:00: Talks & Stalls Close\n🕕 16:20: Workshops Finish - Event Closes"
     }
 ]

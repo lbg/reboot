@@ -22,14 +22,11 @@ const AboutV1 = () => {
                                 <div className="sec-title">
                                     {/* <span className="title">ABOUT EVENT</span> */}
                                     <h2>Welcome to Reboot Local: Manchester 2025</h2>
-                                    <div className="text" style={{paddingBottom:'10px'}}>Thank you for joining us for Reboot London 2025! The Chief Technology Office is thrilled to have you here and extend a warm welcome to all of you.</div>
-                                    <div className="text">Today's event promises to be a key moment in your 2025 learning calendar. Our action-packed ‘Reboot Experience’ schedule includes informative tech talks, panel discussions, hands-on workshops. interact with a variety of our suppliers, partners, and areas of the Group at exhibition stalls around the event - all providing ideas for you to explore and learn. We also have 204 competitors taking part in our Hackathon, competing for a selection of prizes against two business challenges.
-                                    </div>
+                                    <div className="text" style={{paddingBottom:'10px'}}>We're thrilled to have you join us for todays event.  Get ready for an exciting tech adventure with CTO Skills & Community's Reboot Local: Manchester.</div>
+                                    <div className="text">This event is a perfect opportunity to connect with the local tech community, collaborate with fellow tech enthusiasts, and learn in a friendly, feel-good environment.</div>
 
-                                    <h2>Reboot Local: Manchester 2025 Theme: </h2>
-                                    <div className="text" style={{paddingBottom:'10px'}}> 
-                                    The theme for Reboot Local: Manchester 2025 is <b>Modern Tech Skills needed for Now and in the Future at Lloyds. <br/>
-                                    So, what are you waiting for?</b> Get ready to immerse yourself in the latest technologies, ignite your creativity, stay curious, learn something new, and most importantly, have some fun. 
+                                    <div className="text" style={{paddingBottom:'10px'}}>Whether you're a coding wizard or just tech-curious, this event has something for everyone! Engage in hands-on experiments, participate in collaborative discussions, and explore learning opportunities in the latest bank tech. We’ll also be hosting a wellbeing room. </div>
+
                                     <div className="text" style={{paddingBottom:'5px'}}>
                                     <b>CTO Skills & Community Team <br/>
                                     #EngineertheFuture</b>
@@ -43,17 +40,7 @@ const AboutV1 = () => {
                                     )}
                                 </ul>
         
-                                {/* <div className="btn-box"><Link to="/contact#" className="theme-btn btn-style-three"><span className="btn-title">Register Now</span></Link></div> */}
-                            </div>
-                       
-                        {/* <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                            <div className="image-box">
-                                <ReactWOW >
-                                    <figure className="image"><img src="../images/resource/about-img-1.jpg" alt="image" /></figure>
-                                </ReactWOW>
-                            </div>
-                        </div> */}
-                    </div>
+                                </div>
                 </div>
             </section>
         </>
