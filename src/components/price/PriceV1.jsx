@@ -27,8 +27,11 @@ const PriceV1 = () => {
                                 Thank you for joining us at Reboot Manchester 2025. We want to hear about your experience of the day. Please take a few minutes to share your honest thoughts with us. 
                                 </div>
                                 <div>
-                                <div className="btn-box" style={{paddingBottom: '20px', alignSelf: 'center', position: 'relative', left: '42%'}}><Link to="https://forms.office.com/e/pdffrPke8Q " className="theme-btn btn-style-three"><span className="btn-title">Give Feedback</span></Link></div>
+                                <div className="btn-box" style={{paddingBottom: '20px', alignSelf: 'center', position: 'relative', left: '42%'}}>
+                                <Link to="https://forms.office.com/e/pdffrPke8Q " className="theme-btn btn-style-three" target="_blank">
+                                <span className="btn-title">Give Feedback</span></Link></div>
                                 </div>
+                            
                              
     <h2>Using Reboot as a force for good – Supporting Crisis</h2>
     <div className='column' style={{ display: 'flex', flexDirection: 'column' }}>
@@ -50,7 +53,8 @@ const PriceV1 = () => {
         Please help Anthony to end the crisis of homelessness by donating whatever you can. ​
     </div>
     <div>
-    <div className="btn-box-two" style={{paddingBottom: '20px', alignSelf: 'center', position: 'relative', left: '45%' }}><Link to="https://i.paydit.io/to/lloyds-coty-crisis/Anthony%20Francis%20Morocco%20?pq=dgH2qE0G0yy6uRFcfo2BhN1awDsPOLbAcC7C9N0hgjHoNRQcEF0ho4c6wdtwzzdozU52pQwtendtlnYMMBqmBgWZnIuOHNUco0YBcS85FyEZ5aTlUPOZcVmprD0795hX" className="theme-btn btn-style-three"><span className="btn-title">Donate</span></Link></div>
+    <div className="btn-box-two" style={{paddingBottom: '20px', alignSelf: 'center', position: 'relative', left: '45%' }}>
+        <Link to="https://i.paydit.io/to/lloyds-coty-crisis/Anthony%20Francis%20Morocco%20?pq=dgH2qE0G0yy6uRFcfo2BhN1awDsPOLbAcC7C9N0hgjHoNRQcEF0ho4c6wdtwzzdozU52pQwtendtlnYMMBqmBgWZnIuOHNUco0YBcS85FyEZ5aTlUPOZcVmprD0795hX" className="theme-btn btn-style-three" target="_blank"><span className="btn-title">Donate</span></Link></div>
     </div>
                                 
 </div>

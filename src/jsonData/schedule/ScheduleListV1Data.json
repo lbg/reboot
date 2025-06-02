@@ -5,8 +5,8 @@
         "dataTarget": "#tab-1",
         "day": "Reboot Talks",
         "date": "1",
-        "month": "Hardwick",
-        "year": "Hub"
+        "month": "Panorama",
+        "year": "Suite"
     },
     {
         "id": 2,
@@ -14,8 +14,8 @@
         "dataTarget": "#tab-2",
         "day": "Reboot Talks",
         "date": "02",
-        "month": "Grand",
-        "year": "Hall 1"
+        "month": "Survey",
+        "year": "Room"
     },
     {
         "id": 3,
@@ -23,17 +23,17 @@
         "dataTarget":"#tab-3" ,
         "day": "Reboot Talks",
         "date": "03",
-        "month": "Board",
+        "month": "Point View",
         "year": "Room"
     },
     {
         "id": 4,
         "listClass": "",
-        "dataTarget": "#tab-4",
-        "day": "Reboot Works",
-        "date": "04",
-        "month": "Doddington",
-        "year": "Forum 1"
+        "dataTarget":"#tab-4" ,
+        "day": "Reboot Talks",
+        "date": "03",
+        "month": "Admire",
+        "year": "Room"
     },
     {
         "id": 5,
@@ -41,16 +41,17 @@
         "dataTarget": "#tab-5",
         "day": "Reboot Works",
         "date": "04",
-        "month": "Doddington",
-        "year": "Forum 2"
+        "month": "Light",
+        "year": "Room"
     },
     {
         "id": 6,
         "listClass": "",
         "dataTarget": "#tab-6",
-        "day": "Speed Mentoring",
+        "day": "Reboot Works",
         "date": "04",
-        "month": "Doddington",
-        "year": "Forum 1 & 2"
+        "month": "Outlook",
+        "year": "Room"
+        
     }
 ]

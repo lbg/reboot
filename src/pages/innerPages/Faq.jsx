@@ -10,7 +10,7 @@ const Faq = () => {
         <>
             <div className="page-wrapper">
                 <span className="header-span"></span>
-                <HeaderV1 headerStyle="header-style-two" parentMenu='home' />
+                <HeaderV1 headerStyle="header-style-two" parentMenu='Home' />
                 <BreadCrumb title="Good to know" breadCrumb="FAQ's" />
                 <FaqV1 />
                 <FaqForm />
