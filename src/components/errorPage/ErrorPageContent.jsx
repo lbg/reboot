@@ -12,7 +12,7 @@ const ErrorPageContent = () => {
                     <div className="error-title">404</div>
                     <h4>Page not Found</h4>
                     <div className="text">Sorry, we couldnt find the page youre looking for</div>
-                    <Link to="/#" className="theme-btn btn-style-three"><span className="btn-title">Home Page</span></Link>
+                    <Link to="/reboot" className="theme-btn btn-style-three"><span className="btn-title">Home Page</span></Link>
                 </div>
             </section>
         </>

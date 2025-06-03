@@ -11,7 +11,9 @@ const Map = () => {
                 <span className="header-span"></span>
                 <HeaderV1 headerStyle="header-style-two" parentMenu='map' />
                 <BreadCrumb title="map" breadCrumb="Map" />
-                <PDFView pdfFile='../reboot/images/Reboot_LDN_2025_Map.pdf'/>
+                <div className="map-image">
+                    <img src="../reboot/images/MNC_2025.png" alt="Reboot Manchester 2025 Map" />
+                </div>
                 <FooterV1 />
             </div>
         </>

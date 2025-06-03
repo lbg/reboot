@@ -30,7 +30,7 @@
                 "sessionStart": "11:20",
                 "sessionEnd": "11:50",
                 "title": "Cloud Run & Azure Fun",
-                "text": "Serverless computing is gaining traction - and for good reason. It helps teams deliver faster, with fewer resources, and with reduced environmental and financial impact. In this session, we’ll share why Lloyds Banking Group is following a serverless containers rather than a FaaS (Functions as a Service) approach, what capabilities are already in place, and what’s on the horizon as we continue to expand our offerings.  \n Critical Skill : **Solution & Technical Architecture **",
+                "text": "Serverless computing is gaining traction - and for good reason. It helps teams deliver faster, with fewer resources, and with reduced environmental and financial impact. In this session, we’ll share why Lloyds Banking Group is following a serverless containers rather than a FaaS (Functions as a Service) approach, what capabilities are already in place, and what’s on the horizon as we continue to expand our offerings.  \n Critical Skill : **Solution & Technical Architecture**",
                 "name": "Paul Gledhill",
                 "designation": "",
                 "talkLevel": 2
@@ -118,17 +118,6 @@
             },
             {
                 "id": 4,
-                "sessionStart": "12:00",
-                "sessionEnd": "12:30",
-                "title": "TBC",
-                "text": "TBC  \n Critical Skill : **Technology Leadership**",
-                "name": "Rajalakshmi Racherla (Raji)​",
-                "designation": "",
-                "talkLevel": 1
-            },
-            {
-                "id": 5,
-                "blockClass": "even",
                 "sessionStart": "13:30",
                 "sessionEnd": "14:00",
                 "title": "DAST Automation and Pipelines",
@@ -138,23 +127,13 @@
                 "talkLevel": 1
             },
             {
-                "id": 6,
+                "id": 5,
+                "blockClass": "even",
                 "sessionStart": "14:10",
                 "sessionEnd": "14:40",
                 "title": "Device Choice - Bringing Mac to the masses",
                 "text": "A brief journey into the new device choices allowing the engineers to work from the Operating system of their choice Colleague Experience.  \n Critical Skill : **Colleague Experience**",
                 "name": "Jess Huckson",
-                "designation": "",
-                "talkLevel": 1
-            },
-            {
-                "id": 7,
-                "blockClass": "even",
-                "sessionStart": "14:50",
-                "sessionEnd": "15:20",
-                "title": "TBC",
-                "text": "TBC  \n Critical Skill : **Design Standards & Governance**",
-                "name": "Design",
                 "designation": "",
                 "talkLevel": 1
             }
@@ -202,8 +181,8 @@
                 "sessionStart": "12:00",
                 "sessionEnd": "12:30",
                 "title": "Learning to run in the Cloud - where are the biggest challenges?​",
-                "text": "TBC \n Critical Skill : **IT Platforms and Hosting**",
-                "name": "Steph Miller",
+                "text": "Get the latest view on how we are tackling the challenges of running in Cloud with Carol Morris - Head of Public Cloud SRE. \n Critical Skill : **IT Platforms and Hosting**",
+                "name": "Carol Morris & Steph Miller",
                 "designation": "",
                 "talkLevel": 1
             },
@@ -213,7 +192,7 @@
                 "sessionStart": "13:30",
                 "sessionEnd": "14:00",
                 "title": "Putting new and emerging technologies to the test… the power of relentless experimentation​",
-                "text": "‘I was at an incredible conference last week and all these amazing AI startups were demoing some incredible AI… I think we need to start using it pronto…’​ Sound familiar? With the explosion of AI startups on the scene you’re probably hearing this phrase every single week or even saying it yourself. But how do you really know whether this shiny new technology is really going to solve your problem and unlock the value your new startup friends are promising?​ Join us to find out what it really takes to experiment with new technologies and how to spot the difference between the good, the bad, and the downright ugly. During this session we will be providing helpful tips on how to identify and test emerging technologies at pace, to separate the wheat from the chaff, and how to keep your friends in architecture happy in the process. \n Critical Skill : **Technology Intelligence **",
+                "text": "‘I was at an incredible conference last week and all these amazing AI startups were demoing some incredible AI… I think we need to start using it pronto…’​ Sound familiar? With the explosion of AI startups on the scene you’re probably hearing this phrase every single week or even saying it yourself. But how do you really know whether this shiny new technology is really going to solve your problem and unlock the value your new startup friends are promising?​ Join us to find out what it really takes to experiment with new technologies and how to spot the difference between the good, the bad, and the downright ugly. During this session we will be providing helpful tips on how to identify and test emerging technologies at pace, to separate the wheat from the chaff, and how to keep your friends in architecture happy in the process. \n Critical Skill : **Technology Intelligence**",
                 "name": "Bea Schofield ",
                 "designation": "",
                 "talkLevel": 1
@@ -299,7 +278,7 @@
                 "sessionStart": "10:00",
                 "sessionEnd": "11:20",
                 "title": "Work smarter to get faster",
-                "text": "Through game-based learning you will develop the skills to better understand how much work you have in progress, how to avoid blockers and improve your speed of delivery. You'll learn how to deliver more without working any harder. Agile Methodology and Tools  \n Critical Skill : **Agile Methodology and Tools**",
+                "text": "Through game-based learning you will develop the skills to better understand how much work you have in progress, how to avoid blockers and improve your speed of delivery. You'll learn how to deliver more without working any harder.  \n Critical Skill : **Agile Methodology and Tools**",
                 "name": "Sarah Miles",
                 "designation": "",
                 "talkLevel": 2
@@ -308,8 +287,8 @@
                 "id": 2,
                 "sessionStart": "11:30",
                 "sessionEnd": "12:50",
-                "title": "Work smarter to get faster",
-                "text": "Join us for an energising workshop that dives into what it really means to run a service—from building it right to supporting it effectively in a platform model where you build it, you run it. You’ll hear directly from the experts behind our Digital Services as they walk through high-level processes, share real-world insights, and offer practical tips to help you avoid the dreaded 3am support call. Whether you're new to service ownership or looking to sharpen your approach, this session will leave you with valuable takeaways to elevate your service game  \n Critical Skill : **Technical Operations**",
+                "title": "Running Live Service for Engineers",
+                "text": "Join us for an energising workshop that dives into what it really means to run a service—from building it right to supporting it effectively in a platform model where you build it, you run it. You’ll hear directly from the experts behind our Digital Services as they walk through high-level processes, share real-world insights, and offer practical tips to help you avoid the dreaded 3am support call. Whether you're new to service ownership or looking to sharpen your approach, this session will leave you with valuable takeaways to elevate your service game.  \n Critical Skill : **Technical Operations**",
                 "name": "Simon Adams",
                 "talkLevel": 3
             },
@@ -318,9 +297,9 @@
                 "blockClass": "even",
                 "sessionStart": "13:30",
                 "sessionEnd": "14:50",
-                "title": "Work smarter to get faster",
-                "text": "Through game-based learning you will develop the skills to better understand how much work you have in progress, how to avoid blockers and improve your speed of delivery. You'll learn how to deliver more without working any harder. Agile Methodology and Tools   \n Critical Skill : **Agile Methodology and Tools**",
-                "name": "Sarah Miles",
+                "title": "Running Live Service for Engineers",
+                "text": "Join us for an energising workshop that dives into what it really means to run a service—from building it right to supporting it effectively in a platform model where you build it, you run it. You’ll hear directly from the experts behind our Digital Services as they walk through high-level processes, share real-world insights, and offer practical tips to help you avoid the dreaded 3am support call. Whether you're new to service ownership or looking to sharpen your approach, this session will leave you with valuable takeaways to elevate your service game.   \n Critical Skill : **Technical Operations**",
+                "name": "Simon Adams",
                 "designation": "",
                 "talkLevel": 3
             },
@@ -329,8 +308,8 @@
                 "sessionStart": "15:00",
                 "sessionEnd": "16:20",
                 "title": "Work smarter to get faster",
-                "text": "Join us for an energising workshop that dives into what it really means to run a service—from building it right to supporting it effectively in a platform model where you build it, you run it. You’ll hear directly from the experts behind our Digital Services as they walk through high-level processes, share real-world insights, and offer practical tips to help you avoid the dreaded 3am support call. Whether you're new to service ownership or looking to sharpen your approach, this session will leave you with valuable takeaways to elevate your service game  \n Critical Skill : **Technical Operations**",
-                "name": "Simon Adams",
+                "text": "Through game-based learning you will develop the skills to better understand how much work you have in progress, how to avoid blockers and improve your speed of delivery. You'll learn how to deliver more without working any harder.  \n Critical Skill : **Agile Methodology and Tools**",
+                "name": "Sarah Miles",
                 "talkLevel": 3
             }
         ]

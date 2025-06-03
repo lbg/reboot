@@ -35,6 +35,7 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
                         <li><Link to="/reboot/code-of-conduct#">Code of Conduct</Link></li>
                         <li><Link to="/reboot/good-to-know#">Good to Know</Link></li>
                         <li><Link to="/reboot/map#">Map</Link></li>
+                        <li><Link to="/reboot/brochure#">Brochure</Link></li>
                     </ul>
                     <div className="dropdown-btn"><span className="fa fa-angle-down"></span></div>
                 </li>
