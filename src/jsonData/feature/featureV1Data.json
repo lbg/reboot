@@ -5,8 +5,9 @@
         "title": "Reboot Talks",
         "text": "We have an array of engaging and educational tech discussions planned for your enjoyment.",
         "animation": "fadeInUp",
-        "delay": 0, 
-        "path": "/reboot/schedule"
+        "delay": 0,
+        "path": "/reboot/schedule",
+        "color": "#A8A4FF"
     },
     {
         "id": 2,
@@ -15,6 +16,7 @@
         "text": "We will be running workshops throughout the day, providing you with the opportunity to get hands-on with technology.",
         "animation": "fadeInUp",
         "delay": 0,
-        "path": "/reboot/schedule"
+        "path": "/reboot/schedule",
+        "color": "#A8A4FF"
     }
 ]

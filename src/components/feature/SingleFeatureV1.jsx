@@ -1,13 +1,15 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link'
 
 const SingleFeatureV1 = ({ feature }) => {
-    const { icon, title, text } = feature
+
+    const { icon, title, text, color } = feature;
 
     return (
         <>
             <div className="inner-box">
-                <div className="icon-box"><span className={`icon ${icon}`}></span></div>
+                <div className="icon-box">
+                    <span className={`icon ${icon}`} style={{color: color}}></span>
+                </div>
                 <h4>{title}</h4>
                 <div className="text">{text}</div>
             </div>
