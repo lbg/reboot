@@ -21,14 +21,13 @@ const AboutV1 = () => {
                             <div className="inner-column">
                                 <div className="sec-title">
                                     {/* <span className="title">ABOUT EVENT</span> */}
-                                    <h2>Welcome to Reboot Local: Manchester 2025</h2>
-                                    <div className="text" style={{paddingBottom:'10px'}}>We're thrilled to have you join us for today's event.  Get ready for an exciting tech adventure with CTO Skills & Community's Reboot Local: Manchester.</div>
+                                    <h2>Welcome to Reboot Local: Bristol 2025</h2>
+                                    <div className="text" style={{paddingBottom:'10px'}}>We're thrilled to have you join us for today's event.  Get ready for an exciting tech adventure with CTO Changing Together's Reboot Local: Bristol.</div>
                                     <div className="text">This event is a perfect opportunity to connect with the local tech community, collaborate with fellow tech enthusiasts, and learn in a friendly, feel-good environment.</div>
-
                                     <div className="text" style={{paddingBottom:'10px'}}>Whether you're a coding wizard or just tech-curious, this event has something for everyone! Engage in hands-on experiments, participate in collaborative discussions, and explore learning opportunities in the latest bank tech. We’ll also be hosting a wellbeing room. </div>
 
                                     <div className="text" style={{paddingBottom:'5px'}}>
-                                    <b>CTO Skills & Community Team <br/>
+                                    <b>CTO Changing Together <br/>
                                     #EngineertheFuture</b>
                                     </div>
                                     </div>

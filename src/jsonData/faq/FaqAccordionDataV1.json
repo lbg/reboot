@@ -21,22 +21,10 @@
         "title": "Inclusive Briefing Pack ",
         "collapseClass": "",
         "ariaLabelled": "faqTwo",
-        "text": "We have prepared a Reboot Local Manchester Inclusive Briefing Pack which describes what you will experience at the event and includes accessibility information. A copy is stored on the Reboot Local Manchester event SharePoint site and some printed copies are available if you speak to a member of the Reboot Crew. "
+        "text": "We have prepared a Reboot Local Bristol Inclusive Briefing Pack which describes what you will experience at the event and includes accessibility information. A copy is stored on the Reboot Local Bristol event SharePoint site and some printed copies are available if you speak to a member of the Reboot Crew. "
     },
-    {
+   {
         "id": 3,
-        "accordionParent": "faqAccordion",
-        "accordionId": "faqThree",
-        "dataTarget": "collapseThree",
-        "ariaExpanded": "false",
-        "ariaControls": "collapseThree",
-        "title": "Wi-Fi",
-        "collapseClass": "",
-        "ariaLabelled": "faqThree",
-        "text": "To connect to Wi-Fi use-\nNetwork: etc venues \nPassword: stayconnected"
-    },
-    {
-        "id": 4,
         "accordionParent": "faqAccordion",
         "accordionId": "faqFour",
         "dataTarget": "collapseFour",

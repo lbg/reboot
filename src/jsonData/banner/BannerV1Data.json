@@ -2,12 +2,12 @@
     {
         "id": 1,
         "thumb": "1.jpg",
-        "subTitle": "June 10, 2025",
+        "subTitle": "October 9, 2025",
         "title1": "Welcome to",
-        "title2": "Reboot Local: Manchester 2025",
-        "list1": "25 Talks",
-        "list2": "8 Workshops",
-        "list3": "etc.venues, 11 Portland Street, M1 1RG"
+        "title2": "Reboot Local: Bristol 2025",
+        "list1": "14 Talks",
+        "list2": "10 Workshops",
+        "list3": "Harbourside - 10 Canons Way, Bristol, BS1 5LF"
     
         
     },
@@ -15,12 +15,12 @@
     {
         "id": 2,
         "thumb": "2.jpg",
-        "subTitle": "June 10, 2025",
+        "subTitle": "October 9, 2025",
         "title1": "Wecome to",
-        "title2": "Reboot Local: Manchester 2025",
-        "list1": "25 Talks",
-        "list2": "8 Workshops",
-        "list3": "etc.venues, 11 Portland Street, M1 1RG"
+        "title2": "Reboot Local: Bristol 2025",
+        "list1": "14 Talks",
+        "list2": "10 Workshops",
+        "list3": "Harbourside - 10 Canons Way, Bristol, BS1 5LF"
         
     }
 ]

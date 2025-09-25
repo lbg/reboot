@@ -18,8 +18,6 @@ const Brochure = () => {
                     <img src="../reboot/images/Slide6.PNG" alt="Brochure Page 5" />
                     <img src="../reboot/images/Slide7.PNG" alt="Brochure Page 6" />
                     <img src="../reboot/images/Slide8.PNG" alt="Brochure Page 7" />
-                    <img src="../reboot/images/Slide9.PNG" alt="Brochure Page 8" />
-                    <img src="../reboot/images/Slide10.PNG" alt="Brochure Page 9" />
                     
                 </div>
                 <FooterV1 />

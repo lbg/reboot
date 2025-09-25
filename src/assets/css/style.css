@@ -439,7 +439,7 @@ input[type="search"]::-webkit-search-results-decoration {
 	color: #ffffff;
 	font-weight: 400;
 	text-align: center;
-	background-color: #1c94d2;
+	background-color: #A8A4FF;
 	overflow: hidden;
 	border-radius: 10px;
 }
@@ -449,7 +449,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .btn-style-three:hover {
-	color: #1c94d2;
+	color: #A8A4FF;
 	-webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
 	-moz-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
 	-ms-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
@@ -930,10 +930,10 @@ img {
 	line-height: 1em;
 	color: #ff8a01;
 	font-weight: 500;
-	background: rgb(247, 0, 104);
-	background: -moz-linear-gradient(to left, rgba(247, 0, 104, 1) 0%, rgba(68, 16, 102, 1) 25%, rgba(247, 0, 104, 1) 75%, rgba(68, 16, 102, 1) 100%);
-	background: -webkit-linear-gradient(to left, rgba(247, 0, 104, 1) 0%, rgba(68, 16, 102, 1) 25%, rgba(247, 0, 104, 1) 75%, rgba(68, 16, 102, 1) 100%);
-	background: linear-gradient(to left, rgba(247, 0, 104) 0%, rgba(68, 16, 102, 1) 25%, rgba(247, 0, 104, 1) 75%, rgba(68, 16, 102, 1) 100%);
+	background: rgb(168,164, 255);
+	background: -moz-linear-gradient(to left, rgba(75, 63, 187, 1) 0%, rgba(168,164, 255, 1) 100%);
+	background: -webkit-linear-gradient(to left, rgba(75, 63, 187, 1) 0%, rgba(168,164, 255, 1) 100%);
+	background: linear-gradient(to left, rgba(75, 63, 187, 1) 0%, rgba(168,164, 255, 1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F70068', endColorstr='#441066', GradientType=1);
 	color: transparent;
 	-webkit-background-clip: text;
@@ -1107,9 +1107,9 @@ img {
 	-o-transform: scale(-1);
 	transform: scale(-1);
 	background: rgb(247, 0, 104);
-	background: -moz-linear-gradient(to left, rgba(247, 0, 104, 1) 0%, rgba(68, 16, 102, 1) 100%);
-	background: -webkit-linear-gradient(to left, rgba(247, 0, 104, 1) 0%, rgba(68, 16, 102, 1) 100%);
-	background: linear-gradient(to left, rgba(247, 0, 104) 0%, rgba(68, 16, 102, 1) 100%);
+	background: -moz-linear-gradient(to left, rgba(75, 63, 187, 1) 0%, rgba(168,164, 255, 1) 100%);
+	background: -webkit-linear-gradient(to left, rgba(75, 63, 187, 1) 0%, rgba(168,164, 255, 1) 100%);
+	background: linear-gradient(to left, rgba(75, 63, 187, 1) 0%, rgba(168,164, 255, 1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F70068', endColorstr='#441066', GradientType=1);
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
@@ -1815,7 +1815,7 @@ img {
 .banner-carousel .content-box .title {
 	display: block;
 	font-size: 28px;
-	color: #36A9E1;
+	color: #A8A4FF;
 	font-weight: 500;
 	margin-bottom: 25px;
 	opacity: 0;
@@ -2899,10 +2899,10 @@ img {
 	background-color: #ffffff;
 	text-align: center;
 	margin-top: -72px;
-	background: rgb(189, 63, 147);
-	background: -moz-linear-gradient(to left, rgba(54, 169, 225, 1) 0%, rgba(189, 63, 147, 1) 100%);
-	background: -webkit-linear-gradient(to left, rgba(54, 169, 225, 1) 0%, rgba(189, 63, 147, 1) 100%);
-	background: linear-gradient(to left, rgba(54, 169, 225, 1) 0%, rgba(189, 63, 147, 1) 100%);
+	background: rgb(168, 164, 255);
+	background: -moz-linear-gradient(to left,rgba(75, 63, 187, 1) 0%, rgba(168,164, 255, 1) 100%);
+	background: -webkit-linear-gradient(to left, rgba(75, 63, 187, 1) 0%, rgba(168,164, 255, 1) 100%);
+	background: linear-gradient(to left, rgba(75, 63, 187, 1) 0%, rgba(168,164, 255, 1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F70068', endColorstr='#441066', GradientType=1);
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.30);
 }
@@ -3001,7 +3001,7 @@ img {
 	display: inline-block;
 	font-size: 70px;
 	line-height: 1em;
-	color: #CB62A8;
+	color: #A8A4FF;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
 	-ms-transition: all 400ms ease;
@@ -3048,7 +3048,7 @@ img {
 }
 
 .feature-block h4 a:hover {
-	color: #CB62A8;
+	color: #A8A4FF
 }
 
 .feature-block .text {
@@ -4486,22 +4486,22 @@ img {
 }
 
 .schedule-tabs .tab-buttons li:nth-child(6n + 1) .day {
-	background-color: #00949C;
+	background-color: #A8A4FF;
 }
 
 .schedule-tabs .tab-buttons li:nth-child(6n + 2) .day {
-	background-color: #00949C;
+	background-color: #A8A4FF;
 }
 
 .schedule-tabs .tab-buttons li:nth-child(6n + 3) .day {
-	background-color: #00949C;
+	background-color: #4B3FBB;
 }
 
 .schedule-tabs .tab-buttons li:nth-child(6n + 4) .day {
-	background-color: #00949C;
+	background-color: #4B3FBB;
 }
 .schedule-tabs .tab-buttons li:nth-child(6n + 5) .day {
-	background-color: #CB62A8;
+	background-color: #4B3FBB;
 }
 
 .schedule-tabs .tab-buttons li:nth-child(6n + 6) .day {
@@ -4515,26 +4515,26 @@ img {
 
 .schedule-tabs .tab-buttons li:nth-child(6n + 1) .month,
 .schedule-tabs .tab-buttons li:nth-child(6n + 1) .date {
-	color: #00949C;
+	color: #A8A4FF;
 }
 
 .schedule-tabs .tab-buttons li:nth-child(6n + 2) .month,
 .schedule-tabs .tab-buttons li:nth-child(6n + 2) .date {
-	color: #00949C;
+	color: #A8A4FF;
 }
 
 .schedule-tabs .tab-buttons li:nth-child(6n + 3) .month,
 .schedule-tabs .tab-buttons li:nth-child(6n + 3) .date {
-	color: #00949C;
+	color: #4B3FBB;
 }
 .schedule-tabs .tab-buttons li:nth-child(6n + 4) .month,
 .schedule-tabs .tab-buttons li:nth-child(6n + 4) .date {
-	color: #00949C;
+	color: #4B3FBB;
 }
 
 .schedule-tabs .tab-buttons li:nth-child(6n + 5) .month,
 .schedule-tabs .tab-buttons li:nth-child(6n + 5) .date {
-	color: #CB62A8;
+	color: #4B3FBB;
 }
 
 .schedule-tabs .tab-buttons li:nth-child(6n + 6) .month,
@@ -4544,37 +4544,37 @@ img {
 
 .schedule-tabs .tab-buttons li:nth-child(6n + 7) .month,
 .schedule-tabs .tab-buttons li:nth-child(6n + 7) .date {
-	color: #36A9E1;
+	color: #4B3FBB;
 }
 
 .schedule-tabs .tab-buttons li:nth-child(6n + 1).active {
-	box-shadow: 0 0px 30px rgba(64, 203, 180, .30);
-	border: 1px solid #00949C;
+	box-shadow: 0 0px 30px rgba(75, 63, 187, 255);
+	border: 1px solid #4B3FBB;
 }
 
 .schedule-tabs .tab-buttons li:nth-child(6n + 2).active {
-	box-shadow: 0 0px 30px rgba(64, 203, 180, .30);
-	border: 1px solid #00949C;
+	box-shadow: 0 0px 30px rgba(75, 63, 187, 255);
+	border: 1px solid #4B3FBB;
 }
 
 .schedule-tabs .tab-buttons li:nth-child(6n + 3).active {
-	box-shadow: 0 0px 30px rgba(64, 203, 180, .30);
-	border: 1px solid #00949C;
+	box-shadow: 0 0px 30px rgba(75, 63, 187, 255);
+	border: 1px solid #4B3FBB;
 }
 
 .schedule-tabs .tab-buttons li:nth-child(6n + 4).active {
-	box-shadow: 0 0px 30px rgba(64, 203, 180, .30);
-	border: 1px solid #00949C;
+	box-shadow: 0 0px 30px rgba(75, 63, 187, 255);
+	border: 1px solid #4B3FBB;
 }
 
 .schedule-tabs .tab-buttons li:nth-child(6n + 5).active {
-	box-shadow: 0 0px 30px rgba(64, 203, 180, .30);
-	border: 1px solid #CB62A8;
+	box-shadow: 0 0px 30px rgba(75, 63, 187, 255);
+	border: 1px solid #4B3FBB;
 }
 
 .schedule-tabs .tab-buttons li:nth-child(6n + 6).active {
-	box-shadow: 0 0px 30px rgba(64, 203, 180, .30);
-	border: 1px solid #CB62A8;
+	box-shadow: 0 0px 30px rgba(75, 63, 187, 255);
+	border: 1px solid #4B3FBB;
 }
 
 .schedule-tabs .tab-buttons li:nth-child(6n + 7).active {
@@ -4701,7 +4701,7 @@ img {
 }
 
 .schedule-block h4 a:hover {
-	color: #f14b59;
+	color: #36454F;
 }
 
 .schedule-block .text {
@@ -4776,46 +4776,46 @@ img {
 
 .schedule-block:nth-child(4n + 1) .date,
 .schedule-block:nth-child(4n + 1) .inner:before {
-	border-color: #00949C;
+	border-color: #4B3FBB;
 }
 
 .schedule-block:nth-child(4n + 2) .date,
 .schedule-block:nth-child(4n + 2) .inner:before {
-	border-color: #CB62A8;
+	border-color: #A8A4FF;
 }
 
 .schedule-block:nth-child(4n + 3) .date,
 .schedule-block:nth-child(4n + 3) .inner:before {
-	border-color: #4c35a9;
+	border-color: #4B3FBB;
 }
 
 .schedule-block:nth-child(4n + 4) .date,
 .schedule-block:nth-child(4n + 4) .inner:before {
-	border-color: #36A9E1;
+	border-color: #A8A4FF;
 }
 
 /* Background */
 
 .schedule-block:nth-child(4n + 1) .btn-box a {
-	background-color: #00949C;
+	background-color: #4B3FBB;
 }
 
 .schedule-block:nth-child(4n + 1) .btn-box a:hover {
-	color: #00949C;
+	color: #4B3FBB;
 	border-radius: 0px;
 	background: none;
-	border-color: #00949C;
+	border-color: #4B3FBB;
 }
 
 .schedule-block:nth-child(4n + 2) .btn-box a {
-	background-color: #CB62A8;
+	background-color: #4B3FBB;
 }
 
 .schedule-block:nth-child(4n + 2) .btn-box a:hover {
 	border-radius: 0px;
-	color: #CB62A8;
+	color: #4B3FBB;
 	background: none;
-	border-color: #CB62A8;
+	border-color: #4B3FBB;
 }
 
 .schedule-block:nth-child(4n + 3) .btn-box a {
@@ -4830,14 +4830,14 @@ img {
 }
 
 .schedule-block:nth-child(4n + 4) .btn-box a {
-	background-color: #36A9E1;
+	background-color: #4B3FBB;
 }
 
 .schedule-block:nth-child(4n + 4) .btn-box a:hover {
 	border-radius: 0px;
-	color: #36A9E1;
+	color: #4B3FBB;
 	background: none;
-	border-color: #36A9E1;
+	border-color: #4B3FBB;
 }
 
 /* color */
@@ -4845,25 +4845,25 @@ img {
 .schedule-section.style-three .schedule-block:nth-child(4n + 1) .date,
 .schedule-section.style-two .schedule-block:nth-child(4n + 1) .date,
 .schedule-block:nth-child(4n + 1) h4 {
-	color: #00949C;
+	color: #4B3FBB;
 }
 
 .schedule-section.style-three .schedule-block:nth-child(4n + 2) .date,
 .schedule-section.style-two .schedule-block:nth-child(4n + 2) .date,
 .schedule-block:nth-child(4n + 2) h4{
-	color: #CB62A8;
+	color: #A8A4FF;
 }
 
 .schedule-section.style-three .schedule-block:nth-child(4n + 3) .date,
 .schedule-section.style-two .schedule-block:nth-child(4n + 3) .date,
 .schedule-block:nth-child(4n + 3) h4{
-	color: #4c35a9;
+	color: #4B3FBB;
 }
 
 .schedule-section.style-three .schedule-block:nth-child(4n + 4) .date,
 .schedule-section.style-two .schedule-block:nth-child(4n + 4) .date,
 .schedule-block:nth-child(4n + 4) h4 {
-	color: #36A9E1;
+	color: #A8A4FF;
 }
 
 /*** 
@@ -5881,9 +5881,9 @@ img {
 	padding: 15px 25px 15px 25px;
 	padding-right: 50px;
 	border: 1px solid #dddddd;
-	background-color: -moz-linear-gradient(to left, rgba(54, 169, 225, 1) 0%, rgba(189, 63, 147, 1) 100%);
-	background: -webkit-linear-gradient(to left, rgba(54, 169, 225, 1) 0%, rgba(189, 63, 147, 1) 100%);
-	background: linear-gradient(to left, rgba(54, 169, 225, 1) 0%, rgba(189, 63, 147, 1) 100%);
+	background-color: -moz-linear-gradient(to left, rgba(168,164, 255, 1), 0%, rgba(168, 164, 255, 1) 100%);
+	background: -webkit-linear-gradient(to left, rgba(168,164, 255, 1), 0%, rgba(168, 164, 255, 1) 100%);
+	background: linear-gradient(to left, rgba(168,164, 255, 1), 0%, rgba(168, 164, 255, 1) 100%);
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;

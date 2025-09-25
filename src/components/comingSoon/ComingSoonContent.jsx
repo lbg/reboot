@@ -7,7 +7,7 @@ import SocialShare from '../others/SocialShare';
 
 const ComingSoonContent = () => {
 
-    const time = new Date("May 07 2025")
+    const time = new Date("October 09 2025")
 
     const handleEmail = (event) => {
         event.preventDefault()

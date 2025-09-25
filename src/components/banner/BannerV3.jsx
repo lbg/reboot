@@ -3,7 +3,7 @@ import { HashLink as Link } from 'react-router-hash-link'
 import TimeV1 from '../counter/TimeV1';
 
 const BannerV3 = () => {
-    const time = new Date("June 10 2025")
+    const time = new Date("October 09 2025")
 
     return (
         <>

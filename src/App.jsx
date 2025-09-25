@@ -37,7 +37,7 @@ function App() {
       {/* {isLoading ? <Preloader /> : */}
         <div className='app-wrapper'>
           <Helmet>
-            <title>Reboot Manchester Online Brochure</title>
+            <title>Reboot Bristol Online Brochure</title>
             <link rel="shortcut icon" href="../reboot/images.png"></link>
           </Helmet>
           <Routers />

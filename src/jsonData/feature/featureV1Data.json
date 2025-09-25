@@ -16,14 +16,5 @@
         "animation": "fadeInUp",
         "delay": 0,
         "path": "/reboot/schedule"
-    },
-    {
-        "id": 3,
-        "icon": "icon flaticon-heart",
-        "title": "Wellbeing Room",
-        "text": "At the Reboot Manchester local event, wellbeing sessions will be hosted in the Admire room.",
-        "animation": "fadeInUp",
-        "delay": 400,
-        "path": "/reboot/schedule"
     }
 ]
