@@ -87,14 +87,14 @@ const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, pa
                         <div className="logo-box">
                             {whiteLogo ?
                                 <>
-                                    <div className="logo"><Link to="/reboot/"><img src="../reboot/images/Reboot-London-Logo.png" 
-                                    alt="image" height="100" width="100" /></Link></
+                                    <div className="logo"><Link to="/reboot/"><img src="/../reboot/images/Reboot-London-Logo.png" 
+                                    alt="image" height="150" width="150" /></Link></
                                     
                                     div>
                                 </>
                                 : <>
-                                <div className="logo"><Link to="/reboot/"><img src="../reboot/images/Reboot-London-Logo.png" 
-                                    alt="image" height="50" width="50" /></Link></div>
+                                <div className="logo"><Link to="/reboot/"><img src="/../reboot/images/Reboot-Edi-Blk.png" 
+                                    alt="image" height="70" width="70" /></Link></div>
                                 </>}
                         </div>
                         <div className="nav-outer clearfix">
@@ -120,7 +120,7 @@ const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, pa
                         <div className="menu-backdrop" ></div>
                         <div className="close-btn"><span className="icon flaticon-cancel-1"></span></div>
                         <nav className="menu-box">
-                            <div className="nav-logo"><Link to="/reboot/"><img src="../reboot/images/Reboot-London-Logo.png" alt="image" /></Link></div>
+                            <div className="nav-logo"><Link to="/reboot/"><img src="/../reboot/images/Reboot-London-Logo.png" alt="image" /></Link></div>
                             <MainMenu toggleMultiMenu={toggleMultiMenu} toggleMenu={toggleMenu} parentMenu={parentMenu} />
                         </nav>
                         <div className="close-btn" onClick={handleCloseMenu} ><span className="icon flaticon-cancel-music"></span></div>

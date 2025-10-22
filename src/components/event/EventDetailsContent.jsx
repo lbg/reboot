@@ -27,8 +27,8 @@ const EventDetailsContent = () => {
                             <li><span className="icon fa fa-map-marker-alt"></span>Bennelong Point, Sydney NSW 2000, Australia</li>
                         </ul>
                         <h2>{ScheduleV1Data[parentId - 1].tabData[childId - 1].title}</h2> */}
-                        <h2>Reboot London 2025</h2>
-                        <p>At the heart of Reboot is our Hackathon, where 204 people will compete to design a solution to one of two challenges.​
+                        <h2>Reboot Edinburgh 2025</h2>
+                        <p>At the heart of Reboot is our Hackathon, where 156 people will compete to design a solution to one of two challenges.​
 
 Competing teams will work together as a team of up to six, and use the latest technology to provide a solution to one of our hack challenges. ​
 
@@ -38,18 +38,18 @@ Teams will be shortlisted and assessed on several criteria, including how well t
                                 <h4>Challenge One</h4>
                                 <ul className="list-style-two">
                                     <li><b>Challenge information:</b></li>
-                                    <li>Create a solution to help colleagues to become excited customers who want to know and share info about LBG products and services, and can find what suits their needs.</li>
+                                    <li>TBC</li>
                                     <li><b>Sponsor</b></li>
-                                    <li>Nicky Elford, P&P​</li>
+                                    <li>TBC​</li>
                                 </ul>
                             </div>
                             <div className="column col-lg-6 col-md-12">
                                 <h4>Challenge Two</h4>
                                 <ul className="list-style-two">
                                     <li><b>Challenge information:</b></li>
-                                    <li>Create a solution to support young adults on their journey to independence as they experience new challenges and anxieties about their future​.</li>
+                                    <li>TBC</li>
                                     <li><b>Sponsor</b></li>
-                                    <li>Rose St Louis, IP&I Protection Platform BPL, and Bea Schofield CTO Innovation.​</li>
+                                    <li>TBC</li>
                                 </ul>
                             </div>
                         </div>
