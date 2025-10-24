@@ -12,7 +12,7 @@ const BreadCrumb = ({ title = "Default Title", breadCrumb = "Default BreadCrumb"
                 <div className="auto-container">
                     <h1>{title}</h1>
                     <ul className="bread-crumb clearfix">
-                        <li><Link to="/#">Home</Link></li>
+                        <li><Link to="/reboot/">Home</Link></li>
                         <li>{breadCrumb}</li>
                     </ul>
                 </div>

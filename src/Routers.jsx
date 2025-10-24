@@ -22,6 +22,9 @@ const Routers = () => {
                 <Route path='/reboot/code-of-conduct' element={<CodeOfConductPage/>}></Route>
                 <Route path='/reboot/map' element={<Map/>}></Route>
                 <Route path='/reboot/*' element={<ErrorPage />}></Route>
+                <Route path='/reboot/brochure' element={<Brochure />}></Route>
+            
+            
             </Routes>
         </>
     );

@@ -5,7 +5,8 @@
         "title": "Reboot Talks",
         "text": "Get ready for a dynamic lineup of tech talks that spark ideas and challenge perspectives. From industry insights to future-forward thinking, these sessions are designed to energise and educate.",
         "animation": "fadeInUp",
-        "delay": 0
+        "delay": 0,
+        "color": "#F4A9F5"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "title": "Reboot Works",
         "text": "Roll up your sleeves and dive into our hands-on workshops! Whether you're a curious beginner or a seasoned techie, you'll leave with new skills and fresh ideas.\n\n",
         "animation": "fadeInUp",
-        "delay": 0
+        "delay": 0,
+        "color": "#8EE0D1"
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "title": "Wellbeing Room",
         "text": "Recharge your mind and body in our dedicated Wellbeing Room. Join calming sessions in the boardroom to reset, refocus, and reconnect with yourself. \n\n",
         "animation": "fadeInUp",
-        "delay": 400
+        "delay": 400,
+        "color": "#F4A9F5"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "title": "Speed Mentoring",
         "text": "Fast-track your growth with our Speed Mentoring sessions. Meet experienced mentors, ask your burning questions, and walk away with actionable advice—all in a matter of minutes.​",
         "animation": "fadeInUp",
-        "delay": 800
+        "delay": 800,
+        "color": "#8EE0D1"
     },
     {
         "id": 5,
@@ -37,6 +41,7 @@
         "title": "Hackathon",
         "text": "156 brilliant minds. 2 bold business challenges. Countless creative solutions. Watch as teams compete for glory and prizes in our high-energy Hackathon showdown.",
         "animation": "fadeInUp",
-        "delay": 1200
+        "delay": 1200,
+        "color": "#00B386"
     }
 ]
