@@ -5,6 +5,7 @@ import HeaderTopV1 from './HeaderTopV1';
 import HeaderTopV2 from './HeaderTopV2';
 import MainMenu from './MainMenu';
 import ColorsPalate from '../others/ColorsPalate';
+import SideBar from '../sideBar/sideBar';
 
 const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, parentMenu }) => {
 
@@ -28,6 +29,12 @@ const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, pa
 
     // Search Bar
     const [openSearch, setOpenSearch] = useState(false);
+
+    const [toggleSideBar, setToggleSideBar] = useState(false)
+
+    const handleToggleSideBar = (state) => {
+        setToggleSideBar(state)
+    }
 
     const searchOpen = (event) => {
         event.preventDefault();
@@ -102,6 +109,7 @@ const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, pa
                             <nav className="main-menu navbar-expand-lg navbar-light">
                                 <div className="collapse navbar-collapse clearfix" id="navbarSupportedContent">
                                     <MainMenu parentMenu={parentMenu} />
+                                    <MainMenu parentMenu={parentMenu} sideBar={true} handleToggleSideBar={handleToggleSideBar}/>
                                 </div>
                             </nav>
                             <div className="outer-box d-none d-lg-block">
@@ -122,6 +130,7 @@ const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, pa
                         <nav className="menu-box">
                             <div className="nav-logo"><Link to="/reboot/"><img src="../reboot/images/Reboot-London-Logo.png" alt="image" /></Link></div>
                             <MainMenu toggleMultiMenu={toggleMultiMenu} toggleMenu={toggleMenu} parentMenu={parentMenu} />
+                            <MainMenu sideBar={true} handleToggleSideBar={handleToggleSideBar} />
                         </nav>
                         <div className="close-btn" onClick={handleCloseMenu} ><span className="icon flaticon-cancel-music"></span></div>
                     </div>
@@ -129,6 +138,7 @@ const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, pa
             </header>
             <SearchPopup openSearch={openSearch} searchClose={searchClose} />
             <ColorsPalate />
+            <SideBar toggleSideBar={toggleSideBar} handleToggleSideBar={handleToggleSideBar}/>
         </>
     );
 };

@@ -9,6 +9,8 @@ import ErrorPage from './pages/innerPages/ErrorPage';
 import Map from './pages/innerPages/Map'
 import CodeOfConductPage from './pages/innerPages/CodeOfConduct';
 import Brochure from './pages/innerPages/Brochure';
+import SideBar from './components/sideBar/sideBar';
+import Accordion from './components/accordian/accordian';
 
 const Routers = () => {
     return (
@@ -22,6 +24,7 @@ const Routers = () => {
                 <Route path='/reboot/code-of-conduct' element={<CodeOfConductPage/>}></Route>
                 <Route path='/reboot/map' element={<Map/>}></Route>
                 <Route path='/reboot/*' element={<ErrorPage />}></Route>
+                <Route path='/reboot/test' element={<Accordion/>}></Route>
             </Routes>
         </>
     );
