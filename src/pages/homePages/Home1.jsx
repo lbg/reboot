@@ -14,6 +14,7 @@ import ClientV1 from '../../components/client/ClientV1';
 import RegisterV1 from '../../components/form/RegisterV1';
 import BlogV1 from '../../components/blog/BlogV1';
 import FooterV1 from '../../components/footer/FooterV1';
+import SideBar from '../../components/sideBar/sideBar';
 
 const Home1 = () => {
     return (
