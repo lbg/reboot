@@ -11503,7 +11503,9 @@ img {
 
 .no-events-container {
 	display: flex;
-	height: 100px;
+	flex-direction: column;
+	margin-top: 30px;
+	padding: 15px;
 	justify-content: center;
 	align-items: center;
 }

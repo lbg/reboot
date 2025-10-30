@@ -20,8 +20,8 @@ const SideBar = ({ toggleSideBar, handleToggleSideBar }) => {
   };
 
   const formatTime = (timeStr) => {
-    const formattedTime = timeStr.split(":").join("")
-    return `20261111T${formattedTime}00`
+    const formattedTime = timeStr.split(":").join("");
+    return `20251111T${formattedTime}00`;
   };
 
   const handleShare = () => {
@@ -41,10 +41,12 @@ const SideBar = ({ toggleSideBar, handleToggleSideBar }) => {
       if (processedFavourites && processedFavourites.length > 0) {
         processedFavourites.forEach((item, index) => {
           icsContent += `BEGIN:VEVENT\n`;
-          icsContent += `DTSTAMP:20261027T000000\n`;
+          icsContent += `DTSTAMP:20251027T000000\n`;
           icsContent += `UID:${item.sessionId + "" + item.roomId}\n`;
           icsContent += `SUMMARY:${item.eventData.title}\n`;
-          icsContent += `LOCATION:${item.roomData.month + " " + item.roomData.year}\n`;
+          icsContent += `LOCATION:${
+            item.roomData.month + " " + item.roomData.year
+          }\n`;
           icsContent += `DESCRIPTION:${item.eventData.text}\n`;
           icsContent += `DTSTART:${formatTime(item.eventData.sessionStart)}\n`;
           icsContent += `DTEND:${formatTime(item.eventData.sessionEnd)}\n`;
@@ -210,7 +212,14 @@ const SideBar = ({ toggleSideBar, handleToggleSideBar }) => {
               />
             ) : (
               <div className="no-events-container">
-                <p>No Events Have Been Favourited</p>
+                <p>
+                  You need to go to the schedule and favourite events for them
+                  to appear in Plan My Day.
+                </p>
+                <p>
+                  You can then add these events to
+                  your personal phone calendar
+                </p>
               </div>
             )}
           </div>
