@@ -47,7 +47,7 @@ const BannerV2 = () => {
                 <div className="auto-container">
                     <div className="content-box">
                         <span className="title">January 20, 2023</span>
-                        <h2> Reboot London Hackathon <br />Conference 2023</h2>
+                        <h2> Reboot Hackathon <br />Conference 2023</h2>
                         <div className="time-counter">
                             <TimeV1 expiryTimestamp={time} />
                         </div>

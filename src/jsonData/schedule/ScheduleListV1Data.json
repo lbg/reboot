@@ -5,8 +5,8 @@
         "dataTarget": "#tab-1",
         "day": "Reboot Talks",
         "date": "1",
-        "month": "Hardwick",
-        "year": "Hub"
+        "month": "Menteith",
+        "year": "Room"
     },
     {
         "id": 2,
@@ -14,8 +14,8 @@
         "dataTarget": "#tab-2",
         "day": "Reboot Talks",
         "date": "02",
-        "month": "Grand",
-        "year": "Hall 1"
+        "month": "Lowther",
+        "year": "Room"
     },
     {
         "id": 3,
@@ -23,7 +23,7 @@
         "dataTarget":"#tab-3" ,
         "day": "Reboot Talks",
         "date": "03",
-        "month": "Board",
+        "month": "Wellbeing",
         "year": "Room"
     },
     {
@@ -32,8 +32,8 @@
         "dataTarget": "#tab-4",
         "day": "Reboot Works",
         "date": "04",
-        "month": "Doddington",
-        "year": "Forum 1"
+        "month": "Lammermuir 1",
+        "year": ""
     },
     {
         "id": 5,
@@ -41,16 +41,16 @@
         "dataTarget": "#tab-5",
         "day": "Reboot Works",
         "date": "04",
-        "month": "Doddington",
-        "year": "Forum 2"
+        "month": "Lammermuir 2",
+        "year": ""
     },
     {
         "id": 6,
         "listClass": "",
         "dataTarget": "#tab-6",
-        "day": "Speed Mentoring",
+        "day": "Reboot Works",
         "date": "04",
-        "month": "Doddington",
-        "year": "Forum 1 & 2"
+        "month": "Platform 5",
+        "year": ""
     }
 ]

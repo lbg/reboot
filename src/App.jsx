@@ -38,7 +38,7 @@ function App() {
       <FavouritesProvider>
         <div className="app-wrapper">
           <Helmet>
-            <title>Reboot London Online Brochure</title>
+            <title>Reboot Online Brochure</title>
             <link rel="shortcut icon" href="../reboot/images.png"></link>
           </Helmet>
           <Routers />
