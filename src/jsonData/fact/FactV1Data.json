@@ -2,7 +2,7 @@
     {
         "id": 1,
         "icon": "icon_laptop",
-        "end": 204,
+        "end": 156,
         "info": "Hackers",
         "animation": "fadeInUp",
         "delay": ""
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "icon": "icon_chat",
-        "end": 20,
+        "end": 24,
         "info": "Talks",
         "animation": "fadeInUp",
         "delay": 800
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "icon": "icon_tools",
-        "end": 6,
+        "end": 12,
         "info": "Workshops",
         "animation": "fadeInUp",
         "delay": 1200
