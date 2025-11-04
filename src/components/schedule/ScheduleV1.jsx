@@ -42,7 +42,7 @@ const ScheduleV1 = () => {
       "Career",
     ];
 
-    return [...new Set([...criticalSkills, ...additionalPhrases])];
+    return [...new Set([ ...additionalPhrases, ...criticalSkills])];
   };
 
   const isActive = (roomId, sessionId) => {
