@@ -72,6 +72,9 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu, sideBar, handleTogg
             <li>
               <Link to="/reboot/map#">Map</Link>
             </li>
+            <li>
+              <Link to="/reboot/brochure#">Brochure</Link>
+            </li>
             {/* <li><Link to="/buy-ticket#">Buy Ticket</Link></li> */}
           </ul>
 

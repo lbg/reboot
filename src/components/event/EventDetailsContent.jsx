@@ -37,19 +37,21 @@ Teams will be shortlisted and assessed on several criteria, including how well t
                         <div className="column col-lg-6 col-md-12">
                                 <h4>Challenge One</h4>
                                 <ul className="list-style-two">
-                                    <li><b>Challenge information:</b></li>
-                                    <li>TBC</li>
+                                    <li><b>Gamified Loyalty: Turning Engagement into Rewards</b></li>
+                                    <li>Design engaging, challenge-based experiences that encourage Lloyds Banking Group customers to take meaningful actions and unlock more value from their relationship with the bank. Using gamification, behavioural insights, and personalisation, create concepts that make loyalty more visible, rewarding, and interactive - helping customers understand, track, and earn rewards through clear goals, progress, and real-time feedback.</li>
                                     <li><b>Sponsor</b></li>
-                                    <li>TBC​</li>
+                                    <li>Paul Wilkinson, Rewards and Loyalty Director</li>
                                 </ul>
                             </div>
                             <div className="column col-lg-6 col-md-12">
                                 <h4>Challenge Two</h4>
                                 <ul className="list-style-two">
-                                    <li><b>Challenge information:</b></li>
-                                    <li>TBC</li>
+                                    <li><b>Empowering Retirement Decisions</b></li>
+                                    <li>How might we help workplace pensions customers better understand their retirement options and confidently take action, without relying on regulated financial advice? We're looking for innovative, conversational experiences that guide users toward achieving their retirement goals in a clear, engaging, and empowering way.</li>
+                                    <br />
+                                    <br />
                                     <li><b>Sponsor</b></li>
-                                    <li>TBC</li>
+                                    <li> Derek Shanks, Waterfront Platform Technology Platform Lead</li>
                                 </ul>
                             </div>
                         </div>
