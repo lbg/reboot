@@ -11785,3 +11785,11 @@ img {
 .schedule-search-clear-button button{
 	border-radius: 20px;
 }
+
+.pdfMap {
+	margin-top: 40px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	overflow-x: auto;	
+}
