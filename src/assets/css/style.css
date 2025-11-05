@@ -4371,7 +4371,8 @@ img {
 
 .schedule-section {
 	position: relative;
-	padding: 120px 0 100px;
+	padding: 50px 0 50px;
+	min-height: 100vh;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -4410,6 +4411,7 @@ img {
 	position: relative;
 	display: block;
 	margin-bottom: 40px;
+	margin-top: 80px;
 }
 
 .schedule-tabs .tab-buttons {
@@ -11577,3 +11579,209 @@ img {
 	font-weight: 400 !important;
 }
 
+.schedule-search-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.schedule-search-container {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding: 1px;
+	border-radius: 20px;
+	width: 360px;
+	font-size: 25px;
+	border: 1px solid #dddddd;
+}
+
+.schedule-search-label {
+	margin-right: 5px;
+	font-size: 20px;
+}
+
+.schedule-search-input {
+	padding: 15px;
+	width: 350px;
+	border-radius: 20px;
+	color: #777777;
+}
+
+.schedule-search-input::placeholder {
+	color: #dddddd;
+}
+
+
+.schedule-search-container.active {
+	box-shadow: 0 0px 30px rgba(64, 203, 180, .30)
+}
+
+.start-searching-text-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+}
+
+.filter-suggestions-container {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+}
+
+.filter-suggestions-list {
+	list-style-type: "none";
+	margin: 0;
+	padding: 0;
+	width: 320px;
+	font-size: 20px;
+	margin: 0px 10px 0px 10px;
+	border-radius: 0px 0px 20px 20px;
+	background-color: white;
+	max-height: 200px;
+	overflow-y: auto;
+	z-index:1;
+	scrollbar-width: none; 
+  	-ms-overflow-style: none;
+}
+
+.filter-suggestions-list-item {
+	padding: 20px;
+	border-top: 1px solid #dddddd;
+}
+
+.filter-suggestions-list-item:hover {
+	cursor: pointer;
+	color: #212529;
+}
+
+.filtered-events-container {
+	margin-top: 80px;
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	gap: 80px;
+	margin-bottom: 100px;
+}
+
+.filtered-event-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 576px) {
+  .filtered-event-container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  .filtered-event-container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 992px) {
+  .filtered-event-container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .filtered-event-container {
+    width: 600px;
+  }
+}
+
+/* XXL devices (≥1400px) */
+@media (min-width: 1400px) {
+  .filtered-event-container {
+    width: 700px;
+  }
+}
+
+.filtered-event-container:nth-child(4n + 1) .filtered-event-details-container .filtered-event-title-container{
+	color: #F4A9F5;
+}
+
+.filtered-event-container:nth-child(4n + 2) .filtered-event-details-container .filtered-event-title-container{
+	color: #8EE0D1;
+}
+
+.filtered-event-container:nth-child(4n + 3) .filtered-event-details-container .filtered-event-title-container{
+	color: #A8A4FF;
+}
+
+.filtered-event-container:nth-child(4n + 4) .filtered-event-details-container .filtered-event-title-container{
+	color: #00B386;
+}
+
+
+.filtered-event-header-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: large;
+	margin: 5px 20px 5px 20px;
+}
+
+.filtered-event-details-container {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border: 1px solid #dddddd;
+	border-radius: 20px;
+	padding: 10px;
+	gap: 20px;
+}
+
+.filtered-event-details-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px;
+}
+
+.filtered-event-speaker-container {
+	font-size: 18px !important;
+	margin-left: 20px;
+    color: #36454F;
+    font-weight: 500;
+    line-height: 1.2em;
+	max-width: 400px;
+}
+.filtered-event-title-container {
+	display: flex;
+	justify-content: center;
+	margin-right: 20px;
+	margin-left: 20px;
+	text-align: center;
+}
+
+.filtered-event-title-container h3 {
+	font-weight: 600 !important;
+	line-height: 1.2em !important;
+}
+
+.filtered-event-text-container {
+	margin: 20px;
+}
+
+.schedule-search-row {
+	display: flex;
+	align-items: center;
+}
+.schedule-search-clear-button {
+	position: relative;
+	right: 20px;
+}
+
+.schedule-search-clear-button:hover {
+	cursor: pointer;
+}
+
+.schedule-search-clear-button button{
+	border-radius: 20px;
+}

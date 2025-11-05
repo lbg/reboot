@@ -19,6 +19,12 @@ const SideBar = ({ toggleSideBar, handleToggleSideBar }) => {
     return hours * 60 + minutes;
   };
 
+  const parseText = (textStr) => {
+    let parseText = textStr.replace(/\n/g, " "); 
+    parseText = parseText.replace(/\*/g, "");
+    return parseText
+  }
+
   const formatTime = (timeStr) => {
     const formattedTime = timeStr.split(":").join("");
     return `20251111T${formattedTime}00`;
@@ -47,7 +53,7 @@ const SideBar = ({ toggleSideBar, handleToggleSideBar }) => {
           icsContent += `LOCATION:${
             item.roomData.month + " " + item.roomData.year
           }\n`;
-          icsContent += `DESCRIPTION:${item.eventData.text}\n`;
+          icsContent += `DESCRIPTION:${parseText(item.eventData.text)}\n`;
           icsContent += `DTSTART:${formatTime(item.eventData.sessionStart)}\n`;
           icsContent += `DTEND:${formatTime(item.eventData.sessionEnd)}\n`;
           icsContent += `END:VEVENT\n`;
