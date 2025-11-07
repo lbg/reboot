@@ -19,26 +19,30 @@
         "id": 5,
         "listData": "10:00: Tech Talks & Workshops Begin and The Hack Continues"
     },
-
     {
         "id": 6,
-        "listData": "12:30: Lunch"
+        "listData": "11:00: Two Minute Silence"
     },
 
     {
         "id": 7,
+        "listData": "12:30: Lunch"
+    },
+
+    {
+        "id": 8,
         "listData": "13:30: The Programme Continues"
     },
     {
-        "id": 8,
+        "id": 9,
         "listData": "16:20: Hack Pitches Start"
     },
     {
-        "id": 9,
+        "id": 10,
         "listData": "17:40: Hackathon Winners Announced & Celebratory Refreshments"
     },
     {
-        "id": 10,
+        "id": 11,
         "listData": "18:30: Event Closes"
     }
 ]
