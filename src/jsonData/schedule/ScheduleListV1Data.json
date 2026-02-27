@@ -5,8 +5,8 @@
         "dataTarget": "#tab-1",
         "day": "Reboot Talks",
         "date": "1",
-        "month": "Menteith",
-        "year": "Room"
+        "month": "AM",
+        "year": ""
     },
     {
         "id": 2,
@@ -14,17 +14,17 @@
         "dataTarget": "#tab-2",
         "day": "Reboot Talks",
         "date": "02",
-        "month": "Lowther",
-        "year": "Room"
+        "month": "PM",
+        "year": ""
     },
     {
         "id": 3,
         "listClass": "",
         "dataTarget":"#tab-3" ,
-        "day": "Reboot Talks",
+        "day": "Reboot Works",
         "date": "03",
-        "month": "Conference",
-        "year": "Room"
+        "month": "AM",
+        "year": ""
     },
     {
         "id": 4,
@@ -32,25 +32,16 @@
         "dataTarget": "#tab-4",
         "day": "Reboot Works",
         "date": "04",
-        "month": "Lammermuir 1",
+        "month": "PM",
         "year": ""
     },
     {
         "id": 5,
         "listClass": "",
         "dataTarget": "#tab-5",
-        "day": "Reboot Works",
+        "day": "Quick Hacks",
         "date": "04",
-        "month": "Lammermuir 2",
-        "year": ""
-    },
-    {
-        "id": 6,
-        "listClass": "",
-        "dataTarget": "#tab-6",
-        "day": "Reboot Works",
-        "date": "04",
-        "month": "Platform 5",
+        "month": "AM/PM",
         "year": ""
     }
 ]

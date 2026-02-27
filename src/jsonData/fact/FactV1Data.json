@@ -2,7 +2,7 @@
     {
         "id": 1,
         "icon": "icon_laptop",
-        "end": 156,
+        "end": 108,
         "info": "Hackers",
         "animation": "fadeInUp",
         "delay": ""
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "icon": "icon_group",
-        "end": 1000,
+        "end": 450,
         "info": "Attendees",
         "animation": "fadeInUp",
         "delay": 400
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "icon": "icon_chat",
-        "end": 24,
+        "end": 16,
         "info": "Talks",
         "animation": "fadeInUp",
         "delay": 800
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "icon": "icon_tools",
-        "end": 12,
+        "end": 8,
         "info": "Workshops",
         "animation": "fadeInUp",
         "delay": 1200

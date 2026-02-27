@@ -18,19 +18,10 @@
         "color": "#8EE0D1"
     },
     {
-        "id": 3,
-        "icon": "icon flaticon-heart",
-        "title": "Wellbeing Room",
-        "text": "Recharge your mind and body in our dedicated Wellbeing Room. Join calming sessions in the Conference Room to reset, refocus, and reconnect with yourself. \n\n",
-        "animation": "fadeInUp",
-        "delay": 400,
-        "color": "#F4A9F5"
-    },
-    {
         "id": 4,
         "icon": "icon flaticon-group",
-        "title": "Speed Mentoring",
-        "text": "Fast-track your growth with our Speed Mentoring sessions. Meet experienced mentors, ask your burning questions, and walk away with actionable advice—all in a matter of minutes.​",
+        "title": "Quick Hacks",
+        "text": "Quick Hack: inclusive, team‑based, and tool‑focused. Learn our strategic tooling, team up in a hack environment, and co‑create real solutions, no coding experience required.​",
         "animation": "fadeInUp",
         "delay": 800,
         "color": "#8EE0D1"
@@ -39,7 +30,7 @@
         "id": 5,
         "icon": "icon flaticon-rocket-ship",
         "title": "Hackathon",
-        "text": "156 brilliant minds. 2 bold business challenges. Countless creative solutions. Watch as teams compete for glory and prizes in our high-energy Hackathon showdown.",
+        "text": "18 brilliant teams, 6 Agentic AI use cases & LBG Strategic Tooling. Watch as teams boost their AI capabilities and compete for glory and prizes in our high-energy Hackathon Showdown.",
         "animation": "fadeInUp",
         "delay": 1200,
         "color": "#00B386"

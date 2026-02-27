@@ -2,6 +2,7 @@ import React from 'react';
 import AboutV1Data from '../../jsonData/about/AboutV1Data.json'
 import { HashLink as Link } from 'react-router-hash-link'
 import ReactWOW from 'react-wow';
+import ReactMarkdown from "react-markdown";
 
 const AboutV1 = () => {
     return (
@@ -18,34 +19,44 @@ const AboutV1 = () => {
                 </div>
                 <div className="auto-container">
                     <div className="row">
-                            <div className="inner-column">
-                                <div className="sec-title">
-                                    {/* <span className="title">ABOUT EVENT</span> */}
-                                    <h2>Welcome to Reboot Edinburgh 2025</h2>
-                                    <div className="text" style={{paddingBottom:'10px'}}>Thank you for joining us for Reboot Edinburgh 2025! The Chief Technology Office is thrilled to have you here and extend a warm welcome to all of you.</div>
-                                    <div className="text">Today's event promises to be a key moment in your 2025 learning calendar. Our action-packed schedule includes informative tech talks, panel discussions, hands-on workshops. interact with a variety of our suppliers, partners, and areas of the Group at exhibition stalls around the event - all providing ideas for you to explore and learn. We also have 156 competitors taking part in our Hackathon, competing for a selection of prizes against two business challenges.
-                                    </div>
+                        <div className="inner-column">
+                            <div className="sec-title">
+                                {/* <span className="title">ABOUT EVENT</span> */}
+                                <h2>Welcome to Reboot Bristol 2026</h2>
+                                <div className="text">Today's event is a standout moment in your 2026 learning calendar.  We've packed the programme with insightful tech talks, hands-on workshops and new for this year - we're bringing you Quick Hacks.  You'll also have the chance to connect with teams from across the Group at our exhibition stalls, offering plenty of inspiration to explore, question and learn.  Alongside this, 18 teams are competing in our first ever Hackathon hosted on LBG devices using our strategic tooling.
 
-                                    <h2>Reboot Edinburgh 2025 Theme: </h2>
-                                    <div className="text" style={{paddingBottom:'10px'}}> 
-                                    The theme for Reboot Edinburgh 2025 is <b>Modern Tech Skills needed for Now and in the Future at Lloyds. <br/>
-                                    So, what are you waiting for?</b> Get ready to immerse yourself in the latest technologies, ignite your creativity, stay curious, learn something new, and most importantly, have some fun. 
-                                    <div className="text" style={{paddingBottom:'5px'}}>
-                                    <b>Changing Together<br/>
-                                    #EngineertheFuture</b>
-                                    </div>
+                                </div>
+
+                                <h2>Reboot Bristol 2026 Focus: </h2>
+                                <div className="text" style={{ paddingBottom: '10px' }}>
+                                    The focus for Reboot Bristol 2026 is <b>Skills colleagues need now and for the future</b>, with a strong emphasis on <b>digital assets and AI.</b> <br />
+                                    The <b>Hackathon</b> is designed to <b>upskill colleagues</b> in agentic AI, giving them practical, hands‑on experience with the tools that will <b>shape our future ways of working.</b><br />
+                                    Dive in, get hands‑on, and have a great time exploring what’s next.
+                                    <div className="text" style={{ paddingBottom: '5px' }}>
+                                        <b>Changing Together<br />
+                                            #EngineertheFuture</b>
                                     </div>
                                 </div>
-                                <h4>Key Times</h4>
-                                <ul className="list-style-one">
-                                    {AboutV1Data.map(aboutData =>
-                                        <li key={aboutData.id}>{aboutData.listData}</li>
-                                    )}
-                                </ul>
-        
-                                {/* <div className="btn-box"><Link to="/contact#" className="theme-btn btn-style-three"><span className="btn-title">Register Now</span></Link></div> */}
                             </div>
-                       
+                            <h4>Key Times</h4>
+                            <div className="key-times-container">
+                                {AboutV1Data.map((group, index) => (
+                                    <div className="key-time-group" key={index}>
+                                        <h5>
+                                            <ReactMarkdown>{group.header}</ReactMarkdown>
+                                            </h5> 
+                                        <ul className="key-times-list">
+                                            {group.listData.map((item) => (
+                                                <li key={item.id}>{item.text}</li> 
+                                            ))}
+                                        </ul>
+                                    </div>
+                                ))}
+                            </div>
+
+                            {/* <div className="btn-box"><Link to="/contact#" className="theme-btn btn-style-three"><span className="btn-title">Register Now</span></Link></div> */}
+                        </div>
+
                         {/* <div className="image-column col-lg-6 col-md-12 col-sm-12">
                             <div className="image-box">
                                 <ReactWOW >

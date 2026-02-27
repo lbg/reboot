@@ -27,13 +27,17 @@ const EventDetailsContent = () => {
                             <li><span className="icon fa fa-map-marker-alt"></span>Bennelong Point, Sydney NSW 2000, Australia</li>
                         </ul>
                         <h2>{ScheduleV1Data[parentId - 1].tabData[childId - 1].title}</h2> */}
-                        <h2>Reboot Edinburgh 2025</h2>
-                        <p>At the heart of Reboot is our Hackathon, where 156 people will compete to design a solution to one of two challenges.​
+                        <h2>Reboot Bristol 2026</h2>
+                        <p>
+                            <b>This year’s Reboot Bristol Hackathon is taking a bold new step. For the first time, hackers will be building real solutions to live, practical AI use cases directly on LBG laptops, using the bank’s strategic agentic‑AI tooling.</b>​<br /><br />
 
-Competing teams will work together as a team of up to six, and use the latest technology to provide a solution to one of our hack challenges. ​
+                        Instead of being allocated a predefined challenge, teams will <b>see & choose their preferred use case on the day,</b> giving everyone the same opportunity for freedom to explore, experiment and follow their curiosity. ​<br /><br />
 
-Teams will be shortlisted and assessed on several criteria, including how well they have addressed the challenges and their use of technology.​</p>
-                        <div className="row two-column">
+                        <b>Remember, you do not need to be an engineer to take part.</b> Real development teams thrive on diverse skills, and so does Reboot: designers, product owners, analysts, researchers, content specialists, testers, facilitators and more are all essential. Running the hack on LBG devices (access required - therefore line manager approval required)  means colleagues who aren’t usually close to the technical detail have the opportunity to get up close and personal, <b>understand how AI solutions are built,</b> and meaningfully shape what gets created.<br /><br />
+
+                        This refreshed format keeps the spirit of Reboot’s <b>learning‑through‑doing</b> at its core while opening the door for <b>deeper innovation, richer collaboration and more inclusive problem‑solving across LBG.</b>
+​</p>
+                        {/*<div className="row two-column">
                         <div className="column col-lg-6 col-md-12">
                                 <h4>Challenge One</h4>
                                 <ul className="list-style-two">
@@ -55,6 +59,7 @@ Teams will be shortlisted and assessed on several criteria, including how well t
                                 </ul>
                             </div>
                         </div>
+                        */}
                      </div>
                 </div>
             </section>

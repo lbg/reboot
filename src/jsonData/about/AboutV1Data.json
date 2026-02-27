@@ -1,48 +1,26 @@
 [
     {
-        "id": 1,
-        "listData": "08:00: Doors Open to Hackers (& Hacker Teams Can Begin)"
+        "header": "**Tuesday 17th March**",
+        "listData": [
+            { "id": 1, "text": "🕒08:30: General Registration Opens" },
+            { "id": 2, "text": "🕒09:30: Welcome, Keynote Speech & Announcements" },
+            { "id": 5, "text": "🕒10:00: Tech Talks & Quick Hacks Begin" },
+            { "id": 7, "text": "🕒12:30: Lunch" },
+            { "id": 8, "text": "🕒13:30: Tech Talks & Quick Hacks Continue" },
+            { "id": 11, "text": "🕒16:30: Day One Closes"}
+        ]
     },
     {
-        "id": 2,
-        "listData": "08:30: General Registration Opens"
-    },
-    {
-        "id": 3,
-        "listData": "09:00: Intro and information for hackers"
-    },
-    {
-        "id": 4,
-        "listData": "09:30: Welcome Speeches & Announcements"
-    },
-    {
-        "id": 5,
-        "listData": "10:00: Tech Talks & Workshops Begin and The Hack Continues"
-    },
-    {
-        "id": 6,
-        "listData": "11:00: Two Minute Silence"
-    },
-
-    {
-        "id": 7,
-        "listData": "12:30: Lunch"
-    },
-
-    {
-        "id": 8,
-        "listData": "13:30: The Programme Continues"
-    },
-    {
-        "id": 9,
-        "listData": "16:20: Hack Pitches Start"
-    },
-    {
-        "id": 10,
-        "listData": "17:40: Hackathon Winners Announced & Celebratory Refreshments"
-    },
-    {
-        "id": 11,
-        "listData": "18:30: Event Closes"
+        "header": "**Wednesday 18th March**",
+        "listData": [
+            { "id": 1, "text": "🕒08:00: Doors Open to Hackers (& Hack Teams can BEGIN!)"},
+            { "id": 2, "text": "🕒09:30: Welcome & Announcements (Hackers to Pause!)"},
+            { "id": 3, "text": "🕒10:00: Hack Continues"},
+            { "id": 4, "text": "🕒12:30: Lunch"},
+            { "id": 5, "text": "🕒13:30: Hack Continues"},
+            { "id": 6, "text": "🕒16:30: Hack Pitches Start"},
+            { "id": 7, "text": "🕒17:20: Winners Announced & Celebratory Refreshments"},
+            { "id": 8, "text": "🕒18:30: Event Closes"}
+        ]
     }
 ]

@@ -179,10 +179,10 @@ const ScheduleV1 = () => {
                                     />
                                   </div>
                                   <div className="speaker-col">
-                                    <h5 className="name">{block.name}</h5>
                                     <div className="designation">
-                                      {block.designation}
+                                    {block.designation}
                                     </div>
+                                    <h5 className="name">{block.name}</h5>                               
                                   </div>
                                 </div>
                               </div>
