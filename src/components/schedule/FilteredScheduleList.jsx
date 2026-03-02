@@ -14,20 +14,6 @@ const FilterScheduleList = ({ searchText }) => {
     return str.toLowerCase().includes(searchText.toLowerCase());
   };
 
-  const mapTabId = (tabId) => {
-    const room = ScheduleListV1Data.filter(
-      (value) => value.dataTarget.replace("#", "") === tabId
-    )[0];
-    return `${room.month} ${room.year}`;
-  };
-
-  const addEventRoom = (event, schedule) => {
-    const room = mapTabId(schedule.tabId);
-    event.tabId = schedule.tabId;
-    event.room = room;
-    return event;
-  };
-
   const getMatches = () => {
     let matches = ScheduleV1Data.flatMap((schedule) => {
       return (
@@ -35,9 +21,10 @@ const FilterScheduleList = ({ searchText }) => {
           if (
             containsStr(item.title) ||
             containsStr(item.text) ||
-            containsStr(item.name)
+            containsStr(item.name) ||
+            containsStr(item.designation)
           ) {
-            return addEventRoom(item, schedule);
+            return item
           }
         }) || []
       );
@@ -68,7 +55,7 @@ const FilterScheduleList = ({ searchText }) => {
               {`⏰ ${value.sessionStart} - ${value.sessionEnd}`}
             </div>
             <div className="filtered-event-header-room">
-              {`📍 ${value.room}`}
+              {`📍 ${value.designation}`}
             </div>
           </div>
           <div className="filtered-event-details-container">

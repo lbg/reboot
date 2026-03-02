@@ -150,9 +150,9 @@ const ScheduleV1 = () => {
                     key={schedule.id}
                   >
                     <div className="schedule-timeline">
-                      {schedule.tabData.map((block) => (
+                      {schedule.tabData.map((block, index) => (
                         <div
-                          className={`schedule-block ${block.blockClass}`}
+                          className={`schedule-block ${index % 2 == 0 ? "even" : ""}`}
                           key={block.id}
                         >
                           <div className="inner-box">

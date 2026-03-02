@@ -303,57 +303,6 @@
             }
   
         ]
-    },
-    {
-        "id": 6,
-        "tabClass": "",
-        "tabId": "tab-6",
-        "tabData": [
-            {
-                "id": 1,
-                "blockClass": "even",
-                "sessionStart": "10:00",
-                "sessionEnd": "11:20",
-                "title": "Project in an Hour!",
-                "text": "Can you scaffold a project in an hour? 'Scaffold' ..? - produce all the designs and documentation - down to JIRA ticket level - for a brand-new project, maybe not alone. But with Copilot? Let’s find out. This fun, fast-paced “prompt-a-thon” explores how far Copilot can accelerate setup for architects and engineers ready to push the limits.  \n Critical Skill : **Solutions Design** \n\n **LBG Laptop Required**",
-                "name": "Mike Evans & Magda Widera",
-                "designation": "",
-                "talkLevel": 1
-            },
-            {
-                "id": 2,
-                "blockClass": "odd",
-                "sessionStart": "11:30",
-                "sessionEnd": "12:50",
-                "title": "Building and deploying apps with the Internal Developer Platform",
-                "text": "Join us for an immersive hands-on technical workshop where we will guide you through the process of creating an app using our Internal Developer Platform, providing a comprehensive engineer's experience from start to finish.​ We will provide you with all the necessary access and resources, along with step-by-step guidelines. Our experts will be on hand to assist and answer any questions you may have, ensuring you gain practical, hands-on experience.  \n\n Critical Skill : **Software Engineering** \n\n **LBG Laptop Required**",
-                "name": "Gordon Shiell",
-                "designation": "",
-                "talkLevel": 2
-            },
-            {
-                "id": 3,
-                "blockClass": "even",
-                "sessionStart": "13:30",
-                "sessionEnd": "14:50",
-                "title": "Agile Journeys Live: Panel, Play & Problem-Solve",
-                "text": "An energising session where Change Job Family colleagues share their personal journeys into Agile: what they did before, how they discovered Agile ways of working, and the key lessons they’ve learned. The panel focuses on mindset and practical experience. The session wraps up with breakout groups tackling real team challenges using Agile thinking.  \n Critical Skill : **Agile Methodology & Tools**",
-                "name": "Sarah Grainger​, Fiona Sung​, Alexa Atherton​, Justin Kirby & Dee Adam",
-                "designation": "",
-                "talkLevel": 1
-            },
-            {
-                "id": 4,
-                "blockClass": "odd",
-                "sessionStart": "15:00",
-                "sessionEnd": "16:20",
-                "title": "Reboot Rapid Connect: Fast Track Your Network",
-                "text": "Skip the awkward small talk and make meaningful connections, fast. In this  80‑minute, game‑style session, you’ll meet a mix of engineers and  non‑engineers from across LBG to swap ideas, share challenges, and find your  next mentor, mentee, or teammate. We’ll kick off with Love & Challenge stickers (one thing you love about your role; one current challenge), then  rotate through short, energising conversations where you’ll guess each other’s roles from the clues. You’ll leave with 3–5 warm intros, a shortlist  of mentor/mentee matches, and a simple way to keep the conversation going after Reboot. Open to all colleagues, whether you’re curious, coaching, or just here to meet great people.​  \n Critical Skill : **Collaboration**",
-                "name": "Chloe Solvey & Charlotte Cullen",
-                "designation": "",
-                "talkLevel": 1
-            }
-        
-        ]
     }
+   
 ]
