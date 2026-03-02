@@ -26,7 +26,7 @@ const Accordion = ({
             <div>
               {`⏰ ${value.eventData.sessionStart} - ${value.eventData.sessionEnd}`}
             </div>
-            <div>{`📍 ${value.roomData.month} ${value.roomData.year}`}</div>
+            <div>{`📍 ${value.eventData.designation} `}</div>
           </div>
           <div
             class={`accordion-header ${

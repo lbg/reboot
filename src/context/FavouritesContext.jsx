@@ -5,12 +5,13 @@ const FavouritesContext = createContext();
 
 export const FavouritesProvider = ({ children }) => {
   const [favourites, setFavourites] = useState(() => {
-    const item = localStorage.getItem('favourites');
+    const item = localStorage.getItem('favourites_bristol');
+    console.log(item)
     return item ? JSON.parse(item) : [];
   });
 
   useEffect(() => {
-    localStorage.setItem('favourites', JSON.stringify(favourites));
+    localStorage.setItem('favourites_bristol', JSON.stringify(favourites));
   }, [favourites]);
 
   const appendFavourite = (item) => {

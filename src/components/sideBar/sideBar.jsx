@@ -27,7 +27,7 @@ const SideBar = ({ toggleSideBar, handleToggleSideBar }) => {
 
   const formatTime = (timeStr) => {
     const formattedTime = timeStr.split(":").join("");
-    return `20251111T${formattedTime}00`;
+    return `20260317T${formattedTime}00`;
   };
 
   const handleShare = () => {
@@ -47,12 +47,10 @@ const SideBar = ({ toggleSideBar, handleToggleSideBar }) => {
       if (processedFavourites && processedFavourites.length > 0) {
         processedFavourites.forEach((item, index) => {
           icsContent += `BEGIN:VEVENT\n`;
-          icsContent += `DTSTAMP:20251027T000000\n`;
+          icsContent += `DTSTAMP:20260317T000000\n`;
           icsContent += `UID:${item.sessionId + "" + item.roomId}\n`;
           icsContent += `SUMMARY:${item.eventData.title}\n`;
-          icsContent += `LOCATION:${
-            item.roomData.month + " " + item.roomData.year
-          }\n`;
+          icsContent += `LOCATION:${item.eventData.designation}\n`;
           icsContent += `DESCRIPTION:${parseText(item.eventData.text)}\n`;
           icsContent += `DTSTART:${formatTime(item.eventData.sessionStart)}\n`;
           icsContent += `DTEND:${formatTime(item.eventData.sessionEnd)}\n`;
