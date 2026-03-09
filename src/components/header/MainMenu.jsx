@@ -50,7 +50,7 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu, sideBar, handleTogg
                 </li> */}
         <li
           className={`dropdown ${
-            parentMenu === "good to know" ? "current" : ""
+            parentMenu === "Good To know" ? "current" : ""
           }`}
         >
           <Link to={void 0} onClick={toggleMenu}>
@@ -64,10 +64,10 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu, sideBar, handleTogg
               <Link to="/reboot/hackathon-details#">Hackathon Details</Link>
             </li>
             <li>
-              <Link to="/reboot/code-of-conduct#">Code of Conduct</Link>
+              <Link to="/reboot/code-of-conduct#">Code Of Conduct</Link>
             </li>
             <li>
-              <Link to="/reboot/good-to-know#">Good to Know</Link>
+              <Link to="/reboot/good-to-know#">Good To Know</Link>
             </li>
             <li>
              {/* <Link to="/reboot/map#">Map</Link> */}

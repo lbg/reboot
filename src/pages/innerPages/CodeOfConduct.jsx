@@ -10,7 +10,7 @@ const CodeOfConductPage = () => {
             <div className="page-wrapper">
                 <span className="header-span"></span>
                 <HeaderV1 headerStyle="header-style-two" parentMenu='' />
-                <BreadCrumb title="Code of Conduct" breadCrumb="Code of Conduct" />
+                <BreadCrumb title="Code Of Conduct" breadCrumb="Code Of Conduct" />
                 <CodeOfConduct />
                 <FooterV1 />
             </div>

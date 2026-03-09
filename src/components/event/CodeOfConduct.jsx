@@ -11,7 +11,7 @@ const CodeOfConduct = () => {
        
                     <div className="content-box">
       
-                        <h2>Code of Conduct</h2>
+                        <h2>Code Of Conduct</h2>
                         <p>   
                         You are trusted to conduct yourself appropriately so we can create an environment where everyone feels safe, respected and valued. We have a zero tolerance approach towards any form of harassment. If you see or experience inappropriate behaviour, please report it to one of the Reboot Crew or a Senior Manager.
                         </p> 
@@ -27,6 +27,12 @@ const CodeOfConduct = () => {
                                     <ul>
                                         <li>Take what you learn from the event and share it with your team.</li>
                                     </ul>
+                                    <li><b>Follow our LBG Dealbreakers</b></li>
+                                    <ul>
+                                        <li>To make this a safe and positive experience for everyone, all colleagues attending must follow our LBG Dealbreakers. These expectations apply just as much at events as they do in the office. Please show care, respect and professionalism, look out for each other, and speak up if something doesn’t feel right. Thank you for helping us create an inclusive and welcoming environment.
+                                        </li>
+                                    </ul>
+
                                 </ul>
                             </div>
                             <div className="column col-lg-6 col-md-12">

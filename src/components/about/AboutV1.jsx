@@ -30,10 +30,10 @@ const AboutV1 = () => {
                                 <h2>Reboot Bristol 2026 Focus: </h2>
                                 <div className="text" style={{ paddingBottom: '10px' }}>
                                     The focus for Reboot Bristol 2026 is <b>Skills colleagues need now and for the future</b>, with a strong emphasis on <b>digital assets and AI.</b> <br />
-                                    The <b>Hackathon</b> is designed to <b>upskill colleagues</b> in agentic AI, giving them practical, hands‑on experience with the tools that will <b>shape our future ways of working.</b><br />
+                                    The <b>Hackathon</b> is designed to <b>upskill colleagues</b> in agentic AI, giving them practical, hands‑on experience with the tools that will <b>shape our future ways of working.</b><br /><br />
                                     Dive in, get hands‑on, and have a great time exploring what’s next.
                                     <div className="text" style={{ paddingBottom: '5px' }}>
-                                        <b>Changing Together<br />
+                                        <b>Changing Together - Chief Technology Office<br />
                                             #EngineertheFuture</b>
                                     </div>
                                 </div>

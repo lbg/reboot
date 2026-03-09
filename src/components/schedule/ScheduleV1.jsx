@@ -86,7 +86,7 @@ const ScheduleV1 = () => {
           <div className="text">
             <h5 style={{ paddingBottom: "3rem", textAlign: "center" }}>
               We are committed to developing a skills-based organisation. Each
-              talk or workshop is designed to focus on a critical skill, which
+              talk or workshop is designed to focus on an LBG critical skill, which
               is highlighted in the description in bold.
             </h5>
           </div>
