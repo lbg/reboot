@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "thumb": "1.jpg",
+        "subTitle": "March 17, 2026",
+        "title1": "Welcome to",
+        "title2": "Reboot Bristol 2026",
+        "list1": "16 Talks",
+        "list2": "8 Workshops",
+        "list3": "1 Hackathon & 2 Quick Hacks"
+
+        
+    },
+
+    {
+        "id": 2,
+        "thumb": "2.jpg",
+        "subTitle": "March 17, 2026",
+        "title1": "Wecome to",
+        "title2": "Reboot Bristol 2026",
+        "list1": "16 Talks",
+        "list2": "8 Workshops",
+        "list3": "1 Hackathon & 2 Quick Hacks"
+
+    }
+]

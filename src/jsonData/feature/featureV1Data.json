@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "icon": "icon flaticon-chat",
+        "title": "Reboot Talks",
+        "text": "Get ready for a dynamic lineup of tech talks that spark ideas and challenge perspectives. From industry insights to future-forward thinking, these sessions are designed to energise and educate.",
+        "animation": "fadeInUp",
+        "delay": 0,
+        "color": "#F4A9F5"
+    },
+    {
+        "id": 2,
+        "icon": "icon flaticon-classroom",
+        "title": "Reboot Works",
+        "text": "Roll up your sleeves and dive into our hands-on workshops! Whether you're a curious beginner or a seasoned techie, you'll leave with new skills and fresh ideas.\n\n",
+        "animation": "fadeInUp",
+        "delay": 0,
+        "color": "#8EE0D1"
+    },
+    {
+        "id": 4,
+        "icon": "icon flaticon-group",
+        "title": "Quick Hacks",
+        "text": "Quick Hack: inclusive, team‑based, and tool‑focused. Learn our strategic tooling, team up in a hack environment, and co‑create real solutions, no coding experience required.​",
+        "animation": "fadeInUp",
+        "delay": 800,
+        "color": "#8EE0D1"
+    },
+    {
+        "id": 5,
+        "icon": "icon flaticon-rocket-ship",
+        "title": "Hackathon",
+        "text": "18 brilliant teams, 6 Agentic AI use cases & LBG Strategic Tooling. Watch as teams boost their AI capabilities and compete for glory and prizes in our high-energy Hackathon Showdown.",
+        "animation": "fadeInUp",
+        "delay": 1200,
+        "color": "#00B386"
+    }
+]
