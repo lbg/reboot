@@ -2,7 +2,7 @@ import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link'
 
 const SingleBannerV1 = ({ banner }) => {
-    const { thumb, subTitle, title1, title2, list1, list2, list3, btnLink, btnText } = banner
+    const { thumb, subTitle, title1, title2, description, list1, list2, list3, btnLink, btnText } = banner
 
     return (
         <>
@@ -11,6 +11,7 @@ const SingleBannerV1 = ({ banner }) => {
                     <div className="content-box">
                         <span className="title">{subTitle}</span>
                         <h2> {title1} <br /> {title2} </h2>
+                        <p className="banner-description">{description}</p>
                         <ul className="info-list">
                             <li><span className="icon fa fa-chair"></span>{list1}</li>
                             <li><span className="icon fa fa-user-alt"></span>{list2}</li>

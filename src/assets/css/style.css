@@ -888,6 +888,14 @@ img {
 	content: "|";
 }
 
+.subpage-description {
+    
+    font-size: 22px;         /* Change this value as needed */
+    color: #ffffff;          /* Change this to your preferred color */
+    font-weight: 600;
+    margin: 16px 0 8px 0;
+}
+
 .page-title .bread-crumb li:last-child {
 	padding-right: 0;
 	margin-right: 0;
@@ -1858,6 +1866,23 @@ img {
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
 	transition: all 500ms ease;
+}
+
+.banner-carousel .content-box .banner-description {
+    display: block;
+    font-size: 28px;
+    line-height: 1.2em;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 30px;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 500ms ease;
+}
+.banner-carousel .slick-current .content-box .banner-description {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 300ms;
 }
 
 .banner-carousel .slick-current .content-box h2 {

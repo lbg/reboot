@@ -1,7 +1,11 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 
-const BreadCrumb = ({ title = "Default Title", breadCrumb = "Default BreadCrumb" }) => {
+const BreadCrumb = ({ 
+    title = "Default Title", 
+    breadCrumb = "Default BreadCrumb",
+    description = "Brought to you by... Chief Technology Office - Changing Together"
+}) => {
     // Set the background image based on the title
     const backgroundImage = title === "Good To Know" ? "url(/reboot/images/background/5.jpg)" :
                             title === "Schedule" ? "url(/reboot/images/background/13.jpg)" :
@@ -11,9 +15,12 @@ const BreadCrumb = ({ title = "Default Title", breadCrumb = "Default BreadCrumb"
             <section className="page-title" style={{ backgroundImage }}>
                 <div className="auto-container">
                     <h1>{title}</h1>
+                    {description && (
+                        <p className="subpage-description">{description}</p>
+                    )}
                     <ul className="bread-crumb clearfix">
                         <li><Link to="/reboot/">Home</Link></li>
-                        <li>{breadCrumb}</li>
+                       <li>{breadCrumb}</li>
                     </ul>
                 </div>
             </section>

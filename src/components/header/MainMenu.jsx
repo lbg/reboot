@@ -100,7 +100,7 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu, sideBar, handleTogg
       <ul className="navigation clearfix">
         <li
           className={`dropdown ${
-            parentMenu === "good to know" ? "current" : ""
+            parentMenu === "Good To Know" ? "current" : ""
           }`}
         >
           <Link onClick={() => handleToggleSideBar(true)}>
