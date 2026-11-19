@@ -183,7 +183,7 @@ You don't need to be a developer. The lab is suitable for engineers, testers, an
  Prerequisites: To get the most from this hands-on lab, you'll need an LBG device with access to Harness, Backstage and GitHub EU, or you can pair up with an engineer.​​​  
  Critical Skill : **DevOps​​** 
 
- **Connected LBG Laptop Required**`,name:"Vicky Stacey, Alex Randall & Natalie Chadwick",designation:"Room : Rutherford",talkLevel:1},{id:4,sessionStart:"14:50",sessionEnd:"16:00",title:"Change Community​ - Can You Simplify It? ​​​",text:`Steve had a simple idea.​
+ **Connected LBG Laptop Required**`,name:"Vicky Stacey, Alex Randall & Natalie Chadwick",designation:"Room : Rutherford",talkLevel:1},{id:4,sessionStart:"14:50",sessionEnd:"15:50",title:"Change Community​ - Can You Simplify It? ​​​",text:`Steve had a simple idea.​
   Somehow it turned into 14 meetings, 6 approvals and multiple rounds of rework. ​
 Your challenge? Fix it. ​
 Work with your team to identify delivery friction, simplify the flow and compete to create the smartest solution. Discover how small changes in collaboration, ownership and decision-making can make a huge difference to delivery outcomes. ​
